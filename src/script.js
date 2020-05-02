@@ -6,10 +6,9 @@ async function tryIt() {
 
 	const category = document.getElementById('select-api').value;
 	const search = '/' + document.getElementById('input-api').value;
-	console.log(category, search);
 
 	try {
-		const result = await fetch(`http://genesysapi.herokuapp.com/api/${category}${search}`, { method: 'GET' });
+		const result = await fetch(`https://genesysapi.herokuapp.com/api/${category}${search}`, { method: 'GET' });
 		const data = await result.json();
 		el.innerHTML = `<pre>${JSON.stringify(data, undefined, 2)}</pre>`;
 	} catch (err) {
