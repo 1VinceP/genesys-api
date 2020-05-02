@@ -7,6 +7,13 @@ const express = require('express')
 const talents = require('./controllers/talents');
 
 const app = express();
+app.use(express.static(`${__dirname}/../src`));
+
+/* local dev */
+// app.use((req, res, next) => {
+// 	res.header('Access-Control-Allow-Origin', '*');
+// 	next();
+// });
 
 /* middleware */
 app.use(helmet());
