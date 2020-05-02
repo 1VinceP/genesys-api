@@ -36,7 +36,15 @@ module.exports = {
 
 	getOne: (req, res) => {
 		const { name } = req.params;
-		const talent = find(talents, talent => name.toLowerCase() === talent.name.toLowerCase());
+		const { fuzzy } = req.query;
+
+		let talent;
+		if (fuzzy) {
+			talent = filter(talents, talent => includes(talent.name.toLowerCase(), name.toLowerCase()));
+		} else {
+			talent = find(talents, talent => name.toLowerCase() === talent.name.toLowerCase());
+		}
+
 		if (talent) {
 			res.status(200).send(talent);
 		} else {

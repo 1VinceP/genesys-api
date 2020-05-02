@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Genesys API</title>
+  <link rel="icon" href="assets/Triumph-white.png">
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -12,17 +13,24 @@
 
 	<section class="body">
 		<div class="try-it">
+			<button id="copy-btn" class="copy" onclick="copyUrl()">Copy</button>
 			<span>http://genesysapi.herokuapp.com/api/</span>
 			<select id="select-api">
 				<option>talents</option>
 			</select>
 			<input id="input-api" placeholder="try Apothecary or ?source=SotC" />
-			<button onclick="search()">Try it</button>
+			<button class="send" onclick="search()">Try it</button>
 		</div>
 
 		<div class="search-results-container">
 			<div class="doc search">
-				<h2>Search Results</h2>
+				<span class="search-result-header">
+					<h1>Search Results</h1>
+					<span class="search-show-icons">
+						<div>Show Icons</div>
+						<input id="search-checkbox" type="checkbox">
+					</span>
+				</span>
 				<div id="search-result"></div>
 			</div>
 		</div>
@@ -35,7 +43,7 @@
 					<span>/api/talents</span>
 				</div>
 				<div class="query-table">
-					<div class="b">Query Name</div><div class="b">Default</div><div class="b">Description</div>
+					<div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
 					<div>sort</div><div>name</div><div>The value to sort on.</div>
 					<div>orderBy</div><div>asc</div><div>The in which direction to sort.</div>
 					<div>activation</div><div>-</div><div>Filter by activation type.</div>
@@ -47,6 +55,10 @@
 				<div class="item">
 					<h3>Get One:</h3>
 					<span>/api/talents/{name}</span>
+				</div>
+				<div class="query-table">
+					<div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
+					<div>fuzzy</div><div>false</div><div>Performs an exact match when false.</div>
 				</div>
 			</div>
 		</div>

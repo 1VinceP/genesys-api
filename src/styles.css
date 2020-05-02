@@ -34,6 +34,16 @@ header {
   margin-top: 10px;
   padding: 0px 60px;
 }
+.try-it .copy {
+  width: 80px;
+  background: #1ABEEF;
+  border: 1px solid grey;
+  border-right: none;
+  border-radius: 5px 0px 0px 5px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
 .try-it span {
   height: 24px;
   background: #888;
@@ -41,7 +51,6 @@ header {
   align-items: center;
   border: 1px solid grey;
   border-right: none;
-  border-radius: 5px 0px 0px 5px;
   padding-left: 6px;
   color: white;
   font-size: 13px;
@@ -55,7 +64,7 @@ header {
   border: 1px solid grey;
   padding: 0px 2px;
 }
-.try-it button {
+.try-it .send {
   width: 100px;
   background: #1ABEEF;
   border: 1px solid grey;
@@ -70,6 +79,22 @@ header {
   grid-row: 2 / span 2;
   padding: 10px;
 }
+
+.search-result-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.search-show-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 13px;
+}
+
 #search-result {
   height: 90%;
   margin-top: 10px;
@@ -84,6 +109,14 @@ header {
   word-wrap: break-word;       /* Internet Explorer 5.5+ */
   font-size: 12px;
 }
+.boost, .ability, .proficiency, .symbol { margin: 0px 1px; }
+.boost { height: 11px; }
+.ability {
+  height: 12px;
+  width: 10px;
+}
+.proficiency { height: 11px; }
+.symbol { height: 10px; }
 
 .container {
   height: 100%;
@@ -113,18 +146,25 @@ header {
 .query-table {
   width: 100%;
   display: grid;
-  grid-template-columns: 80px 60px auto;
+  grid-template-columns: 86px 60px auto;
   margin-top: 6px;
   margin-bottom: 16px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
   font-size: 12px;
 }
 .query-table div {
-  background: #ccc;
+  border-right: 1px solid black;
   border-bottom: 1px solid black;
   padding: 3px 3px;
 }
+.query-table .t-head {
+  font-weight: 700;
+  background: #F78F1E;
+  color: white;
+  letter-spacing: 1px;
+}
 .query-table div:nth-child(6n),
 .query-table div:nth-child(6n-1),
-.query-table div:nth-child(6n-2) { background: #F78F1E; }
+.query-table div:nth-child(6n-2) { background: #E0F4FC; }
 
-.b { font-weight: 700; }

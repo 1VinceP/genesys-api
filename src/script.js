@@ -1,46 +1,67 @@
 const isDev = () => window.location.href === 'http://127.0.0.1:8080/';
 
-document.getElementById('search-result').innerText = 'Use the searchbar above to get results.';
-document.getElementById('input-api').onkeyup = e => e.keyCode === 13 && search()
-
-function search() {
-	isDev() ? searchDev() : searchProd();
+document.getElementById('search-result').innerText = 'Use the search bar above to get results.';
+document.getElementById('input-api').onkeyup = e => {
+	document.getElementById('copy-btn').innerText = 'Copy';
+	e.keyCode === 13 && search();
 }
 
-async function searchProd() {
+function copyUrl() {
+	const baseUrl = 'https://genesysapi.herokuapp.com/api';
+	const category = document.getElementById('select-api').value;
+	let search = document.getElementById('input-api').value;
+	search = search[0] !== '?' ? '/' + search : search;
+
+	document.getElementById('copy-btn').innerText = 'Copied!';
+
+	const tempInput = document.createElement('input');
+	tempInput.value = `${baseUrl}/${category}${search}`;
+	document.body.appendChild(tempInput);
+	tempInput.select();
+	document.execCommand('copy');
+	document.body.removeChild(tempInput);
+}
+
+async function search() {
+	const baseUrl = isDev() ? 'http://localhost:8080/api' : 'https://genesysapi.herokuapp.com/api';
 	const el = document.getElementById('search-result');
 	el.innerText = 'Fetching...';
 
+	const showIcons = document.getElementById('search-checkbox').checked;
 	const category = document.getElementById('select-api').value;
-	const search = '/' + document.getElementById('input-api').value;
+	let search = document.getElementById('input-api').value;
+	search = search[0] !== '?' ? '/' + search : search;
 
 	try {
-		const result = await fetch(`https://genesysapi.herokuapp.com/api/${category}${search}`, { method: 'GET' });
+		const result = await fetch(`${baseUrl}/${category}${search}`, { method: 'GET' });
 		const data = await result.json();
-		el.innerHTML = `<pre>${JSON.stringify(data, undefined, 2)}</pre>`;
+		const dataString = `<pre>${JSON.stringify(data, undefined, 2)}</pre>`;
+
+		el.innerHTML = showIcons ? replaceIcons(dataString) : dataString;
 	} catch (err) {
 		el.innerText = 'Fetch failed.';
 		setTimeout(() => {
-			el.innerText = 'Use the searchbar above to get results.';
+			el.innerText = 'Use the search bar above to get results.';
 		}, 2000);
 	}
 }
 
-async function searchDev() {
-	const el = document.getElementById('search-result');
-	el.innerText = 'Fetching...';
+// There's a much better way of doing this, but this works for now
+function replaceIcons(dataString) {
+	let newData = dataString.slice(0);
+	newData = newData.replace(/\[boost\]/g, '<img class="boost" src="./assets/Boost.png">');
+	newData = newData.replace(/\[setback\]/g, '<img class="boost" src="./assets/Setback.png">');
+	newData = newData.replace(/\[ability\]/g, '<img class="ability" src="./assets/Ability.png">');
+	newData = newData.replace(/\[difficulty\]/g, '<img class="ability" src="./assets/Difficulty.png">');
+	newData = newData.replace(/\[challenge\]/g, '<img class="proficiency" src="./assets/Challenge.png">');
+	newData = newData.replace(/\[proficiency\]/g, '<img class="proficiency" src="./assets/Proficiency.png">');
 
-	const category = document.getElementById('select-api').value;
-	const search = '/' + document.getElementById('input-api').value;
+	newData = newData.replace(/\[success\]/g, '<img class="symbol" src="./assets/Success.png">');
+	newData = newData.replace(/\[advantage\]/g, '<img class="symbol" src="./assets/Advantage.png">');
+	newData = newData.replace(/\[triumph\]/g, '<img class="symbol" src="./assets/Triumph.png">');
+	newData = newData.replace(/\[failure\]/g, '<img class="symbol" src="./assets/Failure.png">');
+	newData = newData.replace(/\[threat\]/g, '<img class="symbol" src="./assets/Threat.png">');
+	newData = newData.replace(/\[despair\]/g, '<img class="symbol" src="./assets/Despair.png">');
 
-	try {
-		const result = await fetch(`http://localhost:8080/api/${category}${search}`, { method: 'GET' });
-		const data = await result.json();
-		el.innerHTML = `<pre>${JSON.stringify(data, undefined, 2)}</pre>`;
-	} catch (err) {
-		el.innerText = 'Fetch failed.';
-		setTimeout(() => {
-			el.innerText = 'Use the searchbar above to get results.';
-		}, 2000);
-	}
+	return newData;
 }
