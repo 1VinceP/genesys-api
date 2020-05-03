@@ -1,0 +1,358 @@
+[
+   {
+      "name": "Druid",
+      "careerSkills": [
+         "athletics",
+         "brawl",
+         "coordination",
+         "melee",
+         "primal",
+         "resilience",
+         "survival",
+         "vigilance"
+      ],
+      "description": [
+         "Druids have a special connection with the primal powers of the natural world. They may be individuals who live in the wilderness, or regular people who have a particular affinity for life and nature. Druids can tap into the primal power of life to summon magic and perform fantastical feats.",
+         "The Druid counts the following skills as career skills: Athletics, Brawl, Coordination, Melee, Primal, Resilience, Survival, and Vigilance. Before spending experience during character creation, a Druid may choose four of their career skills and gain one rank in each of them.",
+         "If you’re using this career in a fantasy setting, you should switch Melee for Melee (Heavy)."
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 43"
+   },
+   {
+      "name": "Entertainer",
+      "careerSkills": [
+         "charm",
+         "coordination",
+         "deception",
+         "discipline",
+         "leadership",
+         "melee",
+         "skulduggery",
+         "stealth"
+      ],
+      "description": [
+         "For the Entertainer, the whole world really is a stage. Whatever their chosen medium, these artists, actors, and musicians make their living brightening the days of others. However, there can be a lot more to these individuals than meets the eye, as some Entertainers use their acting skills to cover more serious agendas.",
+         "The Entertainer counts the following skills as career skills: Charm, Coordination, Deception, Discipline, Leadership, Melee, Skulduggery, and Stealth. Before spending experience during character creation, an Entertainer may choose four of their career skills and gain one rank in each of them.",
+         "(If you are playing in a setting where this skill is available, switch Melee for Melee [Light], since most Entertainers don’t carry around greataxes or greatswords, but may prefer a rapier or other light blade.)"
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 40"
+   },
+   {
+      "name": "Explorer",
+      "careerSkills": [
+         "athletics",
+         "brawl",
+         "coordination",
+         "deception",
+         "perception",
+         "ranged",
+         "stealth",
+         "survival"
+      ],
+      "description": [
+         "The Explorer is at home in the wild, able to handle anything the wilderness throws at them. Explorers tend to excel at surviving in the wilderness, and they often are pretty good with ranged weapons. Explorers may be military scouts, gruff and unsociable hunters, or people who just prefer living in the wild.",
+         "The Explorer counts the following skills as career skills: Athletics, Brawl, Coordination, Deception, Perception, Ranged, Stealth, and Survival. Before spending experience during character creation, an Explorer may choose four of their career skills and gain one rank in each of them.",
+         "(If you are playing in a setting where this skill is available, switch Ranged for Ranged [Heavy] to better represent the rifles and other long-ranged weapons that an Explorer prefers.)"
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 41"
+   },
+   {
+      "name": "Fighter Pilot",
+      "careerSkills": [
+         "cool",
+         "driving",
+         "gunnery",
+         "mechanics",
+         "perception",
+         "piloting",
+         "ranged (light)",
+         "vigilance"
+      ],
+      "description": [
+         "Though what a Fighter Pilot flies changes a lot depending on the setting, the Fighter Pilot career stays roughly similar. Whether they’re flying a prop-driven fighter plane, modern jet fighter, or futuristic starfighter, your Fighter Pilot is probably a cool, cocky, and confident individual with lightning-fast reflexes.",
+         "The Fighter Pilot counts the following skills as career skills: Cool, Driving, Gunnery, Mechanics, Perception, Piloting, Ranged (Light), and Vigilance. Before spending experience during character creation, a Fighter Pilot may choose four of their career skills and gain one rank in each of them.",
+         "A Fighter Pilot’s skill set fits into all of the recommended settings, so there shouldn’t be any problems using these skills. However, if you want to play this career, you’ll probably want to use the optional vehicle rules on page 220."
+      ],
+      "settings": [
+         "weird war",
+         "modern",
+         "science fiction",
+         "space opera"
+      ],
+      "source": "GCRB p. 42"
+   },
+   {
+      "name": "Hacker",
+      "careerSkills": [
+         "computers",
+         "discipline",
+         "knowledge",
+         "mechanics",
+         "perception",
+         "piloting",
+         "streetwise",
+         "vigilance"
+      ],
+      "description": [
+         "When we say Hacker, we’re talking about the type of computer operator who can do things with computers that are well beyond modern reality. Hackers are a staple of futuristic settings, where they can use their unparalleled affinity for computers to gain access to remote servers, control and override robotic drones, and engage in virtual duels on the Internet or its equivalent.",
+         "The Hacker counts the following skills as career skills: Computers, Discipline, Knowledge, Mechanics, Perception, Piloting, Streetwise, and Vigilance. Before spending experience during character creation, a Hacker may choose four of their career skills and gain one rank in each of them.",
+         "Hackers are most common in futuristic settings, where computer capabilities are much more advanced. However, you could have a Hacker in a modern setting as well. It’s up to you and your GM whether you want to handle computers more realistically, or the way computer systems get portrayed in the movies!"
+      ],
+      "settings": [
+         "science fiction",
+         "space opera"
+      ],
+      "source": "GCRB p. 42"
+   },
+   {
+      "name": "Healer",
+      "careerSkills": [
+         "cool",
+         "discipline",
+         "knowledge",
+         "medicine",
+         "melee",
+         "resilience",
+         "survival",
+         "vigilance"
+      ],
+      "description": [
+         "The Healer focuses their efforts on keeping themself and their friends alive under dire circumstances. Healers are good at keeping cool under pressure, maintaining focus, and—of course—healing. However, these aren’t their only capabilities. Depending on their background and personality, Healers can also be good negotiators, tough and durable medics, or even morally depraved surgeons with a penchant for experimenting on their patients.",
+         "The Healer counts the following skills as career skills: Cool, Discipline, Knowledge, Medicine, Melee, Resilience, Survival, and Vigilance. Before spending experience during character creation, a Healer may choose four of their career skills and gain one rank in each of them.",
+         "(If you are playing in a setting where this skill is available, switch Melee for Melee [Light] to better represent the Healer’s skill with small blades like scalpels.)"
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 41"
+   },
+   {
+      "name": "Knight",
+      "careerSkills": [
+         "athletics",
+         "discipline",
+         "leadership",
+         "melee (heavy)",
+         "melee (light)",
+         "resilience",
+         "riding",
+         "vigilance"
+      ],
+      "description": [
+         "The Knight is a warrior of the nobility. A Knight’s title comes with privilege, lands, and wealth, but also a responsibility to defend their liege lord and the common people who rely on the Knight for protection. Knights often train for war from childhood, and they equip themselves with the best arms and armor available.",
+         "The Knight counts the following skills as career skills: Athletics, Discipline, Leadership, Melee (Heavy), Melee (Light), Resilience, Riding, and Vigilance. Before spending experience during character creation, a Knight may choose four of their career skills and gain one rank in each of them.",
+         "The Knight makes the most sense in a fantasy or medieval setting. However, we could see Knights in other settings that focus on the fantastical and whimsical, especially the steampunk and space opera settings. These Knights may ride to battle aboard steam-powered jet packs or a mechanoid battle-walker, but their focus is still on riding into combat. If you use this career in a more futuristic setting, you should switch Melee (Heavy) for the broader Melee skill, and Melee (Light) for Gunnery (their mechanical conveyance may have heavy weapons incorporated). You should also switch Riding for Driving, Piloting, or Operating as appropriate."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "GCRB p. 42"
+   },
+   {
+      "name": "Leader",
+      "careerSkills": [
+         "charm",
+         "coercion",
+         "cool",
+         "discipline",
+         "leadership",
+         "melee",
+         "negotiation",
+         "perception"
+      ],
+      "description": [
+         "The Leader focuses on leading and directing their fellows, as well as interacting with others. Leaders have a knack for taking charge and overseeing a situation, but their methods of leadership can vary wildly. A Leader can be a kind and caring boss, a soft-spoken politician, or a military commander who believes in absolute discipline.",
+         "The Leader counts the following skills as career skills: Charm, Coercion, Cool, Discipline, Leadership, Melee, Negotiation, and Perception. Before spending experience during character creation, a Leader may choose four of their career skills and gain one rank in each of them.",
+         "(If you’re playing in a setting where this skill is available, switch Melee for Melee [Light] to better represent the Leader’s skill with a sword or other weapon that is ceremonial as well as effective.)"
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 41"
+   },
+   {
+      "name": "Mad Scientist",
+      "careerSkills": [
+         "alchemy",
+         "coercion",
+         "knowledge",
+         "mechanics",
+         "medicine",
+         "operating",
+         "skulduggery",
+         "ranged (heavy)"
+      ],
+      "description": [
+         "For a Mad Scientist, the laws of physics are mere guidelines, achieving the impossible is a goal, and the morality of everyday society is a petty annoyance. Mad Scientists could be arcane researchers trying to fuse magic and technology or brilliant inventors crafting terrifying new mechanical creations. They don’t have to be truly evil or even amoral, but generally Mad Scientists are a little myopic. They get so focused on their grand goals that they ignore the consequences of their actions.",
+         "The Mad Scientist counts the following skills as career skills: Alchemy, Coercion, Knowledge, Mechanics, Medicine, Operating, Skulduggery, and Ranged (Heavy). Before spending experience during character creation, a Mad Scientist may choose four of their career skills and gain one rank in each of them.",
+         "If you’re playing in a setting that uses the magic alternate rules, switch Ranged (Heavy) for Arcana."
+      ],
+      "settings": [
+         "steampunk",
+         "weird war"
+      ],
+      "source": "GCRB p. 43"
+   },
+   {
+      "name": "Priest",
+      "careerSkills": [
+         "charm",
+         "coercion",
+         "cool",
+         "discipline",
+         "divine",
+         "medicine",
+         "melee",
+         "negotiation"
+      ],
+      "description": [
+         "Although you can find priests in any setting, this career represents the priest whose prayers to their deity have powerful and tangible results. We represent those results with the magic alternate rules (page 210), so you should only use the Priest career when you’re playing in a game with magic. Whether a soft-spoken priest who channels divine energy to heal the wounded, or a raging battle-priest who smites enemies with a mace as often as with holy wrath, a Priest is a devout believer in something greater than themself.",
+         "The Priest counts the following skills as career skills: Charm, Coercion, Cool, Discipline, Divine, Medicine, Melee, and Negotiation. Before spending experience during character creation, a Priest may choose four of their career skills and gain one rank in each of them.",
+         "If you’re using this career in a fantasy setting, you should switch Melee for Melee (Light)."
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 43"
+   },
+   {
+      "name": "Scoundrel",
+      "careerSkills": [
+         "charm",
+         "cool",
+         "coordination",
+         "deception",
+         "ranged",
+         "skulduggery",
+         "stealth",
+         "streetwise"
+      ],
+      "description": [
+         "The Scoundrel’s business is crime in all forms. Whether swindling, burgling, or running a complicated con, the Scoundrel has the skills needed to separate marks from their money and valuables. A Scoundrel could be a cat burglar, con artist, or quick-draw specialist, or just a smooth-talking person who cheats at cards.",
+         "The Scoundrel counts the following skills as career skills: Charm, Cool, Coordination, Deception, Ranged, Skulduggery, Stealth, and Streetwise. Before spending experience during character creation, a Scoundrel may choose four of their career skills and gain one rank in each of them.",
+         "(If you’re playing where this skill is available, switch Ranged for Ranged [Light] to better represent a Scoundrel’s preference for pistols and thrown weapons.)"
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 41"
+   },
+   {
+      "name": "Socialite",
+      "careerSkills": [
+         "charm",
+         "cool",
+         "deception",
+         "knowledge",
+         "negotiation",
+         "perception",
+         "streetwise",
+         "vigilance"
+      ],
+      "description": [
+         "Socialites are the consummate social butterflies, at ease in any interactions involving talking to someone else. Whether a rich debutante in the highest circles of society or a good-natured bartender who knows everyone’s name, a Socialite can get along with anyone and everyone. More importantly, they always know how to get the best out of any social interaction.",
+         "The Socialite counts the following skills as career skills: Charm, Cool, Deception, Knowledge, Negotiation, Perception, Streetwise, and Vigilance. Before spending experience during character creation, a Socialite may choose four of their career skills and gain one rank in each of them."
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 41"
+   },
+   {
+      "name": "Soldier",
+      "careerSkills": [
+         "athletics",
+         "brawl",
+         "coercion",
+         "melee",
+         "perception",
+         "ranged",
+         "survival",
+         "vigilance"
+      ],
+      "description": [
+         "Soldiers are warriors through and through. At home on the battlefield, they know everything there is to know about surviving the horrors of combat—and making sure the opposition doesn’t. Whether your Soldier is a tough legionnaire armed with spear and shield, a modern soldier with an assault rifle and body armor, or a futuristic marine carrying a laser cannon depends on your setting. However, the basics of a career member of the military never really change.",
+         "The Soldier counts the following skills as career skills: Athletics, Brawl, Coercion, Melee, Perception, Ranged, Survival, and Vigilance. Before spending experience during character creation, a Soldier may choose four of their career skills and gain one rank in each of them.",
+         "(If you’re playing in a setting where these skills are available, switch Melee for Melee [Heavy], Brawl for Gunnery, and/or Ranged for Ranged [Heavy]. Soldiers tend to wield larger weapons, whether those be spears, pikes, muskets, or assault rifles. In addition, the more futuristic the setting, the more likely the Soldier is to be trained in heavy weapons as opposed to fistfighting.)"
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 41"
+   },
+   {
+      "name": "Starship Captain",
+      "careerSkills": [
+         "computers",
+         "discipline",
+         "gunnery",
+         "knowledge",
+         "leadership",
+         "mechanics",
+         "operating",
+         "perception"
+      ],
+      "description": [
+         "The Starship Captain fits into any setting where starships are big, complex, and common enough that you could have a character who makes a living commanding one. Starship Captains are equally adept at repairing, programming, and piloting a starship, but their primary responsibility is leading and directing the crew under their command.",
+         "The Starship Captain counts the following skills as career skills: Computers, Discipline, Gunnery, Knowledge, Leadership, Mechanics, Operating, and Perception. Before spending experience during character creation, a Starship Captain may choose four of their career skills and gain one rank in each of them.",
+         "As with Fighter Pilots, if you want to play a Starship Captain, you should probably make sure your game uses the vehicle alternate rules on page 220. In addition, if you’re using this career in a space opera setting, you should switch Knowledge for Astrocartography, as this more accurately represents a Starship Captain’s knowledge specialization. You could also use this career for a Ship or Airship Captain in other settings."
+      ],
+      "settings": [
+         "science fiction",
+         "space opera"
+      ],
+      "source": "GCRB p. 43"
+   },
+   {
+      "name": "Tradesperson",
+      "careerSkills": [
+         "athletics",
+         "brawl",
+         "discipline",
+         "mechanics",
+         "negotiation",
+         "perception",
+         "resilience",
+         "streetwise"
+      ],
+      "description": [
+         "A Tradesperson can be anyone who has skills in a job that requires special training and some manual labor. The form this career takes depends a lot on the setting. Your Tradesperson could be a medieval blacksmith, modern auto mechanic, futuristic computer customizer, or chief engineer aboard a starship. They could also be a no-nonsense worker who has no time for anything but the job at hand, or a creative craftsperson who delights in building something innovative.",
+         "The Tradesperson counts the following skills as career skills: Athletics, Brawl, Discipline, Mechanics, Negotiation, Perception, Resilience, and Streetwise. Before spending experience during character creation, a Tradesperson may choose four of their career skills and gain one rank in each of them."
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 42"
+   },
+   {
+      "name": "Wizard",
+      "careerSkills": [
+         "arcana",
+         "coercion",
+         "discipline",
+         "knowledge",
+         "leadership",
+         "skulduggery",
+         "stealth",
+         "vigilance"
+      ],
+      "description": [
+         "Magic can be brought into nearly any setting, and the Wizard is the career that really specializes in it. The Wizard focuses on the arcane: magic as a discipline that can be learned through study and practice. Rituals, cantrips, and chanted spells are all means by which the Wizard channels arcane energies.",
+         "The Wizard counts the following skills as career skills: Arcana, Coercion, Discipline, Knowledge, Leadership, Skulduggery, Stealth, and Vigilance. Before spending experience during character creation, a Wizard may choose four of their career skills and gain one rank in each of them.",
+         "The Wizard can fit into any setting that you include magic in, and that can be nearly any setting (even if some settings, such as weird war, fantasy, and steampunk, make more sense than hard sci-fi). If you’re using this career in a fantasy setting, you should switch Stealth for Alchemy, just because between the two of them, we feel Alchemy is more appropriate for the career."
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 43"
+   }
+]

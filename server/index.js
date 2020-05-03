@@ -4,22 +4,30 @@ const express = require('express')
     , helmet = require('helmet')
     , chalk = require('chalk');
 
-const talents = require('./controllers/talents');
+const careers = require('./controllers/careers')
+    , species = require('./controllers/species')
+    , talents = require('./controllers/talents');
 
 const app = express();
 app.use(express.static(`${__dirname}/../src`));
 
 /* local dev */
-// app.use((req, res, next) => {
-// 	res.header('Access-Control-Allow-Origin', '*');
-// 	next();
-// });
+app.use((req, res, next) => {
+	process.env.DEV && res.header('Access-Control-Allow-Origin', '*');
+	next();
+});
 
 /* middleware */
 app.use(helmet());
 app.use(bodyParser.json());
 
 /* endpoints */
+// CAREERS
+app.get('/api/careers', careers.getMany);
+app.get('/api/careers/:name', careers.getOne);
+// SPECIES
+app.get('/api/species', species.getMany);
+app.get('/api/species/:name', species.getOne);
 // TALENTS
 app.get('/api/talents', talents.getMany);
 app.get('/api/talents/:name', talents.getOne);

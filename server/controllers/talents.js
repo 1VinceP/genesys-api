@@ -1,11 +1,12 @@
 const {
-	includes, filter, find, orderBy,
+	get, includes, filter, find, orderBy,
 } = require('lodash');
 const talents = require('../../data/talents.json');
 
+const errorMessage = 'We cannot find any matching talents. Please check your query and try again.';
 module.exports = {
 	getMany: (req, res) => {
-		const { sort, sortOrder, tier, activation, ranked, source } = req.query;
+		const { sort = 'name', sortOrder = 'asc', tier, activation, ranked, source } = req.query;
 
 		// filter by queries
 		let list = filter(talents, talent => {
@@ -19,36 +20,35 @@ module.exports = {
 			return true;
 		});
 
-		// sort by query
-		if (sort) {
-			// allows for case-insensitive sorting
-			const sortOn = keyMap[sort.toLowerCase()];
-			// sort by given value, then by name for matching values. Default order is asc
-			list = orderBy(list, [sortOn, 'name'], sortOrder || 'asc');
-		}
+      // deep sorting
+      const sortOn = talent => get(talent, sort.toLowerCase());
+		// sort by given value, then by name for matching values. Default order is asc
+      list = orderBy(list, [sortOn, 'name'], sortOrder.toLowerCase());
 
 		if (list.length > 0) {
 			res.status(200).send(list);
 		} else {
-			res.status(400).send('There are no talents that match the provided criteria.');
+			res.status(400).send({ message: errorMessage });
 		}
 	},
 
 	getOne: (req, res) => {
 		const { name } = req.params;
-		const { fuzzy } = req.query;
+      const { fuzzy } = req.query;
 
 		let talent;
 		if (fuzzy) {
-			talent = filter(talents, talent => includes(talent.name.toLowerCase(), name.toLowerCase()));
+			talent = filter(talents, t => includes(t.name.toLowerCase(), name.toLowerCase()));
 		} else {
-			talent = find(talents, talent => name.toLowerCase() === talent.name.toLowerCase());
+			talent = find(talents, t => name.toLowerCase() === t.name.toLowerCase());
 		}
 
-		if (talent) {
-			res.status(200).send(talent);
+		if (Array.isArray(talent) && talent.length === 0) {
+         res.status(400).send({ message: errorMessage });
+      } else if (talent) {
+         res.status(200).send(talent);
 		} else {
-			res.status(400).send('We cannot find a talent with that name. Please check your spelling and try again');
+			res.status(400).send({ message: errorMessage });
 		}
 	},
 };

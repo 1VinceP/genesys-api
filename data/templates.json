@@ -1,0 +1,46 @@
+[
+   {
+      "name": "",
+      "careerSkills": [],
+      "description": [],
+      "settings": [],
+      "source": ""
+   },
+   {
+      "name": "",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 10,
+      "xp": 100,
+      "skills": {
+         "skills": [],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "",
+         "description": [],
+         "activation": ""
+      }],
+      "fluff": [],
+      "settings": [],
+      "source": ""
+   },
+   {
+      "name": "",
+      "tier": "",
+      "activation": "",
+      "ranked": "",
+      "description": [],
+      "source": ""
+   }
+]

@@ -33,16 +33,17 @@ async function search() {
 	search = search[0] !== '?' ? '/' + search : search;
 
 	try {
-		const result = await fetch(`${baseUrl}/${category}${search}`, { method: 'GET' });
-		const data = await result.json();
-		const dataString = `<pre>${JSON.stringify(data, undefined, 2)}</pre>`;
+		const result = await fetch(`${baseUrl}/${category}${search}`, {
+         method: 'GET',
+         'Content-Type': 'application/json',
+      });
+
+      const data = await result.json();
+      const dataString = `<pre>${JSON.stringify(data, undefined, 2)}</pre>`;
 
 		el.innerHTML = showIcons ? replaceIcons(dataString) : dataString;
 	} catch (err) {
-		el.innerText = 'Fetch failed.';
-		setTimeout(() => {
-			el.innerText = 'Use the search bar above to get results.';
-		}, 2000);
+		el.innerText = 'Fetch failed. Either your query was entered incorrectly or the item you searched for does not exist in our collection.';
 	}
 }
 

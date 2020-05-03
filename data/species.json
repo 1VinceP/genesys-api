@@ -1,0 +1,668 @@
+[
+   {
+      "name": "Animalistic Alien",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 8,
+      "xp": 80,
+      "skills": {
+         "skills": [
+            "athletics",
+            "coordination",
+            "resilience"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "An animalistic alien starts with one rank in Athletics, Coordination, or Resilience during character creation. You still can’t train their skills above rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "Natural Weapons",
+         "description": [
+            "An animalistic alien adds +2 damage to any Brawl combat checks they make. Their Brawl combat checks also gain the Vicious 1 quality or increase an existing Vicious quality by one."
+         ],
+         "activation": "passive"
+      }],
+      "fluff": [
+         "Space opera settings often have alien species that are derivative of some terrestrial species. Fiction abounds with catlike aliens, turtle-like aliens, reptilian aliens, and so forth. Traditionally, these species are stronger, faster, or tougher than humans, and they share some traits with the nonsapient Terran species they mimic. Our animalistic alien species is stronger and faster than most average humans, but trades this for fewer starting XP. The physical appearance of this species is, of course, up to you."
+      ],
+      "settings": [
+         "space opera"
+      ],
+      "source": "GCRB p. 182"
+   },
+   {
+      "name": "Average Human",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 10,
+      "xp": 110,
+      "skills": {
+         "skills": [
+            "any two non-career"
+         ],
+         "ranksTotal": 2,
+         "ranksEach": 1,
+         "description": [
+            "An average human starts with one rank in each of two different non-career skills at character creation. They obtain this rank before spending experience points, and these skills may not be increased higher than rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "Ready for Anything",
+         "description": [
+            "Once per session as an out-of-turn incidental, you may move one Story Point from the Game Master’s pool to the players’ pool."
+         ],
+         "activation": "incidental"
+      }],
+      "fluff": [
+         "The average human archetype is our baseline for character creation, and portrays the most customizable example of a person. You should choose this archetype if you prefer to play “generalist” characters, who are never going to be terrible at anything. You should also choose this archetype if you have a very specific type of character in mind, since this archetype has the most customization options of the four choices.",
+         "The characteristics all start at 2, meaning your character is going to have a hard time increasing any one characteristic to a 4 or 5, but also that your character isn’t going to have any characteristic they are truly lacking in. Likewise, the strain and wound thresholds start at the average 10.",
+         "Your character starts with more ranks in skills than anyone else, again playing to the idea of being a generalist. Your archetype ability is also a generalist ability. Effectively, your group gains a Story Point to spend whenever it needs it. And finally, your character starts with the most experience of any of the four archetypes. Just remember, character creation is your only chance to spend XP on characteristics (otherwise, to increase a characteristic you need to purchase the Dedication talent; see page 81). We recommend you spend most of these XP on improving your characteristics, while saving at most 25–35 experience for talents and skills."
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 36"
+   },
+   {
+      "name": "Bioroid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 1,
+         "intellect": 1,
+         "cunning": 1,
+         "willpower": 1,
+         "presence": 1
+      },
+      "wt": 11,
+      "st": 8,
+      "xp": 155,
+      "skills": {
+         "skills": [],
+         "ranksTotal": 0,
+         "ranksEach": 0,
+         "description": [],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Special Abilities",
+            "description": [
+               "Bioroids do not need to eat, sleep, or breathe, and are unaffected by toxins and poisons. Bioroids do not reduce their strain threshold when they receive cybernetics (in the case of bioroids, the cybernetics can represent upgraded mechanical components instead of true cybernetics)."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Inorganic",
+            "description": [
+               "Since bioroids are inorganic, they do not gain the benefits of healing wounds with painkillers or a Medicine check. Bioroids can heal wounds and strain naturally by resting, as their systems attempt self-repairs. Bioroids can also be \"healed\" by using the Mechanics skill instead of the Medicine skill, but otherwise following the guidelines detailed on page 116."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "fluff": [
+         "This profile works for just about any humanoid robot with human-level intelligence and a certain degree of free will. Because robots are built to meet certain specifications, we gave the bioroid low starting characteristics but a lot of experience. That way, you can customize your characteristics and skills to represent any of the different “models” of bioroid."
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "GCRB p. 174"
+   },
+   {
+      "name": "Clone",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 11,
+      "st": 10,
+      "xp": 80,
+      "skills": {
+         "skills": [
+            "two skills"
+         ],
+         "ranksTotal": 4,
+         "ranksEach": 2,
+         "description": [
+            "You may select two skills when creating a clone character. Your clone character starts play with two ranks in each of these skills. You still can’t train their skills above rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "A Face in a Crowd",
+         "description": [
+            "Characters add [setback] to any checks they make to pick a clone out in a crowd. Clones also add [setback] to social skill checks they make when interacting with people who don’t know the specific clone."
+         ],
+         "activation": "passive"
+      }],
+      "fluff": [
+         "This profile is of a human clone. We assume this is a corporation-produced clone that has been tailored for a certain job (otherwise, if this were an unmodified clone, you could simply use the average human profile on page 36). Like bioroids, clones have customization options to represent their “designed” nature, but in their case, we did this by giving a clone focused skill options, but less experience. The “A Face in the Crowd” rule represents a clone blending into an urban setting (after all, they look exactly like a bunch of other clones), but may have to deal with anti-clone bias."
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "GCRB p. 174"
+   },
+   {
+      "name": "Dwarf",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 1,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 2
+      },
+      "wt": 11,
+      "st": 10,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "resilience"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Dwarves begin with one rank in Resilience. You still cannot train their Resilience above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Dark Vision",
+            "description": [
+               "When making skill checks, dwarves remove up to [setback][setback] imposed due to darkness."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Tough as Nails",
+            "description": [
+               "Once per session, a dwarf character may spend a Story Point as an out-of-turn incidental immediately after suffering a Critical Injury and determining the result. If they do so, they count the result rolled as \"01.\""
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "fluff": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "GCRB p. 142"
+   },
+   {
+      "name": "Elf",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 9,
+      "st": 10,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "perception"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Elves begin with one rank in Perception. You still cannot train their Perception above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Nimble",
+         "description": [
+            "Elf characters have a melee and ranged defense of 1."
+         ],
+         "activation": "passive"
+      }],
+      "fluff": [
+         "Whether tall or short, with pointy or really pointy ears, most elves are known for their grace, longevity, and connection to the natural world. This profile is based on that common conception of an elf, with high Agility (and an innate defense) but a lower wound threshold."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "GCRB p. 142"
+   },
+   {
+      "name": "Mongrel",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 8,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "discipline"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Mongrels begin with one rank in Discipline. You still can’t train their Discipline above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "The Beast Within",
+            "description": [
+               "Mongrels generally look just like any other human. However, when your character is incapacitated due to exceeding their strain threshold while in human form, they undergo the following change as an out-of-turn incidental. They heal all strain; increase their Brawn and Agility by one, to a maximum of 5; and reduce their Intellect and Willpower by one to a minimum of 1. They deal +1 damage when making unarmed attacks, and their unarmed attacks have a Crit rating of 3. In addition, their jaws elongate into muzzles, their hair thickens and they grow more all over their bodies, and their eyes become those of a hunting cat or wolf. Your GM should ensure that NPCs react appropriately to this (at the very least, upgrading the difficulty of all social skill checks twice). Your character reverts to human form after eight hours, or if they are incapacitated (by exceeding either their wound threshold or their strain threshold)."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "The Human Spirit",
+            "description": [
+               "Once per session, your character may make a Hard ([difficulty][difficulty][difficulty]) Discipline check as an out-of-turn incidental. If they succeed, they may either trigger The Beast Within or avoid triggering it when they exceed their strain threshold."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "fluff": [
+         "The so-called mongrels are products of science run amok. In Sovereigns of Steam these poor creations were once human, but they had the misfortune of becoming the experimental fodder of some mad reject from the Royal Society. This depraved scientist used them to test a certain alchemical elixir that unlocks their inner bestial nature, turning them into a monstrous hybrid of human and animal. After a time, the elixir can wear off, returning these poor individuals to their human form. However, the dark secret is that once the elixir enters the blood, it works irrevocable changes on the imbiber’s biology. Thus, the change can return at any time.",
+         "In our setting, unscrupulous smugglers have been returning this elixir to major cities for various reasons. So, while your character could have been the unfortunate results of a forbidden experiment, they also could have been exposed to the elixir in their daily life. Of course, once they drank it, their life changed forever!",
+         "Needless to say, so-called mongrels are shunned in all levels of society, and they are actively hunted by various agencies of the Empire. Many flee to the Colonies to escape persecution and arrest."
+      ],
+      "settings": [
+         "steam punk"
+      ],
+      "source": "GCRB p. 152"
+   },
+   {
+      "name": "Orc",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "wt": 12,
+      "st": 8,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "coercion"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Orcs begin with one rank in Coercion. You still cannot train their Coercion above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Battle Rage",
+         "description": [
+            "When making a melee attack, an orc can choose to add [setback] to the check to add +2 to the damage dealt by one hit of that attack."
+         ],
+         "activation": "passive"
+      }],
+      "fluff": [
+         "In many fantasy worlds, orcs are inherently evil or violent. But PCs are known for defying expectation, and this profile could also easily represent a half-orc who lives among civilized society. Your setting may also have orcs who are not evil or violent by default, making this a reasonable character choice. As you might expect, this orc is strong and tough, but not the friendliest character."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "GCRB p. 143"
+   },
+   {
+      "name": "Psionic",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 1
+      },
+      "wt": 7,
+      "st": 11,
+      "xp": 70,
+      "skills": {
+         "skills": [],
+         "ranksTotal": 0,
+         "ranksEach": 0,
+         "description": [],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Mind Reader",
+            "description": [
+               "As an action, a psionic may make an opposed Discipline versus Discipline check targeting one living creature within medium range. If the check succeeds, the psionic knows the target’s current thoughts and emotional state. [advantage][advantage][advantage] or [triumph] may be spent to discover other thoughts or memories, at your GM’s discretion."
+            ],
+            "activation": "action"
+         },
+         {
+            "name": "Mind Shaper",
+            "description": [
+               "As an action, a psionic may make an opposed Discipline versus Vigilance check targeting one living creature within medium range. If the check succeeds, the psionic may cause the target to adopt an emotional state of the psionic’s choice for the next minute (or one round of structured time). [advantage] or [triumph] may be spent to increase the duration by one round (and may be spent multiple times). However, if the check fails or generates [threat][threat][threat] or [despair], the target realizes their emotions are being manipulated."
+            ],
+            "activation": "action"
+         },
+         {
+            "name": "Mind Breaker",
+            "description": [
+               "As an action, a psionic may make an opposed Discipline versus Resilience check targeting one living creature within medium range. If the check succeeds, the psionic causes the target to suffer 1 strain, plus 1 additional strain per [success][success] generated on the check. [advantage][advantage][advantage] or [triumph] may be spent to cause the target to suffer 1 wound as well."
+            ],
+            "activation": "action"
+         }
+      ],
+      "fluff": [
+         "Psionic or psychic aliens are a perennial favorite in science fiction. We made our psionic alien with a formidable Willpower and Intellect, with the tradeoff of being extremely physically weak. However, what your character gets in return are three unique abilities allowing them to read minds, manipulate emotions, and even harm opponents with a thought. What a psionic alien looks like is up to you. Traditionally, they tend to be physically frail—withered bodies with oversized heads, or spindly creatures with fragile limbs and etherial grace."
+      ],
+      "settings": [
+         "space opera"
+      ],
+      "source": "GCRB p. 182"
+   },
+   {
+      "name": "Revenant",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "wt": 11,
+      "st": 9,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "coercion"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Revenants begin with one rank in Coercion. You still can’t train their Coercion above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Reanimated",
+            "description": [
+               "As reanimated corpses, revenants have several quirks, some beneficial and some detrimental. Your character does not recover wounds through natural rest, but they add [boost][boost] to any Medicine checks to heal them (they don’t flinch). Your character also cannot be affected by poisons (although they must be wary of insects and carrion feeders trying to make a meal from or to nest on their bodies). As with mongrels, your GM should ensure that NPCs react appropriately if they are aware of your character’s condition (at the very least, upgrading the difficulty of your character’s social skill checks twice). Also, perfume is a good idea. Lots of perfume."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Dead Nerves",
+            "description": [
+               "Your character removes [setback][setback] added to any checks they make due to fatigue or injuries (including Critical Injuries)."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "fluff": [
+         "Revenants are human corpses brought back to a semblance of life through strange and horrible medical techniques, a galvanic volt providing the final spark to induce animation. Like mongrels, this is a very popular type of character for steampunk settings.",
+         "A revenant may be created at the behest of a wealthy grieving family willing to pay anything to bring back a loved one. Alternatively, revenants may be created by mad galvanists seeking to unlock the secrets of eternal life. In either case, revenants have no memory of their former lives, even should they retain their original brain. Most who would pay to resurrect a loved one have no idea of this sad fact until the deed is done. Still, there are rumors of the occasional revenant eventually recovering piecemeal memories of their former life.",
+         "Revenants are universally feared and reviled in regular society. A revenant who cannot pass as a normal human is likely to earn a bullet from the Imperial Inspectors, so most stay in the underworld or, like mongrels, flee to the Colonies to start a new life."
+      ],
+      "settings": [
+         "steam punk"
+      ],
+      "source": "GCRB p. 152"
+   },
+   {
+      "name": "Robot",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 1,
+         "intellect": 1,
+         "cunning": 1,
+         "willpower": 1,
+         "presence": 1
+      },
+      "wt": 10,
+      "st": 10,
+      "xp": 175,
+      "skills": {
+         "skills": [
+            "one rank in six of the eight career skills (instead of the usual four)"
+         ],
+         "ranksTotal": 6,
+         "ranksEach": 1,
+         "description": [
+            "After selecting their career, your robot character may train one rank in six of the eight career skills (instead of the usual four)."
+         ],
+         "choice": true
+      },
+      "abilities": [
+         {
+            "name": "Special Abilities",
+            "description": [
+               "Robots do not need to eat, sleep, or breathe, and are unaffected by toxins and poisons. If you are using the cybernetics rules from the science fiction setting (see page 177), robots do not reduce their strain threshold when they receive cybernetics (the cybernetics can represent upgraded mechanical components instead of true cybernetics)."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Networked Intelligence",
+            "description": [
+               "A robot adds automatic [success] to its Intellect- and Willpower-based checks for each other friendly character of the same species within medium range—to a maximum of [success][success][success]."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Inorganic",
+            "description": [
+               "Since robots are inorganic, they do not gain the benefits of recovering wounds with painkillers or a Medicine check. Robots can recover wounds and strain naturally by resting, as their systems attempt self-repairs. Robots can also be “healed” by using the Mechanics skill instead of the Medicine skill, but otherwise following the guidelines detailed on page 116. A robot also increases its soak by one."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "fluff": [
+         "Robots in a space opera can be found in all shapes and sizes. It could be roughly humanoid but built from nearly impervious alloys; a giant, crab-like tank; or a featureless, hovering sphere. Due to the diversity of options for a robot character, we took an approach similar to that for the bioroid on page 174, starting with low characteristics but a lot of XP."
+      ],
+      "settings": [
+         "space opera"
+      ],
+      "source": "GCRB p. 183"
+   },
+   {
+      "name": "The Laborer",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 12,
+      "st": 8,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "athletics"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A laborer starts with one rank in Athletics during character creation. They obtain this rank before spending experience points, and may not increase Athletics above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Tough as Nails",
+         "description": [
+            "Once per session, your character may spend a Story Point as an out-of-turn incidental immediately after suffering a Critical Injury and determining the result. If they do so, they count the result rolled as \"01.\""
+         ],
+         "activation": "incidental"
+      }],
+      "fluff": [
+         "The laborer archetype represents a character who has a background in some form of manual labor, and who is generally strong and tough. You should choose this archetype if you’re planning on making a character who focuses on fighting, especially fighting in melee combat. You should also choose this archetype if your character has a background of manual labor and hard work.",
+         "This archetype starts with the Brawn characteristic at 3 and the Willpower characteristic at 1. You’re starting with a character who has better than average Brawn (which makes it easier to improve Brawn further), with the trade-off that your character has a worse than average Willpower. You’ll have to either spend valuable experience points buying that back to 2, or be satisfied with this drawback. Likewise, your character’s wound threshold is higher than average, but your strain threshold is lower than average.",
+         "Finally, this archetype gets a special ability that lets you turn a single Critical Injury result that your character suffers into the mildest Critical possible. Not only does this protect your character from some debilitating Crit results, but since the only way to permanently die in our game is through some Critical effects, this can even save your character from certain death."
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 37"
+   },
+   {
+      "name": "The Intellectual",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 1,
+         "intellect": 3,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 8,
+      "st": 12,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "knowledge"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "An intellectual starts with one rank in Knowledge during character creation. They obtain this rank before spending experience points, and may not increase Knowledge above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Brilliant!",
+         "description": [
+            "Once per session, your character may spend a Story Point as an incidental. If they do so, during the next check they make during that turn, you count their ranks in the skill being used as equal to their Intellect."
+         ],
+         "activation": "incidental"
+      }],
+      "fluff": [
+         "The intellectual archetype represents a character who has a background grounded in some sort of intellectual pursuit. This pursuit could be science, medicine, teaching, or even magic. You should choose this archetype if you want to make a character who focuses on one of those intellectual pursuits. You should also choose this archetype if your character comes from a highly educated background.",
+         "This archetype starts with the Intellect characteristic at 3 and the Agility characteristic at 1. You’re starting a character with a better than average Intellect (which makes this characteristic easy to improve further) and good strain threshold, but on the other hand, your character has a worse than average Agility (and is going to have a problem being effective in ranged combat). You also have a worse than average wound threshold.",
+         "This archetype makes up for that, however, with a pretty good ability. Their special ability lets your character count their ranks in a skill as equal to their Intellect, and while it only works once per session, it can mean the difference between success and failure on a critical check."
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 38"
+   },
+   {
+      "name": "The Aristocrat",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 3
+      },
+      "wt": 10,
+      "st": 10,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "cool"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "An aristocrat starts with one rank in Cool during character creation. They obtain this rank before spending experience points, and may not increase Cool above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Forceful Personality",
+         "description": [
+            "Once per session, your character may spend a Story Point as an incidental. If they do so, during the next skill check they make during that turn, your character doubles the strain they inflict or the strain they heal (you choose before making the check)."
+         ],
+         "activation": "incidental"
+      }],
+      "fluff": [
+         "The aristocrat archetype represents any character who has the gift of a silver tongue. This could be a noble of some sort, a politician, a bard, or even a salesperson or merchant. You should use this archetype if you want to build a character who fits one of these molds. You should also choose this archetype if your character is good at communicating.",
+         "This archetype starts with the Presence characteristic at 3 and the Brawn characteristic at 1. Unsurprisingly, this means you’re starting with a character who already has a good Presence, and whose Presence can be improved easily. However, the low Brawn (and thus low wound threshold and soak) means your character won’t be much of a combatant without a major investment in experience points. You also have an average starting wound and strain threshold.",
+         "Your character’s starting ability is good on its own, but it can be paired with a number of talents or social encounter actions for some really powerful effects. Coupled with the archetype’s starting characteristics, this archetype is perfect for characters who want to dominate social situations (even if they’re not very good at fighting)!"
+      ],
+      "settings": [
+         "all"
+      ],
+      "source": "GCRB p. 39"
+   },
+   {
+      "name": "Vanguard",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 1,
+         "willpower": 2,
+         "presence": 3
+      },
+      "wt": 9,
+      "st": 9,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "knowledge"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "vanguard starts with one rank in Knowledge during character creation. You still can’t train Knowledge above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Space Is Our Birthright",
+            "description": [
+               "A vanguard adds automatic [advantage] to the results of any Astrocartography or Knowledge checks they make."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "High Tech Baubles",
+            "description": [
+               "A vanguard starts the game with an additional 500 credits’ worth of starting gear (this is in addition to their normal starting gear allowance)."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "fluff": [
+         "Our vanguard species is an alien race that is humanity’s superior in the galaxy. These aliens are more advanced scientifically, culturally, and even artistically than us poor, primitive humans—which inevitably makes it all the more satisfying when the human protagonist of a story accomplishes something they thought impossible."
+      ],
+      "settings": [
+         "space opera"
+      ],
+      "source": "GCRB p. 183"
+   }
+]
