@@ -15,6 +15,7 @@
       <button id="copy-btn" class="copy" onclick="copyUrl()">Copy</button>
       <span>https://genesysapi.herokuapp.com/api/</span>
       <select id="select-api">
+         <option>adversaries</option>
          <option>careers</option>
          <option>species</option>
          <option>talents</option>
@@ -25,6 +26,48 @@
 
 	<div class="body">
       <section class="column left">
+         <div id="adversaries" class="container">
+            <div class="doc">
+               <h2>Adversaries</h2>
+               <div class="item">
+                  <h3>Get Many:</h3>
+                  <span>/api/adversaries</span>
+               </div>
+               <div class="query-table">
+                  <div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
+                  <div class="t-head">Options/Examples</div>
+                  <div>sort</div><div>name</div><div>The value to sort on.</div><div>Sorting on nested values: characteristics.brawn</div>
+                  <div>orderBy</div><div>asc</div><div>The direction in which direction to sort.</div><div>asc, desc</div>
+                  <div>profile</div><div>-</div><div>Filter by adversary profile.</div><div>minion, rival, nemesis</div>
+                  <div>type</div><div>-</div><div>Filter by adversary type. This is not provided by FFG, but is a property added in this API to aid in finding the desired adversary.</div><div>beast, humanoid, mythical, robot, undead, land vehicle, air vehicle, space vehicle, other</div>
+                  <div>brawn</div><div>-</div><div>Filter by starting brawn.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>agility</div><div>-</div><div>Filter by starting agility.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>intellect</div><div>-</div><div>Filter by starting intellect.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>cunning</div><div>-</div><div>Filter by starting cunning.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>willpower</div><div>-</div><div>Filter by starting willpower.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>presence</div><div>-</div><div>Filter by starting presence.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>soak</div><div>-</div><div>Filter by soak.</div><div>Any integer</div>
+                  <div>wt</div><div>-</div><div>Filter by base wound threshold.</div><div>Any integer</div>
+                  <div>st</div><div>-</div><div>Filter by base strain threshold.</div><div>Any integer</div>
+                  <div>silhouette</div><div>-</div><div>Filter by silhouette.</div><div>Any integer</div>
+                  <div>skill</div><div>-</div><div>Filter by skills.</div><div>coercion, vigilance, etc</div>
+                  <div>spellcaster</div><div>-</div><div>Filter if adversary can cast spells.</div><div>true, false</div>
+                  <div>setting</div><div>-</div><div>Filter by setting.</div><div>all, fantasy, steam punk, weird war, modern, science fiction, space opera</div>
+                  <div>source</div><div>-</div><div>Filter by source.</div><div>GCRB, EPG, RoT, SotB, SotC</div>
+               </div>
+
+               <div class="item">
+                  <h3>Get One:</h3>
+                  <span>/api/adversaries/{name}</span>
+               </div>
+               <div class="query-table">
+                  <div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
+                  <div class="t-head">Options</div>
+                  <div>fuzzy</div><div>false</div><div>Performs an exact match when false.</div><div>true, false</div>
+               </div>
+            </div>
+         </div>
+
          <div id="careers" class="container">
             <div class="doc">
                <h2>Careers</h2>

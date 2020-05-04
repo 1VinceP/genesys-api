@@ -1,5 +1,68 @@
 [
    {
+      "name": "adversary",
+      "profile": "",
+      "type": "",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 0,
+      "wt": 0,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "", "ranks": 0 }
+      ],
+      "talents": [
+         {
+            "name": "",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "abilities": [
+         {
+            "name": "",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "spellcasting": {
+         "description": [],
+         "spells": [
+            {
+               "name": "",
+               "description": []
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "",
+            "description": [],
+            "skill": "",
+            "damage": 0,
+            "critical": 0,
+            "range": "",
+            "special": []
+         }
+      ],
+      "settings": [],
+      "source": ""
+   },
+   {
       "name": "career",
       "careerSkills": [],
       "description": [],

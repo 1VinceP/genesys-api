@@ -1,0 +1,336 @@
+[
+   {
+      "name": "Ancient Dragon",
+      "profile": "Nemesis",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 5,
+         "agility": 4,
+         "intellect": 5,
+         "cunning": 4,
+         "willpower": 5,
+         "presence": 4
+      },
+      "soak": 8,
+      "wt": 45,
+      "st": 34,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 17,
+         "social": 10,
+         "general": 10
+      },
+      "silhouette": 4,
+      "skills": [
+         { "name": "arcana", "ranks": 4 },
+         { "name": "brawl", "ranks": 4 },
+         { "name": "charm", "ranks": 3 },
+         { "name": "coercion", "ranks": 4 },
+         { "name": "cool", "ranks": 3 },
+         { "name": "discipline", "ranks": 4 },
+         { "name": "ranged", "ranks": 4 },
+         { "name": "resilience", "ranks": 4 },
+         { "name": "runes", "ranks": 4 },
+         { "name": "vigilance", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 2",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character twice."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Swift",
+            "description": [
+               "A dragon does not spend additional maneuvers to move through difficult terrain"
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Claw Sweep",
+            "description": [
+               "A dragon may spend [advantage] from a Brawl check to hit an additional engaged opponent that would be no more difficult to attack than the original target, dealing base damage +1 damage per [success]."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Flyer",
+            "description": [
+               "Can fly; see page 100 of the Genesys Core Rulebook."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Silhouette 4",
+            "description": [],
+            "activation": "passive"
+         },
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make a Daunting ([difficulty][difficulty][difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "spellcasting": {
+         "description": [
+            "Ancient dragons can use any magic actions allowed for the Arcana and Runes skills, and may select additional effects as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Unbind Spell",
+               "description": [
+                  "The dragon chooses a target within short range that is under the effects of a spell and makes a Hard ([difficulty][difficulty][difficulty]) Arcana check. If the check is successful, the spell effects on the target end."
+               ]
+            },
+            {
+               "name": "Words of Unmaking",
+               "description": [
+                  "The dragon chooses one magic item (including a magic weapon and armor or runebound shard) within medium range and makes a Daunting ([difficulty][difficulty][difficulty]) Arcana check. If successful, until the beginning of the dragon's next turn that item loses its magical ability and becomes a mundane gem, suit of armor, sword, rock, etc. The dragon may maintain this spell by performing the concentrate maneuver."
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Fiery Breath",
+            "description": [
+               "Ranged; Damage 16; Critical 3; Range Medium; Blast 16, Burn 3, Prepare 1"
+            ],
+            "skill": "ranged",
+            "damage": 16,
+            "critical": 3,
+            "range": "medium",
+            "special": [
+               { "name": "blast", "rating": 16 },
+               { "name": "burn", "rating": 3 },
+               { "name": "prepare", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Claws",
+            "description": [
+               "Brawl; Damage 17; Critical 2; Range Engaged; Knockdown, Sunder, Vicious 5"
+            ],
+            "skill": "brawl",
+            "damage": 17,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "knockdown", "rating": 0 },
+               { "name": "sunder", "rating": 0 },
+               { "name": "vicious", "rating": 5 }
+            ]
+         }
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 195"
+   },
+   {
+      "name": "Assassin",
+      "profile": "Nemesis",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 4,
+         "intellect": 3,
+         "cunning": 4,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 2,
+      "wt": 12,
+      "st": 14,
+      "mDef": 4,
+      "rDef": 3,
+      "powerLevel": {
+         "combat": 9,
+         "social": 3,
+         "general": 6
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 2 },
+         { "name": "coordination", "ranks": 3 },
+         { "name": "deception", "ranks": 3 },
+         { "name": "medicine", "ranks": 2 },
+         { "name": "melee (light)", "ranks": 2 },
+         { "name": "perception", "ranks": 2 },
+         { "name": "ranged", "ranks": 2 },
+         { "name": "skulduggery", "ranks": 3 },
+         { "name": "stealth", "ranks": 4 },
+         { "name": "vigilance", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Backstab",
+            "description": [
+               "May target an unaware target with a combat check using a Melee (Light) weapon and the Skulduggery skill instead of the Melee (Light) skill. If successful, the attack deals +2 damage per [success], instead of +1."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Precision Strikes",
+            "description": [
+               "Use Cunning in place of Brawn for Brawl and Melee (Light) checks."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Lightning Draw",
+            "description": [
+               "May draw or sheathe a dagger or similar small weapon as an incidental; there is no limit to how many weapons an assassin can ready this way per turn."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Poisoner",
+            "description": [
+               "As an incidental, may apply poison to all weapons. A character wounded by a poisoned weapon must make a Hard ([difficulty][difficulty][difficulty]) Resilience check as an out-of-turn incidental or suffer 4 additional wounds, and must check again on their next turn if the check generates [despair]."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Vanish",
+            "description": [
+               "After performing a check, may spend [advantage][advantage] or [triumph] to hide from all other characters in the encounter."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "equipment": [],
+      "settings": [],
+      "source": ""
+   },
+   {
+      "name": "",
+      "profile": "",
+      "type": "",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 0,
+      "wt": 0,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "", "ranks": 0 }
+      ],
+      "talents": [
+         {
+            "name": "",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "abilities": [
+         {
+            "name": "",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "spells": [
+         {
+            "name": "",
+            "description": []
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Scimitar",
+            "description": [
+               "Melee (Light); Damage 6; Critical 2; Range Engaged; Defensive 1"
+            ],
+            "skill": "Melee (Light)",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Two katars",
+            "description": [
+               "Melee (Light); Damage 5; Critical 2; Range Engaged; Accurate 1"
+            ],
+            "skill": "Melee (Light)",
+            "damage": 5,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Three daggers",
+            "description": [
+               "Ranged; Damage 5; Critical 3; Range Short; Accurate 1; Limited Ammo 3"
+            ],
+            "skill": "Ranged",
+            "damage": 5,
+            "critical": 3,
+            "range": "short",
+            "special": [
+               { "name": "Limited Ammo", "rating": 3 }
+            ]
+         },
+         {
+            "name": "Bow",
+            "description": [
+               "Ranged; Damage 7; Critical 3; Range Medium; Unwieldy 2"
+            ],
+            "skill": "ranged",
+            "damage": 7,
+            "critical": 3,
+            "range": "medium",
+            "special": [
+               { "name": "Unwieldy", "rating": 2 }
+            ]
+         },
+         {
+            "name": "A variety of concealing cloaks",
+            "description": [],
+            "skill": "",
+            "damage": 0,
+            "critical": 0,
+            "range": "",
+            "special": []
+         }
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. "
+   }
+]
