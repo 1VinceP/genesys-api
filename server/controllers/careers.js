@@ -6,12 +6,27 @@ const careers = require('../../data/careers.json');
 const errorMessage = 'We cannot find any matching careers. Please check your query and try again.';
 module.exports = {
    getMany: (req, res) => {
-      const { sort = 'name', sortOrder = 'asc', skill, setting, source } = req.query;
+      const {
+         sort = 'name', sortOrder = 'asc', skill,
+         startingGear, usefulTalents, setting, source,
+      } = req.query;
 
       // filter by queries
       let list = filter(careers, career => {
+         const matchStartingGear = () => {
+            return startingGear.toLowerCase() === 'true' && career.startingGear !== undefined
+               || startingGear.toLowerCase() === 'false' && career.startingGear === undefined;
+         };
+
+         const matchUsefulTalents = () => {
+            return usefulTalents.toLowerCase() === 'true' && career.usefulTalents !== undefined
+               || usefulTalents.toLowerCase() === 'false' && career.usefulTalents === undefined;
+         }
+
          if (
             skill && !includes(career.careerSkills, skill.toLowerCase())
+            || startingGear && !matchStartingGear()
+            || usefulTalents && !matchUsefulTalents()
             || setting && !includes(career.settings, setting.toLowerCase())
             || source && !includes(career.source.toLowerCase(), source.toLowerCase())
          ) return false;

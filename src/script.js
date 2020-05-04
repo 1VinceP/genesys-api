@@ -15,7 +15,7 @@ function copyUrl() {
 	document.getElementById('copy-btn').innerText = 'Copied!';
 
 	const tempInput = document.createElement('input');
-	tempInput.value = `${baseUrl}/${category}${search}`;
+	tempInput.value = `${baseUrl}/${category}${search}`.replace(' ', '%20');
 	document.body.appendChild(tempInput);
 	tempInput.select();
 	document.execCommand('copy');

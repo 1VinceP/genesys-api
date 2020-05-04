@@ -354,5 +354,983 @@
          "all"
       ],
       "source": "GCRB p. 43"
+   },
+   {
+      "name": "Disciple",
+      "careerSkills": [
+         "athletics",
+         "charm",
+         "discipline",
+         "divine",
+         "knowledge (lore)",
+         "leadership",
+         "melee (light)",
+         "resilience"
+      ],
+      "description": [
+         "Disciples are mystics dedicated to aiding others. Their power comes from calling upon the mysterious aid of the gods or drawing on their own determination. Some channel the blessed flames of Kellos, while others walk the Latari Elves’ enigmatic Path of the Stars, still others observe the druidic traditions of Kurnos, or follow one of the countless other deities who watch over the world. What they all have in common is a talent for helping others, whether through physical or spiritual healing, via divine guidance, or with weapons blessed by the gods. The majority of Disciples are trained within isolated monasteries or great temples, and live by strict codes of conduct, often having taken sacred oaths.",
+         "Adventuring Disciples take what they have learned among the devotees in their conclaves out into the world, where they might enact the will of their god upon the land. This can range from gathering gold and glory for their temple or converting the ignorant to the true path, to personal quests of enlightenment or wars of salvation that can only end when a great evil is undone or an ancient prophecy fulfilled.",
+         "The Disciple counts the following skills as career skills: Athletics, Charm, Discipline, Divine, Knowledge (Lore), Leadership, Melee (Light), and Resilience. Before spending experience points (XP) during character creation, a Disciple may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "Players with a Disciple character may choose to start with the following gear instead of spending currency during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A mace",
+            "A holy icon or shield and leather armor",
+            "A lantern and 2 herbs of healing or traveling gear consisting of a backpack, a bedroll, a rope, flint and steel, 3 torches, and a waterskin",
+            "1d100 silver coins"
+         ]
+      },
+      "settings": [],
+      "source": "ROT p. 70"
+   },
+   {
+      "name": "Envoy",
+      "careerSkills": [
+         "charm",
+         "cool",
+         "deception",
+         "knowledge (geography)",
+         "leadership",
+         "melee (light)",
+         "negotiation",
+         "vigilance"
+      ],
+      "description": [
+         "Envoys are masters of negotiation, charm, and social intrigue. These charismatic heroes are often the voice of their group: they broker deals or convince others to offer aid, give up their secrets, or believe the hero’s lies. Where blade and spell fail, Envoys find success, fighting as skillfully with words as their companions do with swords. Whether they are Terrinothian nobility, ambassadors, stewards, or chamberlains of any the many keeps or estates scattered throughout the land, their connections and emotional intuition serve the adventuring party well. Also counted among their number are Guildmasters of Tamalir, bards of the wandering Motley Circus or the Children of the Harp, and even ambassadors of the Latari Elves and the Orc Tribes.",
+         "Envoys adventure for a variety of reasons, whether to escape the oppressive climate of court life, to disappear after some unforgivable deed, to make new deals and find new wealth for their guild or lords, or just to spread the gift of song, all the while learning more about the world around them. In most cases, they seek out able fighters to share their travels, trading wit and charm for a bit of cold steel when it is called for.",
+         "The Envoy counts the following skills as career skills: Charm, Cool, Deception, Knowledge (Geography), Leadership, Melee (Light), Negotiation, and Vigilance. Before spending experience during character creation, an Envoy may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "Players with an Envoy character may choose to start with the following gear instead of spending currency during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A dagger",
+            "A sword or a musical instrument",
+            "A fine cloak or traveling gear consisting of a backpack, a bedroll, a rope, flint and steel, 3 torches, and a waterskin",
+            "Padded armor",
+            "200 + 1d100 silver coins"
+         ]
+      },
+      "settings": [
+         "fantasy"
+      ],
+      "source": "RoT p. 70"
+   },
+   {
+      "name": "Mage",
+      "careerSkills": [
+         "alchemy",
+         "arcana",
+         "cool",
+         "discipline",
+         "knowledge (adventuring)",
+         "knowledge (forbidden)",
+         "knowledge (lore)",
+         "perception"
+      ],
+      "description": [
+         "Mennara is a world shaped by magic. Natural-born sorcerers can tap into the arcane energies of the Verto Magica, while others may be inadvertently launched on a path of magic after discovering a powerful artifact or lost relic. Each land has its own magical traditions, from the court wizardry of Terrinoth to the colleges of sorcery in Al-Kalim. Despite their differences in culture and training, all spellcasters have an understanding of mysteries beyond the ken of other mortals that allows them to dispatch their enemies or manipulate the world around them by sorcerous means.",
+         "The reasons why Mages go adventuring are as varied as the disciplines of magic they practice. The Runemasters of Greyhaven might seek out the sundered shards of the Orb of the Sky, while Elven storm sorceresses defend their forest homelands by hunting down ancient artifacts and Greyhaven-trained battlemages support the Citadel’s armies. Those who bargain with dark powers—including the reviled hexers, necromancers, and warlocks rumored to exchange secrets in Nerekhall—furtively travel the lands in their selfish pursuits or in service to their master’s bidding. Wizards have not only the potential to incinerate monsters with balls of fire, but are also students of knowledge; most Mages are well-read scholars of the world’s secret lore.",
+         "The Mage counts the following skills as career skills: Alchemy, Arcana, Cool, Discipline, Knowledge (Adventuring), Knowledge (Forbidden), Knowledge (Lore), and Perception. Before spending experience during character creation, a Mage may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "Players with a Mage character may choose to start with the following gear instead of spending currency during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A magic staff or magic wand",
+            "A dagger or sling",
+            "Heavy robes or 1 stamina elixir",
+            "1d100 silver coins"
+         ]
+      },
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 70"
+   },
+   {
+      "name": "Primalist",
+      "careerSkills": [
+         "alchemy",
+         "brawl",
+         "discipline",
+         "knowledge (lore)",
+         "medicine",
+         "melee (heavy)",
+         "primal",
+         "survival"
+      ],
+      "description": [
+         "Fierce gods and the forces of nature are the domain of the Primalists. These spellcasters are chosen by their people be the vessel of either a god or a powerful natural force, and channel the power of the storm through their soul. Some come from faroff lands and are beholden to living gods, like the spellcasters of the Zanagan Singhara who worship Hamzah the Pridelord. Others, like the Onoit elders of Isheim, the Wealdweavers of the Elves, and the Orc spiritspeakers of the Broken Plains are at one with the world around them. Calling upon the great forces of the natural world, Primalists can manipulate weather, fortify their allies, or summon benign spirits to protect them.",
+         "A Primalist answers the call to adventure because it is the will of the great power that fills their flesh and bones. As a storm wind must blow, so too a Primalist traverses the world, in search of places and objects sacred to their god or to follow the whispered guidance of the earth spirits. The aid of a Primalist can be invaluable, for few can command the powers of nature as they do.",
+         "The Primalist counts the following skills as career skills: Alchemy, Brawl, Discipline, Knowledge (Lore), Medicine, Melee (Heavy), Primal, and Survival. Before spending experience during character creation, a Primalist may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "Players with a Primalist character may choose to start with the following gear instead of spending currency during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A staff or a greataxe and leather armor",
+            "An apothecary's kit or traveling gear consisting of a backpack, a bedroll, a rope, flint and steel, 3 torches, and a waterskin",
+            "1d100 silver coins"
+         ]
+      },
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 71"
+   },
+   {
+      "name": "Scholar",
+      "careerSkills": [
+         "alchemy",
+         "knowledge (forbidden)",
+         "knowledge (geography)",
+         "knowledge (lore)",
+         "mechanics",
+         "medicine",
+         "perception",
+         "runes"
+      ],
+      "description": [
+         "Whereas Mages, Disciples, and Primalists call upon arcane, divine, or primal energies for their power, Scholars are masters of the secrets of the natural world and the cultures within it. They are firm believers in the axiom “Knowledge is Power.” The civilizations of the world, past and present, have collected millennia of lore, much of which lies buried beneath the noses of the various races. Wherever they go, Scholars see these hidden histories. Whether they are the old markings of the Locust Swarm upon the border stones of Hernfar Isle, the Djinn statues that rise up from the sands of Al-Kalim, or the scarred deepwyrm scales glittering on the trade ships of the Torue Albes, a Scholar knows their meanings. There are as many kinds of Scholars as there are secrets, and most have their own specialization. Gnomish alchemists hail from insular lodges that deal in healing elixirs and acid bombs, Dwarven craftspeople forge weapons and armor of immense power, and Rune Scholars unlock the ancient secrets of the markings inscribed into the runebound shards.",
+         "Scholars adventure to add to their vast wealth of knowledge. Some, like the Weik Stormspeakers, travel the world gathering stories like gold to bring back to their lords, while others, like the Latari Elven Loremasters, live for hundreds of years, becoming the living archives of their people’s long history.",
+         "The Scholar counts the following skills as career skills: Alchemy, Knowledge (Forbidden), Knowledge (Geography), Knowledge (Lore), Mechanics, Medicine, Perception, and Runes. Before spending experience during character creation, a Scholar may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "Players with a Scholar character may choose to start with the following gear instead of spending currency during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A dagger",
+            "An alchemists' kit or a sword",
+            "A lantern or healing herbs",
+            "A fine cloak or traveling gear consisting of a backpack, a bedroll, a rope, flint and steel, 3 torches, and a waterskin",
+            "1d100 silver coins"
+         ]
+      },
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 72"
+   },
+   {
+      "name": "Scoundrel",
+      "careerSkills": [
+         "charm",
+         "cool",
+         "coordination",
+         "deception",
+         "ranged",
+         "skulduggery",
+         "stealth",
+         "streetwise"
+      ],
+      "description": [
+         "A quick wit and a swift blade are often better than a swift blade alone. From the merchant districts of Tamalir to the winding streets of Last Haven and in a thousand haunts in between, rogues and outsiders live by their cunning. These Scoundrels take many guises, whether they are scurvy pirates from the Kingless Coast, enigmatic assassins of the Al-Kalim fighting temples, cunning bandits roving the wilds of the Borderlands, savvy gamblers or confidence artists, or simple Free City cutpurses trying to make a living. Merchants, too, can be counted among the ranks of the Scoundrel; the canny Dunwarr Dwarf shopkeep who knows how to get the best price for his wares and the master Lorimor clockmaker who is as adept at traps as she is at crafting timepieces both fit the bill.",
+         "As adventurers, Scoundrels survive by skill and wit rather than brawn or sorcerous talents. They tend to favor weapons of finesse and surprise over those that require raw might to use. A talented Scoundrel might be an archer or knife fighter, but is just as likely to be skilled in avoiding battle altogether, able to slip away into the shadows in the blink of an eye. Adventuring groups are always ready to welcome a Scoundrel into their ranks, for many situations require their unique talents. Whether the party needs someone to navigate a trapfilled dungeon, evade a watchful foe, or find an ally in a shadowy city, often only a Scoundrel will know just the trick.",
+         "The Scoundrel counts the following skills as career skills: Charm, Cool, Coordination, Deception, Ranged, Skulduggery, Stealth, and Streetwise. Before spending experience during character creation, a Scoundrel may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "Players with a Scoundrel character may choose to start with the following gear instead of spending currency during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A dagger or a cestus",
+            "A sword and dagger or a bow",
+            "A fine cloak or thieves' tools",
+            "Traveling gear consisting of a backpack, a bedroll, a rope, flint and steel, 3 torches, and a waterskin",
+            "1d100 silver coins"
+         ]
+      },
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 72"
+   },
+   {
+      "name": "Scout",
+      "careerSkills": [
+         "knowledge (adventuring)",
+         "knowledge (geography)",
+         "perception",
+         "ranged",
+         "riding",
+         "stealth",
+         "survival"
+      ],
+      "description": [
+         "Scouts are outlanders and wanderers, more at home among the forbidding wilds than in winding city streets. Because Scouts are skilled hunters and trackers, many governments employ them in the vanguard of their armies. The Leonx Riders of the Latari and the outland rangers of Daqan, for instance, spearhead legions deep into enemy territory. In contrast, inquisitors and bounty hunters seek out the solitary life of the Scout, traveling alone or with small groups as they complete their missions away from the direct control of their lords. Regardless of their role, Scouts are every bit as skilled at stalking Human prey as they are at hunting animals.",
+         "Scouts take to adventuring naturally, their comfort in the wilds and their skills with blades and bows make them well suited to anything Terrinoth or the realms beyond can throw at them. All races can claim Scouts among their ranks; the Latari Deepwood Rangers move as shadows among the trees, the Scouts of the Onoit Gnomes are able to cross the frozen wilds of Isheim swifter than a rider on horseback, and the Scouts of the Mistwatch protect their Human settlements from roaming undead. Scouts are warriors of the wilds, and the vastness of the world is their battlefield.",
+         "The Scout counts the following skills as career skills: Knowledge (Adventuring), Knowledge (Geography), Perception, Ranged, Riding, Stealth, Survival, and Vigilance. Before spending experience during character creation, a Scout may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "Players with a Scout character may choose to start with the following gear instead of spending currency during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A bow or a light spear and leather armor",
+            "A dagger or 2 healing elixirs",
+            "Leather armor",
+            "Herbs of healing an climbing gear or winter clothing",
+            "Traveling gear consisting of a backpack, a bedroll, a rope, flint and steel, 3 torches, and a waterskin",
+            "1d100 silver coins"
+         ]
+      },
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 73"
+   },
+   {
+      "name": "Warrior",
+      "careerSkills": [
+         "brawl",
+         "coercion",
+         "leadership",
+         "melee (heavy)",
+         "melee (light)",
+         "resilience",
+         "riding",
+         "vigilance"
+      ],
+      "description": [
+         "Warriors dedicate themselves to the mastery of blade, axe, and other weapons of war. Whether they rely upon raw strength to crush their enemies, hefty armor to soak hits before dishing them out, or speed and skill to avoid attacks—and deliver killing ripostes—all Warriors excel in the art of combat.",
+         "Warriors can hail from any number of cultures and peoples. The Baronies of Daqan train some of the finest knights in the world, their lance tips flashing in the sun as they carry out quests for their lords. Meanwhile, Marshals of the Citadel mete out justice in the name of the Common Law, and Weik berserkers bring unbridled savagery to the battlefield. Adventuring Warriors may have set out from their homes to abide by a royal decree, to prove themselves worthy in keeping with a tribal tradition, or simply because there is no better place to master a blade than out in the wilds of Terrinoth or the vast lands beyond its borders.",
+         "If a Warrior can master the ways of battle, they might rise up to a position of command, taking over a garrison along the Borderlands, leading a contingent of Lorimor marines as a champion, or perhaps simply finding fortune and glory as a lone fighter wandering the wastelands.",
+         "The Warrior counts the following skills as career skills: Brawl, Coercion, Leadership, Melee (Heavy), Melee (Light), Resilience, Riding, and Vigilance. Before spending experience during character creation, a Warrior may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "Players with a Warrior character may choose to start with the following gear instead of spending currency during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A sword and shield or an axe and shield or a halberd",
+            "Leather armor",
+            "2 healing elixirs",
+            "Traveling gear consisting of a backpack, a bedroll, a rope, flint and steel, 3 torches, and a waterskin",
+            "1d100 silver coins"
+         ]
+      },
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 70"
+   },
+   {
+      "name": "Academic",
+      "careerSkills": [
+         "discipline",
+         "knowledge (science)",
+         "knowledge (society)",
+         "knowledge (the net)",
+         "leadership",
+         "medicine",
+         "melee",
+         "negotiation"
+      ],
+      "description": [
+         "Academics include doctors, scientists, and scholars of all kinds. These characters are masters of the advanced theories, scientific disciplines, and philosophies of the future, their research and work adding to humanity’s fantastic progress and achievements. Academics are almost always highly specialized and much sought after. Whether they are privy to the secrets of braintaping or understand the maturation of clones, they have devoted their life to a single field of modern thinking or technology.",
+         "Academics can come in many forms, regardless of the discipline they pursue. One could be a Jinteki embryo development technician, able to work on human and clone bodies with equal skill while recognizing the baseline building blocks of their genes simply by looking at their eyes, hair, and skin. Another might hail from one of the Luna Universities with a master’s degree in applied AI theory, or they might simply be a street doc, working to keep the rain off their back.",
+         "An Academic counts the following skills as career skills: Discipline, Knowledge (Science), Knowledge (Society), Knowledge (The Net), Leadership, Medicine, Melee, and Negotiation. Before spending experience during character creation, an Academic may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have an Academic character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A stun gun or a monoblade",
+            "Concealed buckyweave or durable clothing and a PAD",
+            "An emergency medkit or smartspecs",
+            "2 slap-patches and a portable comlink",
+            "100 + 1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Former Professor",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Former%20Professor"
+         },
+         {
+            "tier": 1,
+            "name": "Proper Upbringing",
+            "source": "GCRB p. 74",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Proper%20Upbringing"
+         },
+         {
+            "tier": 1,
+            "name": "Surgeon",
+            "source": "GCRB p. 74",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Surgeon"
+         },
+         {
+            "tier": 2,
+            "name": "Inspiring Rhetoric",
+            "source": "GCRB p. 76",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Inspiring%20Rhetoric"
+         },
+         {
+            "tier": 2,
+            "name": "Probing Question",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Probing%20Question"
+         },
+         {
+            "tier": 3,
+            "name": "Applied Research",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Applied%20Research"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 32"
+   },
+   {
+      "name": "Bounty Hunter",
+      "careerSkills": [
+         "brawl",
+         "coercion",
+         "discipline",
+         "driving",
+         "melee",
+         "ranged (heavy)",
+         "resilience",
+         "streetwise"
+      ],
+      "description": [
+         "In a megalopolis of half a billion people or more, Bounty Hunters excel in finding the ones that don’t want to be found. Trained in various forms of conflict resolution, a Bounty Hunter seldom lets anyone stand in their way once they have taken a job, and if it means getting their mark, they are not above making a mess or breaking the occasional law. Bounty Hunters differ from more subtle kinds of investigators or agents in that they often expect trouble, and their training reflects this. They tend to pack more firepower and armor than other characters, and they usually stem from a more combat-oriented background.",
+         "While most Bounty Hunters are heavy-handed street soldiers with a knack for finding people, they can vary considerably depending on where they come from and who they work for. Some are ex-cops; bound by a sense of honor and a respect for the law, they know just how hard the NAPD has it and try to work with them as much as possible. Others are on an orgcrime payroll, private contractors only in name who take their orders from the shadows and think little of looking the other way. Then there are the true free agents, the ones in it for the creds, the thrill, or the fame.",
+         "A Bounty Hunter counts the following skills as career skills: Brawl, Coercion, Discipline, Driving, Melee, Ranged (Heavy), Resilience, and Streetwise. Before spending experience during character creation, a Bounty Hunter may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have a Bounty Hunter character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "Bullpup carbine or a stun baton, 2 glop grenades, and light body armor",
+            "Brass knuckles or 2 slap patches",
+            "3 snap locks and a utility belt",
+            "1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Durable",
+            "source": "GCRB p. 73",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Durable"
+         },
+         {
+            "tier": 1,
+            "name": "Hamstring Shot",
+            "source": "GCRB p. 73",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Hamstring%20Shot"
+         },
+         {
+            "tier": 1,
+            "name": "Street Fighter",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Street%20Fighter"
+         },
+         {
+            "tier": 2,
+            "name": "Special Use Permit",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Special%20Use%20Permit"
+         },
+         {
+            "tier": 2,
+            "name": "Undercity Contacts",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Undercity%20Contacts"
+         },
+         {
+            "tier": 3,
+            "name": "Takedown",
+            "source": "SOTB p. 51",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Takedown"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 33"
+   },
+   {
+      "name": "Con Artist",
+      "careerSkills": [
+         "charm",
+         "coordination",
+         "deception",
+         "melee",
+         "negotiation",
+         "ranged (light)",
+         "skulduggery",
+         "stealth"
+      ],
+      "description": [
+         "While some criminals favor force to get what they want, the Con Artist is a master of manipulation. In the presence of so many technological safeguards, the Con Artist knows that the weakest part of any defense is the human element: something they excel at exploiting. Almost every street in New Angeles has holoscreens or vidscreens trying to sell you something, and from the Con Artist’s point of view, the lies told by the corporations and the products they push are no different than winning someone’s trust and fleecing them the old-fashioned way.",
+         "A lot of things in New Angeles can’t be taken with force or firepower, and this is where the Con Artist comes into their own. A runner-proof building or an impenetrable vault might defeat the latest tech or largest guns, but find the right person and convince them to show you the way, and you can walk right in the door. And should the job go sideways, Con Artists are also masters of making a quick exit, often while their former “comrades” are still wondering just what went wrong! Con Artists come in many different guises, from out-and-out street criminals who long ago learned to live off their wits, to savvy lawyers who understand everything is negotiable, to digital black marketeers who reskin old software or create knockoffs of the latest high-end PADs.",
+         "A Con Artist counts the following skills as career skills: Charm, Coordination, Deception, Melee, Negotiation, Ranged (Light), Skulduggery, and Stealth. Before spending experience during character creation, a Con Artist may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have a Con Artist character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A fletcher pistol or a monoblade and 3 stun grenades",
+            "Concealed buckyweave or a disguise kit and lockpick set",
+            "2 slap-patches or one dose of sting",
+            "A personal comlink and 2 happy patches",
+            "1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Clever Retort",
+            "source": "GCRB p. 73",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Clever%20Retort"
+         },
+         {
+            "tier": 1,
+            "name": "Customer Service Experience",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Customer%20Service%20Experience"
+         },
+         {
+            "tier": 1,
+            "name": "Tri-Maf Contact",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Tri-Maf%20Contact"
+         },
+         {
+            "tier": 2,
+            "name": "Counteroffer",
+            "source": "GCRB p. 75",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Counteroffer"
+         },
+         {
+            "tier": 2,
+            "name": "Probing Question",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Probing%20Question"
+         },
+         {
+            "tier": 3,
+            "name": "You Owe Me One",
+            "source": "SOTB p. 51",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/You%20Owe%20Me%20One"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 34"
+   },
+   {
+      "name": "Courier",
+      "careerSkills": [
+         "athletics",
+         "brawl",
+         "charm",
+         "coordination",
+         "driving",
+         "piloting",
+         "stealth",
+         "survival"
+      ],
+      "description": [
+         "Corporations and organizations in New Angeles often deal in powerful secrets or cutting-edge tech, and sometimes only the most trusted individuals can be relied upon to get related confidential items and correspondence where they need to be. Couriers are these skilled individuals. They live by their reputation and possess a host of skills for dealing with whatever might stand in their way. A good Courier is a born survivalist, equally able to fight, talk, or run their way out of most situations. Sometimes, this might mean getting a hard copy of a sensitive data download down a hundred floors of the Talamire Arcology before local security realizes it’s been stolen; at other times, it might mean a run from Broadcast Square all the way to the Root.",
+         "A good Courier builds a strong rapport with their prospective clients, and many work with a list of regulars. These Couriers get repeat business because they prove not only that they’re good at the job, but also that they are trustworthy and discreet. Some Couriers are bonded corporate servants working for Haas-Bioroid, NBN, or the like and may even be specially programmed bioroids or conditioned clones. Others are independents who live and die by their rep, never looking at the cargo they transport, only promising to get it there on time.",
+         "A Courier counts the following skills as career skills: Athletics, Brawl, Charm, Coordination, Driving, Piloting, Stealth, and Survival. Before spending experience during character creation, a Courier may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have a Courier character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A synap pistol and durable clothing or concealed buckyweave and a palm stunner",
+            "A modular backpack or a cross body bag and load bearing gear",
+            "A PAD and smartspecs or a monocam, personal comlink, and reader",
+            "1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Hand on the Throttle",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Hand%20on%20the%20Throttle"
+         },
+         {
+            "tier": 1,
+            "name": "Jump Up",
+            "source": "GCRB p. 73",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Jump%20Up"
+         },
+         {
+            "tier": 1,
+            "name": "Knockout Punch",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Knockout%20Punch"
+         },
+         {
+            "tier": 2,
+            "name": "Daring Aviator",
+            "source": "GCRB p. 75",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Daring%20Aviator"
+         },
+         {
+            "tier": 2,
+            "name": "Parkour!",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Parkour!"
+         },
+         {
+            "tier": 3,
+            "name": "Nimble",
+            "source": "SOTB p. 50",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Nimble"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 35"
+   },
+   {
+      "name": "Investigator",
+      "careerSkills": [
+         "coercion",
+         "computers (hacking)",
+         "knowledge (society)",
+         "leadership",
+         "perception",
+         "ranged (light)",
+         "streetwise",
+         "vigilance"
+      ],
+      "description": [
+         "From NAPD detectives, to hard-boiled private eyes, to corporate agents and independent profilers, Investigators are masters of getting information. In worlds where people will go to great lengths to hide their crimes from the countless electronic eyes that watch society, sometimes only a person’s instincts can pick up the trail. Investigation is as much art as it is science, and good Investigators learn to rely upon their gut, knowing when to squeeze someone for information and when finding the truth requires a light touch. Of course, following a trail through the neon wilderness of New Angeles takes more than a keen mind; Investigators are also adept at bending or breaking the rules when they need to and, when all else fails, know how to handle themselves in a fight.",
+         "There are as many kinds of Investigators as there are investigations, and New Angeles is full of secrets waiting to be uncovered—and people willing to pay to find them. Some Investigators work for corps, backed by big money and big resources, while others keep a hole-in-the-wall office below the plaza level and take whatever jobs will pay the rent for one more month. Most Investigators fall somewhere between these two extremes. An Investigator can be a police detective, a corporate troubleshooter, a municipal inspector, a reporter, or an employee of a foundation dedicated to transparency in government and corporate affairs, to name a few options.",
+         "An Investigator counts the following skills as career skills: Coercion, Computers (Hacking), Knowledge (Society), Leadership, Perception, Ranged (Light), Streetwise, and Vigilance. Before spending experience during character creation, an Investigator may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have an Investigator character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A fletcher pistol or a hand cannon",
+            "Concealed buckyweave and a light pistorl or a forensic kit",
+            "A personal comlink, 2 slap-patches, and 2 doses of stim.",
+            "1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Bought Info",
+            "source": "GCRB p. 72",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Bought%20Info"
+         },
+         {
+            "tier": 1,
+            "name": "Quick Draw",
+            "source": "GCRB p. 72",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Quick%20Draw"
+         },
+         {
+            "tier": 1,
+            "name": "Years on the Force",
+            "source": "SOTB p. 47",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Years%20on%20the%20Force"
+         },
+         {
+            "tier": 2,
+            "name": "Bad Cop",
+            "source": "SOTB p. 47",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Bad%20Cop"
+         },
+         {
+            "tier": 2,
+            "name": "Two-Handed Stance",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Two-Handed%20Stance"
+         },
+         {
+            "tier": 3,
+            "name": "Hard-Boiled",
+            "source": "SOTB p. 50",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Hard-Boiled"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 36"
+   },
+   {
+      "name": "Ristie",
+      "careerSkills": [
+         "charm",
+         "cool",
+         "deception",
+         "knowledge (society)",
+         "leadership",
+         "negotiation",
+         "perception",
+         "vigilance"
+      ],
+      "description": [
+         "The offspring of corporate CEOs and their vast families, Risties are the new royalty. Ristie characters can be entitled dilettantes or driven heirs to the corporate crown, both often very well connected. Whether or not they care about the multibillion-credit corps, hedge funds, and investment banks that support them, Risties live a life few New Angelinos can dream of: sleeping in sprawling arcology penthouses, taking regular trips to the Castle and its nightclubs, having a view from the top, and looking down through the tinted windows of their private hoppers. Even without the creds, simply being a Ristie is a ticket into some of the most exclusive places on Earth and beyond; few bouncers or prisec operatives are willing to strong-arm someone who might be Jack Weyland’s third cousin twice removed.",
+         "Fame and fortune come at a price for the Ristie, however. The same face that can open doors is also hard to forget or ignore. Also, being a member of a corporate dynasty means responsibilities, some of which can come at inopportune moments or put a Ristie at odds with their friends. Of course, not all Risties are so privileged. A Ristie might instead be in exile, fallen from grace, and either be working against their family or trying to win their way back into their good graces. Or they might simply be trying to keep their very famous face out of the feedchannels.",
+         "A Ristie counts the following skills as career skills: Charm, Cool, Deception, Knowledge (Society), Leadership, Negotiation, Perception, and Vigilance. Before spending experience during character creation, a Ristie may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have a Ristie character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A laser pistol or a charged crystal katana",
+            "A personal comlink and one slap-patch",
+            "1 dose of Lo-Fi and 4 doses of stims or 2 doses of Sting",
+            "200+1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Corporate Drone",
+            "source": "SOTB p. 44",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Corporate%20Drone"
+         },
+         {
+            "tier": 1,
+            "name": "Know Somebody",
+            "source": "GCRB p. 73",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Know%20Somebody"
+         },
+         {
+            "tier": 1,
+            "name": "Proper Upbringing",
+            "source": "GCRB p. 74",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Proper%20Upbringing"
+         },
+         {
+            "tier": 2,
+            "name": "Counteroffer",
+            "source": "GCRB p. 75",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Counteroffer"
+         },
+         {
+            "tier": 2,
+            "name": "Haughty Demeanor",
+            "source": "SOTB p. 48",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Haughty%20Demeanor"
+         },
+         {
+            "tier": 3,
+            "name": "Laugh it Off",
+            "source": "SOTB p. 50",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Laugh%20it%20Off"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 37"
+   },
+   {
+      "name": "Roughneck",
+      "careerSkills": [
+         "athletics",
+         "gunnery",
+         "mechanics",
+         "operating",
+         "piloting",
+         "ranged (heavy)",
+         "resilience",
+         "vigilance"
+      ],
+      "description": [
+         "Roughnecks are pilots and zero-G construction workers who are as adept at guiding huge mining rigs and cargo craft across the vacuum of Luna as they are at fixing a micrometeorite hole in Midway Station. Skilled astronauts, they are as comfortable out in space as they are on Earth, and they are accomplished at dealing with the perils that only space can bring. Most Roughnecks are known for their cool: keeping your head when flying a one-hundred-ton spacecraft or a hopper loaded with mining explosives takes nerves of steel. In New Angeles, a Roughneck might find work with any of the major corps or civilian authorities, as their skills are always in demand.",
+         "However, not all Roughnecks started out as astronauts or orbital construction workers; many learned their trade in other fields. The military has trained plenty of soldiers in zero-G assembly, demolitions, and repairs. Others got their start doing odd jobs on the Challenger Planetoid or Heinlein, picking up vac skills through on-the-job training. Finally, many Roughnecks are former He-3 or asteroid miners who lost their jobs to the recent influx of an android labor force, then adapted their specialized skills to keep earning a paycheck.",
+         "A Roughneck counts the following skills as career skills: Athletics, Gunnery, Mechanics, Operating, Piloting, Ranged (Heavy), Resilience, and Vigilance. Before spending experience during character creation, a Roughneck may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have a Roughneck character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "2 brass knuckles or a sledgehammer",
+            "A space suit or an environmental hardsuit and a portable toolkit",
+            "A hand-held diognostic scanner or a micro-welder",
+            "1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Durable",
+            "source": "GCRB p. 73",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Durable"
+         },
+         {
+            "tier": 1,
+            "name": "Let's Ride",
+            "source": "GCRB p.",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Let's%20Ride"
+         },
+         {
+            "tier": 1,
+            "name": "Union Member",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Union%20Member"
+         },
+         {
+            "tier": 2,
+            "name": "Big Guns",
+            "source": "SOTB p. 47",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Big%20Guns"
+         },
+         {
+            "tier": 2,
+            "name": "Determined Driver",
+            "source": "SOTB p. 48",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Determined%20Driver"
+         },
+         {
+            "tier": 3,
+            "name": "Hold it Steady",
+            "source": "SOTB p. 50",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Hold%20it%20Steady"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 38"
+   },
+   {
+      "name": "Runner",
+      "careerSkills": [
+         "computers (hacking)",
+         "computers (sysops)",
+         "cool",
+         "deception",
+         "knowledge (the net)",
+         "perception",
+         "skulduggery",
+         "streetwise"
+      ],
+      "description": [
+         "Runners are talented hackers who thrive in the Network. These are the warriors of the virtual world, and though they might appear as ordinary people or androids when they walk the slidewalks of New Angeles, they are giants in their digital environment. To master the programmed world of the Net, defeat its denizens, and overcome its many dangers is no easy feat. For most people, if there is not an appropriate function on their PAD, then they have no idea how to go out into the virtual world and find something, let alone something that doesn’t want to be found. Good Runners are prizes almost every agency in New Angeles will fight over, for these are the people who hold the keys to the true battlefields of the future and who have the ability to win in the constant digital wars fought between the corporations.",
+         "Runners don’t tend to sell their skills cheaply, however, if they even sell them at all. Runners are motivated by a broad variety of reasons, whether they serve corporate interests, fight against them, or are simply out for themselves. Many Runners are motivated by strong political or moral reasons and want to remake the world—just as they remake the digital one they do battle in.",
+         "A Runner counts the following skills as career skills: Computers (Hacking), Computers (Sysops), Cool, Deception, Knowledge (The Net), Perception, Skulduggery, and Streetwise. Before spending experience during character creation, a Runner may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have a Runner character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "Durable clothing and a palm stunner or a light pistol",
+            "A PAD with Ice Wall and Battering Ram or a PAD with Garrote and Gordian Blade",
+            "A personal comlink",
+            "1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Disenfacisto",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Disenfrancisto"
+         },
+         {
+            "tier": 1,
+            "name": "Knack for It",
+            "source": "SOTB p. 73",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Knack%20for%20It"
+         },
+         {
+            "tier": 1,
+            "name": "Net Search",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Net%20Search"
+         },
+         {
+            "tier": 2,
+            "name": "Codesliner",
+            "source": "SOTB p. 48",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Codeslinger"
+         },
+         {
+            "tier": 2,
+            "name": "NetHunter",
+            "source": "SOTB p. 48",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/NetHunter"
+         },
+         {
+            "tier": 3,
+            "name": "Distinctive Style",
+            "source": "GCRB p. 78",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Distinctive%20Style"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 39"
+   },
+   {
+      "name": "Soldier",
+      "careerSkills": [
+         "athletics",
+         "coercion",
+         "gunnery",
+         "melee",
+         "ranged (light)",
+         "ranged (heavy)",
+         "resilience",
+         "survival"
+      ],
+      "description": [
+         "Prisec agents, offworld mercs, Worlds War veterans, and orgcrime heavies all fit the Soldier bill. Even in the future, there is a need for individuals who know their way around a firefight, and when the bullets and energy beams start flying, it pays to have one at your side. Despite the safeguards put in place at the end of the Worlds War, the solar system remains a dangerous place, where boiling tensions can easily turn into open conflict. Most corporations maintain their own private security (prisec) forces: paramilitary organizations that might contain bioroids, clones, cyborgs, or g-modded troops alongside unmodded fighters carrying the latest hardware money can buy. There are also free companies that operate under license in legally ambiguous areas, like Luna, Mars, or parts of the Ecuadorian state; these mercenaries promise both firepower and discretion. Some Soldiers sell their skills far more cheaply, having done their time or choosing to eschew authority. These street warriors and soldiers of fortune might work for orgcrime outfits, weak governments, spoiled risties, or simply whoever is willing to pay their bar tab.",
+         "A Soldier counts the following skills as career skills: Athletics, Coercion, Gunnery, Melee, Ranged (Light), Ranged (Heavy), Resilience, and Survival. Before spending experience during character creation, a Soldier may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have a Soldier character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A pistol and light body armor or a bullpup carbine",
+            "Durable clothing or a utility belt",
+            "2 slap-patches or 1 dose of Sting",
+            "1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Quick Draw",
+            "source": "GCRB p. 74",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Quick%20Draw"
+         },
+         {
+            "tier": 1,
+            "name": "Toughened",
+            "source": "GCRB p. 75",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Toughened"
+         },
+         {
+            "tier": 1,
+            "name": "Worlds War Vet",
+            "source": "SOTB p. 47",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Worlds%20War%20Vet"
+         },
+         {
+            "tier": 2,
+            "name": "Big Guns",
+            "source": "SOTB p. 47",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Big%20Guns"
+         },
+         {
+            "tier": 2,
+            "name": "Tactical Focus",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Tactical%20Focus"
+         },
+         {
+            "tier": 3,
+            "name": "Suppressing Fire",
+            "source": "SOTB p. 50",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Suppressing%20Fire"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 40"
+   },
+   {
+      "name": "Tech",
+      "careerSkills": [
+         "brawl",
+         "computers (sysops)",
+         "knowledge (science)",
+         "knowledge (the net)",
+         "mechanics",
+         "medicine",
+         "operating",
+         "piloting"
+      ],
+      "description": [
+         "Techs are engineers and mech-heads who understand the technology of the future like no one else. In an age when most people don’t know how their handheld PADs work, the Tech, like a mechanical sorcerer, can manipulate the worlds around them, coaxing vehicles to life, bringing generators back online, or subverting hardened defenses. Techs might not have a Runner’s gift for manipulating the Network, but they are far more skilled in the real worlds, able to attack many systems from both digital and mechanical sides to get the result they want. Techs also understand a lot of the “black box” tech of the future and are able to rip off a service panel or crack open a console to fix a problem in a more hands-on way.",
+         "Techs come in many shapes and sizes, from filth-covered zero-G grease monkeys who work the Midway docks, to corp support agents running overwatch for prisec teams, to beanpod traffic controllers and chop-shop hopper boosters. Like all those in New Angeles who actually know how things work, Techs are always in high demand, and few organizations get far without at least one of these mechanically savvy individuals in their corner.",
+         "A Tech counts the following skills as career skills: Brawl, Computers (Sysops), Knowledge (Science), Knowledge (The Net), Mechanics, Medicine, Operating, and Piloting. Before spending experience during character creation, a Tech may choose four of their career skills and gain one rank in each of them."
+      ],
+      "startingGear": {
+         "description": [
+            "If you have a Tech character, you may choose to start with the following gear instead of spending credits during Step 7 of character creation:"
+         ],
+         "gear": [
+            "A synap pistol or an environmental hardsuit and brass knuckles",
+            "A modular backpack or a utility blet and 2 emergency repair patches",
+            "A portable toolkit and las-scanner or a PAD with authenticator",
+            "50+1d100 credits"
+         ]
+      },
+      "usefulTalents": [
+         {
+            "tier": 1,
+            "name": "Deep Pockets",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Deep%20Pockets"
+         },
+         {
+            "tier": 1,
+            "name": "Defensive Sysops",
+            "source": "GCRB p. 73",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Defensive%20Sysops"
+         },
+         {
+            "tier": 1,
+            "name": "Resourceful Mechanic",
+            "source": "SOTB p. 45",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Resourceful%20Mechanic"
+         },
+         {
+            "tier": 2,
+            "name": "Inventor",
+            "source": "GCRB p. 76",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Inventor"
+         },
+         {
+            "tier": 2,
+            "name": "Quick Fix",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Quick%20Fix"
+         },
+         {
+            "tier": 3,
+            "name": "Bad Habit",
+            "source": "SOTB p. 49",
+            "_link": "https://genesysapi.herokuapp.com/api/talents/Bad%20Habit"
+         }
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 41"
    }
 ]

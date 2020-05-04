@@ -9,127 +9,141 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<header>Genesys API</header>
+   <header>Genesys API</header>
 
-	<section class="body">
-		<div class="try-it">
-			<button id="copy-btn" class="copy" onclick="copyUrl()">Copy</button>
-			<span>https://genesysapi.herokuapp.com/api/</span>
-			<select id="select-api">
-            <option>careers</option>
-            <option>species</option>
-            <option>talents</option>
-			</select>
-			<input id="input-api" placeholder="try Mad Scientist or ?source=GCRB" />
-			<button class="send" onclick="search()">Try it</button>
-		</div>
+   <div class="try-it">
+      <button id="copy-btn" class="copy" onclick="copyUrl()">Copy</button>
+      <span>https://genesysapi.herokuapp.com/api/</span>
+      <select id="select-api">
+         <option>careers</option>
+         <option>species</option>
+         <option>talents</option>
+      </select>
+      <input id="input-api" placeholder="try Mad Scientist or ?source=GCRB" />
+      <button class="send" onclick="search()">Try it</button>
+   </div>
 
-		<div class="search-results-container">
-			<div class="doc search">
-				<span class="search-result-header">
-					<h1>Search Results</h1>
-					<span class="search-show-icons">
-						<div>Show Icons</div>
-						<input id="search-checkbox" type="checkbox">
-					</span>
-				</span>
-				<div id="search-result"></div>
-			</div>
-      </div>
+	<div class="body">
+      <section class="column left">
+         <div id="careers" class="container">
+            <div class="doc">
+               <h2>Careers</h2>
+               <div class="item">
+                  <h3>Get Many:</h3>
+                  <span>/api/careers</span>
+               </div>
+               <div class="query-table">
+                  <div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
+                  <div class="t-head">Options/Examples</div>
+                  <div>sort</div><div>name</div><div>The value to sort on.</div><div></div>
+                  <div>orderBy</div><div>asc</div><div>The direction in which direction to sort.</div><div>asc, desc</div>
+                  <div>skill</div><div>-</div><div>Filter by career skill options.</div><div>charm, melee (light), etc</div>
+                  <div>startingGear</div><div>-</div><div>Filter careers with or without starting gear</div><div>true, false</div>
+                  <div>usefulTalents</div><div>-</div><div>Filter careers with or without useful talents</div><div>true, false</div>
+                  <div>setting</div><div>-</div><div>Filter by setting.</div><div>all, fantasy, steam punk, weird war, modern, science fiction, space opera</div>
+                  <div>source</div><div>-</div><div>Filter by source.</div><div>GCRB, EPG, RoT, SotB, SotC</div>
+               </div>
 
-      <div id="careers" class="container">
-         <div class="doc">
-            <h2>Careers</h2>
-            <div class="item">
-               <h3>Get Many:</h3>
-               <span>/api/careers</span>
+               <div class="item">
+                  <h3>Get One:</h3>
+                  <span>/api/careers/{name}</span>
+               </div>
+               <div class="query-table">
+                  <div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
+                  <div class="t-head">Options</div>
+                  <div>fuzzy</div><div>false</div><div>Performs an exact match when false.</div><div>true, false</div>
+               </div>
             </div>
-            <div class="query-table">
-               <div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
-               <div>sort</div><div>name</div><div>The value to sort on. Top level only.</div>
-               <div>orderBy</div><div>asc</div><div>The in which direction to sort.</div>
-               <div>skill</div><div>-</div><div>Filter by career skill options.</div>
-               <div>setting</div><div>-</div><div>Filter by setting, ie "all" or "space opera".</div>
-               <div>source</div><div>-</div><div>Filter by source, ie: "RoT".</div>
-            </div>
-
-            <div class="item">
-					<h3>Get One:</h3>
-					<span>/api/careers/{name}</span>
-				</div>
-				<div class="query-table">
-					<div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
-					<div>fuzzy</div><div>false</div><div>Performs an exact match when false.</div>
-				</div>
          </div>
-      </div>
 
-		<div id="talents" class="container">
-			<div class="doc">
-				<h2>Talents</h2>
-				<div class="item">
-					<h3>Get Many:</h3>
-					<span>/api/talents</span>
-				</div>
-				<div class="query-table">
-					<div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
-					<div>sort</div><div>name</div><div>The value to sort on. Top level only.</div>
-					<div>orderBy</div><div>asc</div><div>The in which direction to sort.</div>
-					<div>activation</div><div>-</div><div>Filter by activation type.</div>
-					<div>tier</div><div>-</div><div>Filter by tier.</div>
-					<div>ranked</div><div>-</div><div>Filter by ranked or not ranked, with "yes" or "no".</div>
-					<div>source</div><div>-</div><div>Filter by source, ie: "RoT".</div>
-				</div>
+         <div id="species" class="container">
+            <div class="doc">
+               <h2>Species</h2>
+               <div class="item">
+                  <h3>Get Many:</h3>
+                  <span>/api/species</span>
+               </div>
+               <div class="query-table">
+                  <div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
+                  <div class="t-head">Options/Examples</div>
+                  <div>sort</div><div>name</div><div>The value to sort on.</div><div>Sorting on nested values: characteristics.brawn</div>
+                  <div>orderBy</div><div>asc</div><div>The direction in which direction to sort.</div><div>asc, desc</div>
+                  <div>brawn</div><div>-</div><div>Filter by starting brawn.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>agility</div><div>-</div><div>Filter by starting agility.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>intellect</div><div>-</div><div>Filter by starting intellect.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>cunning</div><div>-</div><div>Filter by starting cunning.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>willpower</div><div>-</div><div>Filter by starting willpower.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>presence</div><div>-</div><div>Filter by starting presence.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>wt</div><div>-</div><div>Filter by base wound threshold.</div><div>Any integer</div>
+                  <div>st</div><div>-</div><div>Filter by base strain threshold.</div><div>Any integer</div>
+                  <div>xp</div><div>-</div><div>Filter by starting experience.</div><div>Any integer</div>
+                  <div>skill</div><div>-</div><div>Filter by free skills.</div><div>coercion, vigilance, etc</div>
+                  <div>skillChoice</div><div>-</div><div>Filter by assigned or chosen skills.</div><div>true, false</div>
+                  <div>activation</div><div>-</div><div>Filter by ability activation type.</div><div>passive, incidental, maneuver, action</div>
+                  <div>setting</div><div>-</div><div>Filter by setting.</div><div>all, fantasy, steam punk, weird war, modern, science fiction, space opera</div>
+                  <div>source</div><div>-</div><div>Filter by source.</div><div>GCRB, EPG, RoT, SotB, SotC</div>
+               </div>
 
-				<div class="item">
-					<h3>Get One:</h3>
-					<span>/api/talents/{name}</span>
-				</div>
-				<div class="query-table">
-					<div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
-					<div>fuzzy</div><div>false</div><div>Performs an exact match when false.</div>
-				</div>
-			</div>
-      </div>
+               <div class="item">
+                  <h3>Get One:</h3>
+                  <span>/api/species/{name}</span>
+               </div>
+               <div class="query-table">
+                  <div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
+                  <div class="t-head">Options</div>
+                  <div>fuzzy</div><div>false</div><div>Performs an exact match when false.</div><div>true, false</div>
+               </div>
+            </div>
+         </div>
 
-      <div id="talents" class="container">
-			<div class="doc">
-				<h2>Species</h2>
-				<div class="item">
-					<h3>Get Many:</h3>
-					<span>/api/species</span>
-				</div>
-				<div class="query-table">
-					<div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
-					<div>sort</div><div>name</div><div>The value to sort on. Top level only.</div>
-					<div>orderBy</div><div>asc</div><div>The in which direction to sort.</div>
-					<div>brawn</div><div>-</div><div>Filter by starting brawn.</div>
-					<div>agility</div><div>-</div><div>Filter by starting agility.</div>
-					<div>intellect</div><div>-</div><div>Filter by starting intellect.</div>
-					<div>cunning</div><div>-</div><div>Filter by starting cunning.</div>
-					<div>willpower</div><div>-</div><div>Filter by starting willpower.</div>
-					<div>presence</div><div>-</div><div>Filter by starting presence.</div>
-					<div>wt</div><div>-</div><div>Filter by base wound threshold.</div>
-					<div>st</div><div>-</div><div>Filter by base strain threshold.</div>
-					<div>xp</div><div>-</div><div>Filter by starting experience.</div>
-               <div>skill</div><div>-</div><div>Filter by free skills.</div>
-               <div>skillChoice</div><div>-</div><div>Filter by assigned or chosen skills, with "true" or "false"</div>
-               <div>activation</div><div>-</div><div>Filter by ability activation type.</div>
-               <div>setting</div><div>-</div><div>Filter by setting, ie "all" or "space opera".</div>
-					<div>source</div><div>-</div><div>Filter by source, ie: "RoT".</div>
-				</div>
+         <div id="talents" class="container">
+            <div class="doc">
+               <h2>Talents</h2>
+               <div class="item">
+                  <h3>Get Many:</h3>
+                  <span>/api/talents</span>
+               </div>
+               <div class="query-table">
+                  <div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
+                  <div class="t-head">Options</div>
+                  <div>sort</div><div>name</div><div>The value to sort on.</div><div></div>
+                  <div>orderBy</div><div>asc</div><div>The direction in which direction to sort.</div><div>asc, desc</div>
+                  <div>activation</div><div>-</div><div>Filter by activation type.</div><div>passive, incidental, maneuver, action</div>
+                  <div>tier</div><div>-</div><div>Filter by tier.</div><div>Any integer between 1 and 5, inclusive</div>
+                  <div>ranked</div><div>-</div><div>Filter by ranked or not ranked.</div><div>true, false</div>
+                  <div>source</div><div>-</div><div>Filter by source.</div><div>GCRB, EPG, RoT, SotB, SotC</div>
+               </div>
 
-				<div class="item">
-					<h3>Get One:</h3>
-					<span>/api/species/{name}</span>
-				</div>
-				<div class="query-table">
-					<div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
-					<div>fuzzy</div><div>false</div><div>Performs an exact match when false.</div>
-				</div>
-			</div>
-		</div>
-	</section>
+               <div class="item">
+                  <h3>Get One:</h3>
+                  <span>/api/talents/{name}</span>
+               </div>
+               <div class="query-table">
+                  <div class="t-head">Query Name</div><div class="t-head">Default</div><div class="t-head">Description</div>
+                  <div class="t-head">Options</div>
+                  <div>fuzzy</div><div>false</div><div>Performs an exact match when false.</div><div>true, false</div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="column right">
+         <div class="container search">
+            <div class="doc">
+               <span class="search-result-header">
+                  <h1>Search Results</h1>
+                  <span class="search-show-icons">
+                     <div>Show Icons</div>
+                     <input id="search-checkbox" type="checkbox">
+                  </span>
+               </span>
+               <div id="search-result">
+                  <!-- js inserts results here -->
+               </div>
+            </div>
+         </div>
+      </section>
+	</div>
 
 	<script src="script.js"></script>
 </body>

@@ -32,7 +32,7 @@
          ],
          "activation": "passive"
       }],
-      "fluff": [
+      "description": [
          "Space opera settings often have alien species that are derivative of some terrestrial species. Fiction abounds with catlike aliens, turtle-like aliens, reptilian aliens, and so forth. Traditionally, these species are stronger, faster, or tougher than humans, and they share some traits with the nonsapient Terran species they mimic. Our animalistic alien species is stronger and faster than most average humans, but trades this for fewer starting XP. The physical appearance of this species is, of course, up to you."
       ],
       "settings": [
@@ -71,7 +71,7 @@
          ],
          "activation": "incidental"
       }],
-      "fluff": [
+      "description": [
          "The average human archetype is our baseline for character creation, and portrays the most customizable example of a person. You should choose this archetype if you prefer to play “generalist” characters, who are never going to be terrible at anything. You should also choose this archetype if you have a very specific type of character in mind, since this archetype has the most customization options of the four choices.",
          "The characteristics all start at 2, meaning your character is going to have a hard time increasing any one characteristic to a 4 or 5, but also that your character isn’t going to have any characteristic they are truly lacking in. Likewise, the strain and wound thresholds start at the average 10.",
          "Your character starts with more ranks in skills than anyone else, again playing to the idea of being a generalist. Your archetype ability is also a generalist ability. Effectively, your group gains a Story Point to spend whenever it needs it. And finally, your character starts with the most experience of any of the four archetypes. Just remember, character creation is your only chance to spend XP on characteristics (otherwise, to increase a characteristic you need to purchase the Dedication talent; see page 81). We recommend you spend most of these XP on improving your characteristics, while saving at most 25–35 experience for talents and skills."
@@ -117,7 +117,7 @@
             "activation": "passive"
          }
       ],
-      "fluff": [
+      "description": [
          "This profile works for just about any humanoid robot with human-level intelligence and a certain degree of free will. Because robots are built to meet certain specifications, we gave the bioroid low starting characteristics but a lot of experience. That way, you can customize your characteristics and skills to represent any of the different “models” of bioroid."
       ],
       "settings": [
@@ -156,7 +156,7 @@
          ],
          "activation": "passive"
       }],
-      "fluff": [
+      "description": [
          "This profile is of a human clone. We assume this is a corporation-produced clone that has been tailored for a certain job (otherwise, if this were an unmodified clone, you could simply use the average human profile on page 36). Like bioroids, clones have customization options to represent their “designed” nature, but in their case, we did this by giving a clone focused skill options, but less experience. The “A Face in the Crowd” rule represents a clone blending into an urban setting (after all, they look exactly like a bunch of other clones), but may have to deal with anti-clone bias."
       ],
       "settings": [
@@ -204,7 +204,7 @@
             "activation": "incidental"
          }
       ],
-      "fluff": [],
+      "description": [],
       "settings": [
          "fantasy"
       ],
@@ -241,7 +241,7 @@
          ],
          "activation": "passive"
       }],
-      "fluff": [
+      "description": [
          "Whether tall or short, with pointy or really pointy ears, most elves are known for their grace, longevity, and connection to the natural world. This profile is based on that common conception of an elf, with high Agility (and an innate defense) but a lower wound threshold."
       ],
       "settings": [
@@ -289,7 +289,7 @@
             "activation": "incidental"
          }
       ],
-      "fluff": [
+      "description": [
          "The so-called mongrels are products of science run amok. In Sovereigns of Steam these poor creations were once human, but they had the misfortune of becoming the experimental fodder of some mad reject from the Royal Society. This depraved scientist used them to test a certain alchemical elixir that unlocks their inner bestial nature, turning them into a monstrous hybrid of human and animal. After a time, the elixir can wear off, returning these poor individuals to their human form. However, the dark secret is that once the elixir enters the blood, it works irrevocable changes on the imbiber’s biology. Thus, the change can return at any time.",
          "In our setting, unscrupulous smugglers have been returning this elixir to major cities for various reasons. So, while your character could have been the unfortunate results of a forbidden experiment, they also could have been exposed to the elixir in their daily life. Of course, once they drank it, their life changed forever!",
          "Needless to say, so-called mongrels are shunned in all levels of society, and they are actively hunted by various agencies of the Empire. Many flee to the Colonies to escape persecution and arrest."
@@ -330,7 +330,7 @@
          ],
          "activation": "passive"
       }],
-      "fluff": [
+      "description": [
          "In many fantasy worlds, orcs are inherently evil or violent. But PCs are known for defying expectation, and this profile could also easily represent a half-orc who lives among civilized society. Your setting may also have orcs who are not evil or violent by default, making this a reasonable character choice. As you might expect, this orc is strong and tough, but not the friendliest character."
       ],
       "settings": [
@@ -381,7 +381,7 @@
             "activation": "action"
          }
       ],
-      "fluff": [
+      "description": [
          "Psionic or psychic aliens are a perennial favorite in science fiction. We made our psionic alien with a formidable Willpower and Intellect, with the tradeoff of being extremely physically weak. However, what your character gets in return are three unique abilities allowing them to read minds, manipulate emotions, and even harm opponents with a thought. What a psionic alien looks like is up to you. Traditionally, they tend to be physically frail—withered bodies with oversized heads, or spindly creatures with fragile limbs and etherial grace."
       ],
       "settings": [
@@ -429,7 +429,7 @@
             "activation": "passive"
          }
       ],
-      "fluff": [
+      "description": [
          "Revenants are human corpses brought back to a semblance of life through strange and horrible medical techniques, a galvanic volt providing the final spark to induce animation. Like mongrels, this is a very popular type of character for steampunk settings.",
          "A revenant may be created at the behest of a wealthy grieving family willing to pay anything to bring back a loved one. Alternatively, revenants may be created by mad galvanists seeking to unlock the secrets of eternal life. In either case, revenants have no memory of their former lives, even should they retain their original brain. Most who would pay to resurrect a loved one have no idea of this sad fact until the deed is done. Still, there are rumors of the occasional revenant eventually recovering piecemeal memories of their former life.",
          "Revenants are universally feared and reviled in regular society. A revenant who cannot pass as a normal human is likely to earn a bullet from the Imperial Inspectors, so most stay in the underworld or, like mongrels, flee to the Colonies to start a new life."
@@ -486,7 +486,7 @@
             "activation": "passive"
          }
       ],
-      "fluff": [
+      "description": [
          "Robots in a space opera can be found in all shapes and sizes. It could be roughly humanoid but built from nearly impervious alloys; a giant, crab-like tank; or a featureless, hovering sphere. Due to the diversity of options for a robot character, we took an approach similar to that for the bioroid on page 174, starting with low characteristics but a lot of XP."
       ],
       "settings": [
@@ -525,7 +525,7 @@
          ],
          "activation": "incidental"
       }],
-      "fluff": [
+      "description": [
          "The laborer archetype represents a character who has a background in some form of manual labor, and who is generally strong and tough. You should choose this archetype if you’re planning on making a character who focuses on fighting, especially fighting in melee combat. You should also choose this archetype if your character has a background of manual labor and hard work.",
          "This archetype starts with the Brawn characteristic at 3 and the Willpower characteristic at 1. You’re starting with a character who has better than average Brawn (which makes it easier to improve Brawn further), with the trade-off that your character has a worse than average Willpower. You’ll have to either spend valuable experience points buying that back to 2, or be satisfied with this drawback. Likewise, your character’s wound threshold is higher than average, but your strain threshold is lower than average.",
          "Finally, this archetype gets a special ability that lets you turn a single Critical Injury result that your character suffers into the mildest Critical possible. Not only does this protect your character from some debilitating Crit results, but since the only way to permanently die in our game is through some Critical effects, this can even save your character from certain death."
@@ -566,7 +566,7 @@
          ],
          "activation": "incidental"
       }],
-      "fluff": [
+      "description": [
          "The intellectual archetype represents a character who has a background grounded in some sort of intellectual pursuit. This pursuit could be science, medicine, teaching, or even magic. You should choose this archetype if you want to make a character who focuses on one of those intellectual pursuits. You should also choose this archetype if your character comes from a highly educated background.",
          "This archetype starts with the Intellect characteristic at 3 and the Agility characteristic at 1. You’re starting a character with a better than average Intellect (which makes this characteristic easy to improve further) and good strain threshold, but on the other hand, your character has a worse than average Agility (and is going to have a problem being effective in ranged combat). You also have a worse than average wound threshold.",
          "This archetype makes up for that, however, with a pretty good ability. Their special ability lets your character count their ranks in a skill as equal to their Intellect, and while it only works once per session, it can mean the difference between success and failure on a critical check."
@@ -607,7 +607,7 @@
          ],
          "activation": "incidental"
       }],
-      "fluff": [
+      "description": [
          "The aristocrat archetype represents any character who has the gift of a silver tongue. This could be a noble of some sort, a politician, a bard, or even a salesperson or merchant. You should use this archetype if you want to build a character who fits one of these molds. You should also choose this archetype if your character is good at communicating.",
          "This archetype starts with the Presence characteristic at 3 and the Brawn characteristic at 1. Unsurprisingly, this means you’re starting with a character who already has a good Presence, and whose Presence can be improved easily. However, the low Brawn (and thus low wound threshold and soak) means your character won’t be much of a combatant without a major investment in experience points. You also have an average starting wound and strain threshold.",
          "Your character’s starting ability is good on its own, but it can be paired with a number of talents or social encounter actions for some really powerful effects. Coupled with the archetype’s starting characteristics, this archetype is perfect for characters who want to dominate social situations (even if they’re not very good at fighting)!"
@@ -657,12 +657,875 @@
             "activation": "passive"
          }
       ],
-      "fluff": [
+      "description": [
          "Our vanguard species is an alien race that is humanity’s superior in the galaxy. These aliens are more advanced scientifically, culturally, and even artistically than us poor, primitive humans—which inevitably makes it all the more satisfying when the human protagonist of a story accomplishes something they thought impossible."
       ],
       "settings": [
          "space opera"
       ],
       "source": "GCRB p. 183"
+   },
+   {
+      "name": "Human",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 10,
+      "xp": 110,
+      "skills": {
+         "skills": [
+            "any two non-career"
+         ],
+         "ranksTotal": 2,
+         "ranksEach": 1,
+         "description": [
+            "Humans begin with one rank in each of two different non-career skills. You still cannot train these skills above rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "Ready for Adventure",
+         "description": [
+            "Once per session as an out-of-turn incidental, a Human may move one Story Point from the Game Master's pool to the players' pool."
+         ],
+         "activation": "incidental"
+      }],
+      "description": [
+         "Once per session as an out-of-turn incidental, a Human may move one Humanity, short-lived and disadvantaged in many ways by nature, has nonetheless proven to be one of the most resilient and diverse races in Mennara. What Humans, a curious lot, lack in natural gifts of the sort bestowed on other races they make up for in their willingness to learn, their determination, and their sheer adaptability. Humans have weathered cataclysms beyond compare, and today it is largely by their strength of will and arms that the world is kept safe."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 60"
+   },
+   {
+      "name": "Deep Elf",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 9,
+      "st": 10,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "discipline"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Deep Elves begin with one rank in Discipline. You still cannot train their Discipline above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Ynfernael Lore",
+         "description": [
+            "Deep Elves gain Knowledge (Forbidden) as a career skill and begin with two ranks in Knowledge (Forbidden). You still cannot train their Knowledge (Forbidden) above rank 2 during character creation."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "All Elves feel the pain and loss of falling from the Empyrean to dwell among the younger races, and many are striving to ascend again. However, the Tribe of the Deep Elves feels an additional, far more ignoble shame: they fell not once but twice, the second time to Malcorne’s corruption.",
+         "Those who survived the War of the Shadow Tear—the darkness that enveloped Mennara long before the mortal races came into being—have spent their long lives trying to atone by hunting Ynfernael creatures wherever they are found. The Deep Elves have an almost singular focus in this crusade and will stop at nothing to purge the Ynfernael from the world, as well as purge their still-fallen counterparts, the Daewyl Elves.",
+         "However, there are those who feel that this drive is leading their clan down a dangerous path, as their search for a strategic advantage finds them ever more willing to embrace any power that may help them in their quest. This means that many Elves, including some among the Deep Elves themselves, are watching things unfold with a wary eye, guarding diligently against the day when the rest of the Elves might again be forced to wage war against their cousins."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 63"
+   },
+   {
+      "name": "Free Cities Elf",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 9,
+      "st": 10,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "streetwise"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Free Cities Elves begin with one rank in Streetwise. You still cannot train their Streetwise above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Nimble",
+         "description": [
+            "Free Cities Elves have a melee and ranged defense of 1."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "Although there are many ways for Elves to escape the rigid caste system of their society, it is the Free Cities Elves who do it the most brazenly. Those who refer to themselves as Free Cities Elves, a voluntary colloquialism, are Elves who have forsaken their tribe or were born to Elves who did. They have chosen to live alongside the short-lived races as urbanites and are most commonly found in cities such as Dawnsmoor and Tamalir. Those calling themselves Free Cities Elves can also include Elves whose bloodline has mingled with that of Humans."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 63"
+   },
+   {
+      "name": "Highborn Elf",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 9,
+      "st": 10,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "negotiation"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Highborn Elves begin with one rank in Negotiation. You still cannot train their Negotiation above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Empyrean Magic",
+         "description": [
+            "Highborn Elves gain Divine as a career skill and begin with one rank in Divine. You still cannot train their Divine above rank 2 during character creation."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "The Highborn Elves are those only slightly removed from the most ancient bloodlines, those original Elves who dwelled in the Empyrean. As a result, these Elves have the strongest natural connection to Latariana's Door, and many have devoted their lives to deepening that connection and ascending Latariana's Stair to earn redemption. The Daughters of the Empyrean and the Darnati Warriors are most often drawn from this caste, and their proximity to the court at Caelcira necessitates a basic knowledge of etiquette and diplomacy. Beyond the Latari, the highborn of the other Elven tribes occupy similar positions of prestige."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 63"
+   },
+   {
+      "name": "Lowborn Elf",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 9,
+      "st": 10,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "survival"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Lowborn Elves begin with one rank in Survival. You still cannot train their Survival above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Nimble",
+         "description": [
+            "Free Cities Elves have a melee and ranged defense of 1."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "The Elves were not always at one with nature, but after their fall from grace, many found a new, deepened connection with the wilds. As successive generations were born and raised in Mennara, they felt an even greater calling to the world around them rather than the lofty heavens of their distant ancestors. They resolved to live in harmony with their new home and become its greatest protectors.",
+         "It is from these Elves that the bulk of the Latari armies are drawn. Among the lowborn Elves are the famed Deepwood Archers, unrivaled in lethality with their extraordinary longbows, and the Leonx Riders and their fearsome feline mounts. Among the other Elven tribes, the lowborn occupy similarly martial or practical roles, and many leave Elven society entirely for a life of purpose and adventure experiencing the world."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 60"
+   },
+   {
+      "name": "Dunwarr Dwarf",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 1,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 2
+      },
+      "wt": 11,
+      "st": 10,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "resilience"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Dunwarr Dwarves begin with one rank in Resilience. You still cannot train their Resilience above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Dark Vision",
+            "description": [
+               "When making skill checks, Dunwarr Dwarves remove up to [setback][setback] imposed due to darkness."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Tough as Nails",
+            "description": [
+               "Once per session, a Dwarf may spend a Story Point as an out-of-turn incidental immediately after suffering a Critical Injury and determining the result. If they do so, they count the result rolled as \"01.\""
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "description": [
+         "Dunwarr is the oldest of all the Dwarven kingdoms. The Dwarves who hail from beneath the Dunwarr Mountains see their lineage as predating almost every other culture on the planet. According to their histories, they watched the Humans first gather in rudimentary villages, saw the Orcs first trade for steel to tip their sharpened sticks, and even witnessed the Elves settling into their land of the Aymhelin.",
+         "Those histories also recount with bitterness and frustration how the dragons chased the Dwarves from their home in Molten Heath and followed them all the way into the caves beneath the Dunwarr Mountains. They recount, with absolute accuracy, how the dragons tried to eradicate the Dwarves from the face of the Mennara.",
+         "The Dunwarr Dwarves see that history as their birthright. They believe that Dwarven society is among the most noble in the world, and that they deserve the respect and deference they once commanded. Their loftiest goal is to retake the Molten Heath and force the dragons who occupy their lands to accept their right to live there once and for all."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 64"
+   },
+   {
+      "name": "Forge Dwarf",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 1,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 2
+      },
+      "wt": 11,
+      "st": 10,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "negotiation"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Forge Dwarves begin with one rank in Negotiation. You still cannot train their Negotiation above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Stubborn",
+         "description": [
+            "Forge Dwarves add [setback] to social skill checks targeting them."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "Not all Dwarves feel that their destiny belongs underground. Like their ancestors of old, some of them wish to spread out under the sky, an aspiration they can largely achieve in Terrinoth. These Forge Dwarves have made their homes in Free Cities and baronial settlements across the Land of Steel, using their distinctive craftsmanship to create their own fate. They wheel and deal alongside other races, content to make their home away from the shadows and fire of the Molten Heath."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 65"
+   },
+   {
+      "name": "Broken Plains Orc",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "wt": 12,
+      "st": 8,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "coercion"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Broken Plains Orcs begin with one rank in Coercion. You still cannot train their Coercion above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Battle Rage",
+         "description": [
+            "When making a melee attack, a Broken Plains Orc can choose to add [setback] to the check to add +2 to the damage dealt by one hit of that attack."
+         ],
+         "activation": "incidental"
+      }],
+      "description": [
+         "The Orcs who hunt the Broken Plains are among the most powerful, ferocious beings in the world. They live the hard, lean life of nomads, following the great herds of elk, boars, and moose from one side of the Broken Plains to the other, forging a society that is equally influenced by their spirit-based magic, brutal war axes, and fearsome throwing spears."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 67"
+   },
+   {
+      "name": "Stone-Dweller Orc",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "wt": 12,
+      "st": 8,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "cool"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Stone-Dweller Orcs begin with one rank in Cool. You still cannot train their Cool above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Hot Tempered",
+         "description": [
+            "While a Stone-Dweller Orc's strain exceeds half of their strain threshold, they add [setback][setback] to all social skill checks and add 1 to the damage of one hit of each melee attack they make."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "Though Orcs are generally as intellectually and socially capable as any other being in Mennara, their immense size and incredible strength gives them some highly unusual advantages. While there is no inherent need for them to make a living using those assets, most find it too tempting a lure to resist. As such, Stone-Dweller Orcs often find themselves living lives of adventure as mercenaries, soldiers, constables, or crooks."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 67"
+   },
+   {
+      "name": "Sunderlands Orc",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "wt": 12,
+      "st": 8,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "alchemy"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Sunderlands Orcs begin with one rank in Alchemy. You still cannot train their Alchemy above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Tenacious",
+         "description": [
+            "After a Sunderlands Orc hits a character with a successful combat check, they add [boost] to combat checks targeting the same character until the end of the encounter."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "The mysterious Orcs of the Sunderlands eschew both nomadic and city life, instead living in small, secretive villages. This has the effect of helping to preserve Orc culture and heritage and to advance their race in step with the rest of the world. Within these villages, which dot the great deserts of Al-Kalim, the Sunderlands Orcs study magic and medicine with equal diligence. Such are their skills at potion making that the alchemical contents within their signature black glass flasks are renowned throughout Mennara."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 67"
+   },
+   {
+      "name": "Catfolk",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 3,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 9,
+      "st": 8,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "perception"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Catfolk begin with one rank in Perception. You still cannot train their Perception above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Claws",
+            "description": [
+               "Catfolk possess sharp, retractable claws and may choose to attack with the following weapon profile: (Brawl; Damage +1; Critical 3; Range [Engaged]; Vicious 1)."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Fleet of Paw",
+            "description": [
+               "Catfolk can perform a second maneuver to move without suffering strain. They still cannot exceed the limitation of two maneuvers in a turn."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "description": [
+         "Given their animalistic appearance, straightforward culture, and soft-spoken nature, it is easy for the other races to see the Catfolk as lesser beings. They are surprisingly quick-witted and incredibly cunning, although most are happy to “play primitive” if it gains them an advantage while bartering or fighting."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 68"
+   },
+   {
+      "name": "Half-Catfolk",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 9,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "cool"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "Half-Catfolk begin with one rank in Cool. You still cannot train their Cool above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Catfolk Ancestry",
+         "description": [
+            "Half-Catfolk choose either the Claws or Fleet of Paw special ability from the Catflolk entry."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "Though village-dwelling Catfolk predominantly keep to themselves, those exiled into the world must find their place among the other races. This often leads to love, marriage, and offspring.",
+         "Half-Catfolk most often retain the reflexes, senses, and coordination of their Catfolk parent, but commonly gain the aesthetics of their other parent’s species. Many Half-Catfolk appear as heavily furred Humans with cat-like ears and clawed fingers, though there are nearly limitless variations. While most of the nearby societies accept such beings for what they are, full-blooded Catfolk see them as the byproducts of unworthy exiles. Thus, Half-Catfolk are often shunned and ridiculed by their pure-blooded cousins."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 68"
+   },
+   {
+      "name": "Burrow Gnome",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 1,
+         "presence": 3
+      },
+      "wt": 6,
+      "st": 11,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "charm",
+            "resilience"
+         ],
+         "ranksTotal": 2,
+         "ranksEach": 1,
+         "description": [
+            "Burrow Gnomes begin with one rank in Charm and one rank in Resilience. You still cannot train their Charm or Resilience above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "small",
+            "description": [
+               "Gnomes are silhouette 0."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Militia Training",
+            "description": [
+               "Burrow Gnomes add [boost] to all combat checks that target characters who have a larger silhouette than they do."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "description": [
+         "Burrow Gnomes are those who have mostly abandoned interactions with the other races. When they do leave their comfortable homes, it is typically for trade, alliance building, espionage, or, of course, the lure of adventure."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 69"
+   },
+   {
+      "name": "Wanderer Gnome",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 1,
+         "presence": 3
+      },
+      "wt": 6,
+      "st": 11,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "charm",
+            "stealth"
+         ],
+         "ranksTotal": 2,
+         "ranksEach": 1,
+         "description": [
+            "Wanderer Gnomes begin with one rank in Charm and one rank in Stealth. You still cannot train their Charm or Stealth above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "small",
+            "description": [
+               "Gnomes are silhouette 0."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Tricksy",
+            "description": [
+               "Once per encounter during their turn, a Wanderer Gnome may use this ability and spend a Story Point to produce a previously undocumented small item (encumbrance 1 or less) with a rarity no greater than 4 from a pocket, bag, pouch, nearby windowsill, passing cart, or other convenient location—even if there is no logical explanation for the item’s presence. This item cannot be a weapon unless the weapon has the Limited Ammo 1 quality."
+            ],
+            "activation": "maneuver"
+         }
+      ],
+      "description": [
+         "Some Gnomes get a taste of the outside world during their year with the militia and set out to “scratch their itchy feet.” Whether on their own or in a small band, Wanderer Gnomes are a common sight throughout all of Mennara."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 69"
+   },
+   {
+      "name": "Natural",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 10,
+      "xp": 120,
+      "skills": {
+         "skills": [
+            "any two non-career"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A natural starts with one rank in each of two different non-career skills at character creation. They obtain this rank before spending experience points, and these skills may not be increased higher than rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "Ready for Anything",
+         "description": [
+            "Once per session as an out-of-turn incidental, you may move one Story Point from the Game Master’s pool to the players' pool."
+         ],
+         "activation": "incidental"
+      }],
+      "description": [
+         "Naturals can take to any career and background well, and they fit almost anywhere into the Shadow of the Beanstalk setting. They start with a balanced set of statistics, not being overly strong in any one area, but not being weak in any, either. Naturals also start with more skills and experience than other archetypes, meaning that they give you the most flexibility and customization options when building your character.",
+         "In Shadow of the Beanstalk, naturals are the most common (and accepted) type of person in New Angeles. In every respect, they are the “average person” of the setting, who can get along with almost everyone and be accepted in most places without a second glance. If you like the idea of playing an ordinary person who has to rise to extraordinary heights over the course of a game, a natural is the right choice for you."
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 25"
+   },
+   {
+      "name": "Bioroid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 1,
+         "intellect": 1,
+         "cunning": 1,
+         "willpower": 1,
+         "presence": 1
+      },
+      "wt": 11,
+      "st": 8,
+      "xp": 100,
+      "skills": {
+         "skills": [],
+         "ranksTotal": 0,
+         "ranksEach": 0,
+         "description": [],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Special Abilities",
+            "description": [
+               "Bioroids do not need to eat, sleep, or breathe, and they are unaffected by toxins and poisons. They do not reduce their strain threshold when they receive cybernetics (cybernetics represent upgraded mechanical components instead of true cybernetics)."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Inoranic",
+            "description": [
+               "Since bioroids are inorganic, they do not gain the benefits of healing wounds with slap patches (painkillers) or a Medicine check. Bioroids can heal wounds and strain naturally by resting, as their systems attempt self-repairs. Bioroids can also be “healed” by using the Mechanics skill instead of the Medicine skill, but otherwise following the rules in the Medical Care section on page 116 of the Genesys Core Rulebook."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "description": [
+         "Being a machine has many advantages, from strength and endurance to being able to survive in space and underwater. Bioroids are stronger than most other archetypes and cannot die in the same way a human or a clone does. The downside is that they are beholden to their programming, and while they are able to learn on their own, they filter their experiences from the perspective of a created being.",
+         "In New Angeles, bioroids are a commodity, and that’s how your character will be viewed by the general population. Many people see bioroids as “things,” or sometimes “things that stole my job.” Thus, many people see little difference between mistreating or damaging a bioroid and damaging a hopper. This viewpoint isn’t universal, but it is widespread. What’s more, a bioroid doesn't have any of the rights people take for granted. An emancipated bioroid either pretends to belong to an owner, or lives in the undercity where they can stay out of the public eye.",
+         "If you like the idea of playing a robot struggling to understand their place in the world, a powerful companion and ally, or a liberator fighting against the injustice they see in society, a bioroid is the right choice for you."
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 26"
+   },
+   {
+      "name": "Clone",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 9,
+      "st": 9,
+      "xp": 85,
+      "skills": {
+         "skills": [
+            "two ranks in two skills"
+         ],
+         "ranksTotal": 4,
+         "ranksEach": 2,
+         "description": [
+            "A clone starts with two ranks in each of two different skills at character creation. They obtain these ranks before spending experience points, and these skills may not be increased higher than rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Underestimated",
+         "description": [
+            "When making an opposed check, clones add [advantage] to the results."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "In many ways, clones are just like ordinary people, albeit in perfect health and trained to do a single task with unerring precision. To be a clone is to be one copy out of a hundred thousand copies, part of a siblinghood of perfectly identical “yous.” More humanlike and personable than bioroids, clones come preprogrammed with a set of skills, imprinted upon them during their maturation. This makes clones amazing at their chosen profession; they were literally made for it.",
+         "In New Angeles, clones (like bioroids) are a commodity, and that’s how your character will be viewed by the general population. Clones are owned, and they are treated the same way people would treat an appliance or pet. However, clones have one advantage other androids do not; because a clone is still genetically human, emancipated clones can pass as people. These clones tend to prefer garish or flashy clothing, bold haircuts, and tattoos and piercings: anything to make them look as unlike their thousands of siblings as possible. If you like the idea of playing a liberated rebel hiding in plain sight, an intelligent but naive person experiencing the world for the first time, or someone who sees themself as an improvement over “normal” people, a clone is the right choice for you."
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 27"
+   },
+   {
+      "name": "Cyborg",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "wt": 11,
+      "st": 8,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "mechanics"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A cyborg starts with one rank in Mechanics. They obtain this rank before spending experience points, and this skill may not be increased higher than rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Adjusted to Cybernetics",
+            "description": [
+               "Once per session as an out-of-turn incidental, you may spend a Story Point to have your character heal strain equal to their number of cybernetics."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Cyborg",
+            "description": [
+               "Your character begins play with one cybernetic (see page 104) that costs a total of 1,000 credits or less. They do not need to make any check to install this cybernetic, and they do not decrease their strain threshold because of this cybernetic (but will decrease their strain threshold as normal if they get any future cybernetics)."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "description": [
+         "Because metal and meat is better than meat alone. Cyborgs are among the strongest of all the archetypes physically, and they start with a high wound threshold. More importantly, while any character can receive cybernetic implants, a cyborg represents someone who is particularly well adapted (both psychologically and physiologically) to having their body rebuilt with mechanical parts.",
+         "Cyborgs are strong, tough, and generally dangerous, even if they aren’t necessarily very social. If you play a cyborg, your character’s cybernetics may color people’s perceptions of them; many people assume a cyborg is a war veteran or a violent individual. Seeing noticeable cybernetics can be off-putting for some. However, that stigma is fading fast in New Angeles. If you like the idea of playing a veteran soldier, a mercenary warrior, or someone who wants to be more machine than human, a cyborg is the right choice for you."
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 28"
+   },
+   {
+      "name": "G-mod",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 3,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 11,
+      "st": 11,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "resilience"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A g-mod starts with one rank in Resilience. They obtain this rank before spending experience points, and this skill may not be increased higher than rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Enhanced Genetic Modifications",
+            "description": [
+               "Once per session when your character uses one of their g-mods to modify a check, you may spend a Story Point to add [success] equal to your character’s ranks in Resilience to the results (in addition to any other affects the g-mod has)."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "G-mod",
+            "description": [
+               "Your character begins play with one g-mod (see page 106) that costs a total of 1,000 credits or less. They do not need to make any check to assimilate this g-mod."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "description": [
+         "G-mods embrace the notion that humanity is merely a concept, and that with applied science, a person really can be whatever they want to be. When playing a g-mod, you can choose any appearance you want for your character, borrowing features from animals, Netcast characters, or anything else. G-mods are also among the smartest of all the archetypes, intelligence being commonly boosted by in utero modifications.",
+         "G-mods tend to be seen by the public in two different lights, depending on their modifications. Those g-mods who prefer subtle enhancements tend to come across as “better” people, and most love and envy them in equal measure. However, the more “improved” a person is, the more they can inspire a sense of unease in others. Further, the “wylders,” who go for animalistic, outlandish, or shocking g-mods tend to be treated with fear and revulsion. If you like the idea of playing an intelligent and charismatic charmer, a super-strong bodybuilder, or an undercity punk with wolf eyes and fangs, a g-mod is the right choice for you."
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 29"
+   },
+   {
+      "name": "Loonie",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 9,
+      "st": 11,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "coordination"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A Loonie starts with one rank in Coordination. They obtain this rank before spending experience points, and this skill may not be increased higher than rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Zero-G Adept",
+            "description": [
+               "A Loonie does not count zero-gravity environments as difficult terrain."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Resourceful",
+            "description": [
+               "Once per session after making a skill check, you may spend a Story Point to have your character reroll up to two dice in the pool."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "description": [
+         "Loonies are the most agile of all the archetypes, and they make exceptional pilots and drivers. Their instincts for speed and spatial awareness are second to none. While they may not be as strong or tough as other characters, they have excellent coordination and reflexes, and they are just as smart and personable as anyone else.",
+         "In New Angeles, Loonies are survivalists and outsiders. They are just strange enough that they will probably never fully fit in anywhere outside the domes and tunnels of Heinlein and the rest of Luna. In the megalopolis, they often lend their talents to those who are outlawed or in subcultures on the fringe of society, because chances are those subcultures have found a haven somewhere on the Moon. If you want to play an incredibly agile pilot, a revolutionary hell-bent on freeing their home from imperialist oppression, or a grizzled spacer at home above Earth’s atmosphere, a Loonie is the right choice for you."
+      ],
+      "settings": [
+         "science fiction"
+      ],
+      "source": "SOTB p. 30"
    }
 ]

@@ -4,7 +4,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["When a patient under your character’s care heals wounds from natural rest, they heal additional wounds equal to twice your character’s ranks in Apothecary."],
+"description": ["When a patient under your character's care heals wounds from natural rest, they heal additional wounds equal to twice your character's ranks in Apothecary."],
 "source": "ROT p. 84"
 },
 {
@@ -13,8 +13,8 @@
 "activation": "Active (Action)",
 "ranked": "Yes",
 "description": ["This talent costs 3 Æmber. Your character may suffer one strain to make a combat check using the following weapon profile: (Ranged; Damage +3; Critical 3; Range [Short]).",
-"When you purchase this talent, select one of the following item qualities: Blast, Burn, Disorient, Ensnare, Pierce, Stun, or Vicious. The weapon profile gains the chosen item quality with a rating equal to your character’s ranks in Bad Breath. In addition, the damage of the weapon profile increases by +1 for each additional rank of Bad Breath.",
-"[despair] from a combat check your character makes with this talent may be spend to deplete this talent. This attack consists of exhaling a stream of flame or another dangerous substance; having bad breath may have other narrative effects, at your Game Master’s discretion."],
+"When you purchase this talent, select one of the following item qualities: Blast, Burn, Disorient, Ensnare, Pierce, Stun, or Vicious. The weapon profile gains the chosen item quality with a rating equal to your character's ranks in Bad Breath. In addition, the damage of the weapon profile increases by +1 for each additional rank of Bad Breath.",
+"[despair] from a combat check your character makes with this talent may be spend to deplete this talent. This attack consists of exhaling a stream of flame or another dangerous substance; having bad breath may have other narrative effects, at your Game Master's discretion."],
 "source": "SotC p. 74"
 },
 {
@@ -22,7 +22,7 @@
 "tier": "1",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["When making any knowledge skill check, your character can instead use this talent to spend an amount of currency equal to fifty times the difficulty of the check and automatically succeed on the knowledge check with one uncanceled [success] (instead of rolling). At your GM’s discretion, your character may not be able to use Bought Info if the information is particularly sensitive or difficult to find, or buying it doesn’t make narrative sense."],
+"description": ["When making any knowledge skill check, your character can instead use this talent to spend an amount of currency equal to fifty times the difficulty of the check and automatically succeed on the knowledge check with one uncanceled [success] (instead of rolling). At your GM's discretion, your character may not be able to use Bought Info if the information is particularly sensitive or difficult to find, or buying it doesn't make narrative sense."],
 "source": "GCRB p. 72"
 },
 {
@@ -38,7 +38,7 @@
 "tier": "1",
 "activation": "Active (Maneuver)",
 "ranked": "Yes",
-"description": ["Once per encounter, your character may use this talent to choose a number of adversaries within short range no greater than your character’s ranks in Challenge! (a minion group counts as a single adversary for this purpose). Until the encounter ends or your character is incapacitated, these adversaries add [boost] to combat checks targeting your character and [setback][setback] to combat checks targeting other characters."],
+"description": ["Once per encounter, your character may use this talent to choose a number of adversaries within short range no greater than your character's ranks in Challenge! (a minion group counts as a single adversary for this purpose). Until the encounter ends or your character is incapacitated, these adversaries add [boost] to combat checks targeting your character and [setback][setback] to combat checks targeting other characters."],
 "source": "ROT p. 84"
 },
 {
@@ -46,7 +46,7 @@
 "tier": "1",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "No",
-"description": ["Once per encounter, your character may use this talent to add automatic [threat][threat] to another character’s social skill check."],
+"description": ["Once per encounter, your character may use this talent to add automatic [threat][threat] to another character's social skill check."],
 "source": "GCRB p. 73"
 },
 {
@@ -62,7 +62,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character casts a spell, they may use this talent to consume a physical item and add [boost] to the check. The item does not have to be expensive or rare, but it does have to be thematically appropriate for the spell, available to your character, and subject to your GM’s approval. Some examples include a match or bit of sulfur for an Attack spell with the Burn quality, a piece of glass for a Predict spell, or a scrap of bandage for a Heal spell."],
+"description": ["When your character casts a spell, they may use this talent to consume a physical item and add [boost] to the check. The item does not have to be expensive or rare, but it does have to be thematically appropriate for the spell, available to your character, and subject to your GM's approval. Some examples include a match or bit of sulfur for an Attack spell with the Burn quality, a piece of glass for a Predict spell, or a scrap of bandage for a Heal spell."],
 "source": "EPG p. 95"
 },
 {
@@ -86,7 +86,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["When your character selects this talent they choose one computer (such as a rig, PAD, or spinal modem) that they own. The amount of ice or icebreakers (your character’s choice) that they can have on that computer is increased by 1 per rank of Custom Rig. (This may be a mix of ice and icebreakers, as long as the combined total increase does not exceed your character’s ranks in Custom Rig). If your character loses their affected computer, they may choose a new computer to be affected by this talent."],
+"description": ["When your character selects this talent they choose one computer (such as a rig, PAD, or spinal modem) that they own. The amount of ice or icebreakers (your character's choice) that they can have on that computer is increased by 1 per rank of Custom Rig. (This may be a mix of ice and icebreakers, as long as the combined total increase does not exceed your character's ranks in Custom Rig). If your character loses their affected computer, they may choose a new computer to be affected by this talent."],
 "source": "SotB p. 44"
 },
 {
@@ -94,7 +94,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "Yes",
-"description": ["After your character makes a Charm check, they may suffer 1 strain to use this talent to cancel [threat] equal to your character’s ranks in Customer Service Experience."],
+"description": ["After your character makes a Charm check, they may suffer 1 strain to use this talent to cancel [threat] equal to your character's ranks in Customer Service Experience."],
 "source": "SotB p. 45"
 },
 {
@@ -102,7 +102,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When a spell adds a quality to your character’s spell with a rating determined by your character’s ranks in Knowledge (Lore), your character may use their ranks in Knowledge (Forbidden) instead."],
+"description": ["When a spell adds a quality to your character's spell with a rating determined by your character's ranks in Knowledge (Lore), your character may use their ranks in Knowledge (Forbidden) instead."],
 "source": "ROT p. 84"
 },
 {
@@ -119,7 +119,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "No",
-"description": ["When attempting to defend a computer system against intrusion (or when someone attempts to hack a computer owned or programmed by your character) your character adds [setback][setback] to their opponent’s checks. If your character has access to the computer system when the intrusion takes place, they are automatically aware of the intrusion."],
+"description": ["When attempting to defend a computer system against intrusion (or when someone attempts to hack a computer owned or programmed by your character) your character adds [setback][setback] to their opponent's checks. If your character has access to the computer system when the intrusion takes place, they are automatically aware of the intrusion."],
 "source": "GCRB p. 73"
 },
 {
@@ -159,7 +159,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["After your character makes a Perception, Vigilance, or Knowledge (Adventuring) check to notice, identify, or avoid a threat in a cavern, subterranean ruin, or similar location, your character cancels a number of uncanceled [threat] no greater than your character’s ranks in Dugeoneer."],
+"description": ["After your character makes a Perception, Vigilance, or Knowledge (Adventuring) check to notice, identify, or avoid a threat in a cavern, subterranean ruin, or similar location, your character cancels a number of uncanceled [threat] no greater than your character's ranks in Dugeoneer."],
 "source": "ROT p. 84"
 },
 {
@@ -184,7 +184,7 @@
 "activation": "Passive",
 "ranked": "No",
 "description": ["If your character has at least one rank in a magic skill, once per encounter, they may use this talent to add [advantage] to the result of their next social skill check. ",
-"Additionally, this has a passive narrative effect; your character’s appearance is subtly enhanced by their magic. Others do not note it as supernatural, but may be slightly put off. What form this enhancement takes is up to you, with your GM’s approval, but it should be based on the magic skill your character possesses (as well as their backstory). A character with the Divine skill may always be flushed with good health, or their eyes may flash red momentarily. A character with the Primal skill may be surrounded by the scent of fresh pine, or their voice may have an intimidating growl. A character with the Arcana skill may have their hair tousled by undetectable winds, or when they wear a hat or hood, their face might be obscured by strangely deep shadows."],
+"Additionally, this has a passive narrative effect; your character's appearance is subtly enhanced by their magic. Others do not note it as supernatural, but may be slightly put off. What form this enhancement takes is up to you, with your GM's approval, but it should be based on the magic skill your character possesses (as well as their backstory). A character with the Divine skill may always be flushed with good health, or their eyes may flash red momentarily. A character with the Primal skill may be surrounded by the scent of fresh pine, or their voice may have an intimidating growl. A character with the Arcana skill may have their hair tousled by undetectable winds, or when they wear a hat or hood, their face might be obscured by strangely deep shadows."],
 "source": "EPG p. 95"
 },
 {
@@ -192,7 +192,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character add [success] to the results of social skill checks they make targeting faeries and pixies and to modify or reprogram the same. In addition, when a faerie or pixie acting under your character’s instructions provides assistance, it adds on additional [boost] to the check."],
+"description": ["Your character add [success] to the results of social skill checks they make targeting faeries and pixies and to modify or reprogram the same. In addition, when a faerie or pixie acting under your character's instructions provides assistance, it adds on additional [boost] to the check."],
 "source": "SotC p. 74"
 },
 {
@@ -200,7 +200,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["When an opponent becomes engaged with your character during a combat encounter, the opponent must make a fear check (see page 243 of the Genesys Core Rulebook). The difficulty of the fear check is equal to your character’s ranks in Fearsome. At the GM’s discretion, some adversaries may be immune to this talent."],
+"description": ["When an opponent becomes engaged with your character during a combat encounter, the opponent must make a fear check (see page 243 of the Genesys Core Rulebook). The difficulty of the fear check is equal to your character's ranks in Fearsome. At the GM's discretion, some adversaries may be immune to this talent."],
 "source": "SotC p. 74"
 },
 {
@@ -232,7 +232,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["Each rank of Grit increases your character’s strain threshold by one."],
+"description": ["Each rank of Grit increases your character's strain threshold by one."],
 "source": "GCRB p. 73"
 },
 {
@@ -240,7 +240,7 @@
 "tier": "1",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["Once per round, your character may use this talent to perform a ranged combat check against one non-vehicle target within range of the weapon used. If the check is successful, halve the damage inflicted by the attack (before reducing damage by the target’s soak). The target is immobilized until the end of its next turn."],
+"description": ["Once per round, your character may use this talent to perform a ranged combat check against one non-vehicle target within range of the weapon used. If the check is successful, halve the damage inflicted by the attack (before reducing damage by the target's soak). The target is immobilized until the end of its next turn."],
 "source": "GCRB p. 73"
 },
 {
@@ -248,7 +248,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Once per round while driving or piloting a vehicle, your character may use this talent to increase or decrease its speed by 1, to a minimum of 0 or a maximum of the vehicle’s max speed."],
+"description": ["Once per round while driving or piloting a vehicle, your character may use this talent to increase or decrease its speed by 1, to a minimum of 0 or a maximum of the vehicle's max speed."],
 "source": "SotB p. 45"
 },
 {
@@ -264,7 +264,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "No",
-"description": ["The first time during an encounter that your character draws a Melee weapon, increase the weapon’s damage by 2 for the remainder of the turn."],
+"description": ["The first time during an encounter that your character draws a Melee weapon, increase the weapon's damage by 2 for the remainder of the turn."],
 "source": "SotB p. 45"
 },
 {
@@ -272,7 +272,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Once per round during your character’s turn, your character may use this talent to stand from a prone or seated position as an incidental."],
+"description": ["Once per round during your character's turn, your character may use this talent to stand from a prone or seated position as an incidental."],
 "source": "GCRB p. 73"
 },
 {
@@ -288,7 +288,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character adds the Stun quality to their Brawl combat checks with a rating equal to two plus your character’s ranks in Coordination (this does not stack with other instances of the Stun quality)."],
+"description": ["Your character adds the Stun quality to their Brawl combat checks with a rating equal to two plus your character's ranks in Coordination (this does not stack with other instances of the Stun quality)."],
 "source": "SotB p. 45"
 },
 {
@@ -300,11 +300,11 @@
 "source": "GCRB p. 74"
 },
 {
-"name": "Let’s Ride",
+"name": "Let's Ride",
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Once per round during your character’s turn, your character can use this talent to mount or dismount from a vehicle or animal, or move from one position in a vehicle to another (such as from the cockpit to a gun turret) as an incidental. In addition, if your character suffers a short-range fall (see page 112) from a vehicle or animal, they suffer no damage and land on their feet."],
+"description": ["Once per round during your character's turn, your character can use this talent to mount or dismount from a vehicle or animal, or move from one position in a vehicle to another (such as from the cockpit to a gun turret) as an incidental. In addition, if your character suffers a short-range fall (see page 112) from a vehicle or animal, they suffer no damage and land on their feet."],
 "source": "GCRB p. 74"
 },
 {
@@ -312,7 +312,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["This talent cost 3 Æmber plus Æmber equal to your character’s current ranks in this talent. When your character purchases a rank in Mutation, they gain one randomly generated species feature from Table 1-8: Species Features, on page 47 (SotC). If you generate a feature your character already possesses, reroll the result. Your character’s ranks in Mutation cannot exceed their ranks in Resilience."],
+"description": ["This talent cost 3 Æmber plus Æmber equal to your character's current ranks in this talent. When your character purchases a rank in Mutation, they gain one randomly generated species feature from Table 1-8: Species Features, on page 47 (SotC). If you generate a feature your character already possesses, reroll the result. Your character's ranks in Mutation cannot exceed their ranks in Resilience."],
 "source": "SotC p. 75"
 },
 {
@@ -320,7 +320,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "No",
-"description": ["When your character spends [advantage] to heal strain as part of a Piloting or Riding check while their vehicles’ current speed is 3 or higher, they heal one strain for each speed above 2."],
+"description": ["When your character spends [advantage] to heal strain as part of a Piloting or Riding check while their vehicles' current speed is 3 or higher, they heal one strain for each speed above 2."],
 "source": "SotC p. 75"
 },
 {
@@ -336,7 +336,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["Select one organization from Chapter 2: Organizations (or create a new one with your GM’s permission). Your character becomes a known and devout follower of that organization, and adds [advantage] per rank of One of Us! to social skill checks they make targeting its members. If your character is discovered acting in a manner antithetical to the organization’s interest, though, your GM may instead add [threat] or other penalties to such checks."],
+"description": ["Select one organization from Chapter 2: Organizations (or create a new one with your GM's permission). Your character becomes a known and devout follower of that organization, and adds [advantage] per rank of One of Us! to social skill checks they make targeting its members. If your character is discovered acting in a manner antithetical to the organization's interest, though, your GM may instead add [threat] or other penalties to such checks."],
 "source": "SotC p. 75"
 },
 {
@@ -376,7 +376,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "Yes",
-"description": ["When your character makes a social skill check in polite company (as determined by your GM), they may suffer a number of strain to use this talent to add an equal number of [advantage] to the check. The number may not exceed your character’s ranks in Proper Upbringing."],
+"description": ["When your character makes a social skill check in polite company (as determined by your GM), they may suffer a number of strain to use this talent to add an equal number of [advantage] to the check. The number may not exceed your character's ranks in Proper Upbringing."],
 "source": "GCRB p. 74"
 },
 {
@@ -384,7 +384,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Once per round on your character’s turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon’s Prepare rating by one, to a minimum of one."],
+"description": ["Once per round on your character's turn, they may use this talent to draw or holster an easily accessible weapon or item as an incidental. Quick Draw also reduces a weapon's Prepare rating by one, to a minimum of one."],
 "source": "GCRB p. 74"
 },
 {
@@ -400,7 +400,7 @@
 "tier": "1",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "Yes",
-"description": ["Your character may suffer a number of strain to use this talent to add an equal number of [success] to a Vigilance or Cool check they make to determine Initiative order. The number may not exceed your character’s ranks in Rapid Reaction."],
+"description": ["Your character may suffer a number of strain to use this talent to add an equal number of [success] to a Vigilance or Cool check they make to determine Initiative order. The number may not exceed your character's ranks in Rapid Reaction."],
 "source": "GCRB p. 74"
 },
 {
@@ -432,7 +432,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character uses a shield to attack a minion or rival, you may spend [advantage][advantage][advantage][advantage] or [triumph] to stagger the target until the end of the target’s next turn."],
+"description": ["When your character uses a shield to attack a minion or rival, you may spend [advantage][advantage][advantage][advantage] or [triumph] to stagger the target until the end of the target's next turn."],
 "source": "ROT p. 84"
 },
 {
@@ -457,7 +457,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character disorients or knocks their target prone when making a Brawl combat check, they may use this talent to cause the target to suffer wounds equal to your character’s ranks in Skulduggery."],
+"description": ["When your character disorients or knocks their target prone when making a Brawl combat check, they may use this talent to cause the target to suffer wounds equal to your character's ranks in Skulduggery."],
 "source": "SotB p. 45"
 },
 {
@@ -466,7 +466,7 @@
 "activation": "Passive",
 "ranked": "No",
 "description": ["When you purchase this talent, your character gains Streetwise or Stealth (your choice) as a career skill.",
-"In addition, once per session while in an urban environment (usually when they aren’t being watched closely), your character may freely acquire one small useful item that was not previously documented. The GM has final say as to what items can be acquired with Street Habits, but general the item should cost fewer than 100 Æmbits and have an encumbrance of 0 or 1."],
+"In addition, once per session while in an urban environment (usually when they aren't being watched closely), your character may freely acquire one small useful item that was not previously documented. The GM has final say as to what items can be acquired with Street Habits, but general the item should cost fewer than 100 Æmbits and have an encumbrance of 0 or 1."],
 "source": "SotC p. 75"
 },
 {
@@ -522,7 +522,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["Each rank of Toughened increases your character’s wound threshold by two."],
+"description": ["Each rank of Toughened increases your character's wound threshold by two."],
 "source": "GCRB p. 75"
 },
 {
@@ -538,7 +538,7 @@
 "tier": "1",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Once per round on your character’s turn, they may suffer 2 strain to disengage from all engaged adversaries."],
+"description": ["Once per round on your character's turn, they may suffer 2 strain to disengage from all engaged adversaries."],
 "source": "ROT p. 87"
 },
 {
@@ -570,7 +570,7 @@
 "tier": "1",
 "activation": "Passive",
 "ranked": "No",
-"description": ["When you take this talent, your character gains Ranged (Heavy) or Resilience as a career skill. In addition, once per session, your character may collect a small favor from a current or former member of a single country’s military (chosen when you take this talent), even if they do not owe your character’s a favor."],
+"description": ["When you take this talent, your character gains Ranged (Heavy) or Resilience as a career skill. In addition, once per session, your character may collect a small favor from a current or former member of a single country's military (chosen when you take this talent), even if they do not owe your character's a favor."],
 "source": "SotB p. 46"
 },
 {
@@ -610,7 +610,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "Yes",
-"description": ["Your character may spend [advantage][advantage] from a Coercion or Deception check to use this talent to upgrade the ability of a single ally’s subsequent social skill check a number of times equal to your character’s ranks in Bad Cop. The check must target the same character as your character’s initial check, and it must take place during the same encounter.",
+"description": ["Your character may spend [advantage][advantage] from a Coercion or Deception check to use this talent to upgrade the ability of a single ally's subsequent social skill check a number of times equal to your character's ranks in Bad Cop. The check must target the same character as your character's initial check, and it must take place during the same encounter.",
 "Only one character may affect a check with this talent."],
 "source": "SotB p. 47"
 },
@@ -643,7 +643,7 @@
 "tier": "2",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character’s encumbrance threshold is 10 plus their Brawn, instead of 5 plus their Brawn. Your character reduces the Cumbersome rating of any weapon she carries by 1, to a minimum of 3."],
+"description": ["Your character's encumbrance threshold is 10 plus their Brawn, instead of 5 plus their Brawn. Your character reduces the Cumbersome rating of any weapon she carries by 1, to a minimum of 3."],
 "source": "SotB p. 47"
 },
 {
@@ -659,7 +659,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "Yes",
-"description": ["Your character must have purchased the Dark Insight talent to benefit from this talent. Before your character makes a magic skill check, they may suffer a number of wounds to use this talent to add an equal number of [success] to the check. The number cannot exceed your character’s ranks in Blood Sacrifice."],
+"description": ["Your character must have purchased the Dark Insight talent to benefit from this talent. Before your character makes a magic skill check, they may suffer a number of wounds to use this talent to add an equal number of [success] to the check. The number cannot exceed your character's ranks in Blood Sacrifice."],
 "source": "ROT p. 87"
 },
 {
@@ -667,7 +667,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character casts a spell, you may spend one Story Point to use this talent to add [advantage] equal to your character’s ranks in Knowledge to the results."],
+"description": ["When your character casts a spell, you may spend one Story Point to use this talent to add [advantage] equal to your character's ranks in Knowledge to the results."],
 "source": "EPG p. 95"
 },
 {
@@ -715,7 +715,7 @@
 "tier": "2",
 "activation": "Active (Maneuver)",
 "ranked": "Yes",
-"description": ["Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add [advantage] to all combat checks they make until the end of your character’s next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first."],
+"description": ["Once per turn, your character may use this talent to have a number of allies engaged with your character equal to your ranks in Leadership add [advantage] to all combat checks they make until the end of your character's next turn. The range of this talent increases by one band per rank of Coordinated Assault beyond the first."],
 "source": "GCRB p. 75"
 },
 {
@@ -723,7 +723,7 @@
 "tier": "2",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["Once per session, your character may use this talent to choose one non-nemesis adversary within medium range and make an opposed Negotiation versus Discipline check. If successful, the target becomes staggered until the end of their next turn. At your GM’s discretion, you may spend [triumph] on this check to have the adversary become an ally until the end of the encounter. However, the duration of this may be shortened or extended depending on whether your GM feels your offer is appealing to the adversary and whether your character follows through on their offer!"],
+"description": ["Once per session, your character may use this talent to choose one non-nemesis adversary within medium range and make an opposed Negotiation versus Discipline check. If successful, the target becomes staggered until the end of their next turn. At your GM's discretion, you may spend [triumph] on this check to have the adversary become an ally until the end of the encounter. However, the duration of this may be shortened or extended depending on whether your GM feels your offer is appealing to the adversary and whether your character follows through on their offer!"],
 "source": "GCRB p. 75"
 },
 {
@@ -731,7 +731,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "Yes",
-"description": ["Before your character makes a Driving or Piloting check, they may add a number of [threat] to the results to use this talent to add an equal number of [success]. The number may not exceed your character’s ranks in Daring Aviator."],
+"description": ["Before your character makes a Driving or Piloting check, they may add a number of [threat] to the results to use this talent to add an equal number of [success]. The number may not exceed your character's ranks in Daring Aviator."],
 "source": "GCRB p. 75"
 },
 {
@@ -747,7 +747,7 @@
 "tier": "2",
 "activation": "Active (Maneuver)",
 "ranked": "Yes",
-"description": ["Once per round, your character may suffer a number of strain no greater than their ranks in Defensive Stance to use this talent. Then, until the end of your character’s next turn, upgrade the difficulty of all melee combat checks targeting your character a number of times equal to the strain suffered."],
+"description": ["Once per round, your character may suffer a number of strain no greater than their ranks in Defensive Stance to use this talent. Then, until the end of your character's next turn, upgrade the difficulty of all melee combat checks targeting your character a number of times equal to the strain suffered."],
 "source": "GCRB p. 75"
 },
 {
@@ -763,7 +763,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["After your character inflicts a Critical Injury on an adversary, they may use this talent to upgrade the difficulty of that adversary’s next check."],
+"description": ["After your character inflicts a Critical Injury on an adversary, they may use this talent to upgrade the difficulty of that adversary's next check."],
 "source": "ROT p. 88"
 },
 {
@@ -804,7 +804,7 @@
 "activation": "Passive",
 "ranked": "No",
 "description": ["Your character must have purchased the Ensorcelled talent to benefit from this talent. If your character has at least two ranks in a magic skill, when using the Ensorcelled talent, they may add [success][advantage] to their next social skill check (instead of [advantage]).",
-"After purchasing this talent, your character’s appearance is now noticeably changed by their magic. What form this enhancement takes is up to your, with your GM’s approval, but it should be based on the magic skill your character possesses as well as the enhancement they originally possessed with the Encorcelled talent."],
+"After purchasing this talent, your character's appearance is now noticeably changed by their magic. What form this enhancement takes is up to your, with your GM's approval, but it should be based on the magic skill your character possesses as well as the enhancement they originally possessed with the Encorcelled talent."],
 "source": "EPG p. 95"
 },
 {
@@ -812,7 +812,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "Yes",
-"description": ["When your character makes a combat check with a Ranged or Melee (Light) weapon, they may suffer 2 strain to use this talent to add the Ensnare quality to the attack. The rating of the Ensnare quality is equal to your character’s ranks in Exploit."],
+"description": ["When your character makes a combat check with a Ranged or Melee (Light) weapon, they may suffer 2 strain to use this talent to add the Ensnare quality to the attack. The rating of the Ensnare quality is equal to your character's ranks in Exploit."],
 "source": "ROT p. 88"
 },
 {
@@ -852,7 +852,7 @@
 "tier": "2",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["When your character prepares a meal, they may use this talent to make an Average ([difficulty][difficulty]) Knowledge (Culture) check. If they succeed, character who partake in the meal heal strain equal to s the check generates and upgrade the ability of the next check they make once. At your GM’s discretion, your character may use a different skill appropriate to the situation an your characters’ preferred methods of cooking. "],
+"description": ["When your character prepares a meal, they may use this talent to make an Average ([difficulty][difficulty]) Knowledge (Culture) check. If they succeed, character who partake in the meal heal strain equal to s the check generates and upgrade the ability of the next check they make once. At your GM's discretion, your character may use a different skill appropriate to the situation an your characters' preferred methods of cooking. "],
 "source": "SotC p. 79"
 },
 {
@@ -860,7 +860,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "Yes",
-"description": ["Your character may spend [advantage][advantage] from a Charm or Negotiation check to use this talent to upgrade the ability of a single ally’s subsequent social skill check a number of times equal to your character’s ranks in Good Cop. The check must target the same character as your character’s initial check, and it must take place during the same encounter.",
+"description": ["Your character may spend [advantage][advantage] from a Charm or Negotiation check to use this talent to upgrade the ability of a single ally's subsequent social skill check a number of times equal to your character's ranks in Good Cop. The check must target the same character as your character's initial check, and it must take place during the same encounter.",
 "Only one character may affect a check with this talent."],
 "source": "SotB p. 48"
 },
@@ -869,7 +869,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Your character may suffer 2 strain to use this talent. Until the start of your character’s next turn, enemies must spend two maneuvers to disengage from your character."],
+"description": ["Your character may suffer 2 strain to use this talent. Until the start of your character's next turn, enemies must spend two maneuvers to disengage from your character."],
 "source": "ROT p. 88"
 },
 {
@@ -917,7 +917,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character inflicts a Critical Injury with a melee weapon, until the end of the target’s next turn they may use this talent to immobilize the target (in addition to the other effects of the Critical Injury)."],
+"description": ["When your character inflicts a Critical Injury with a melee weapon, until the end of the target's next turn they may use this talent to immobilize the target (in addition to the other effects of the Critical Injury)."],
 "source": "ROT p. 88"
 },
 {
@@ -925,7 +925,7 @@
 "tier": "2",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["When another character targets your character with a social skill check, your character reduces any strain they suffer as a result of that heck by 1 per rank of Implacable. Your character’s ranks in Implacable cannot exceed their Presence."],
+"description": ["When another character targets your character with a social skill check, your character reduces any strain they suffer as a result of that heck by 1 per rank of Implacable. Your character's ranks in Implacable cannot exceed their Presence."],
 "source": "SotC p. 79"
 },
 {
@@ -965,7 +965,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character’s ranks in that characteristic to one hit of the combat check."],
+"description": ["When your character purchases this talent, choose one characteristic. After your character makes a successful combat check, you may spend one Story Point to use this talent to add damage equal to your character's ranks in that characteristic to one hit of the combat check."],
 "source": "GCRB p. 76"
 },
 {
@@ -1006,7 +1006,7 @@
 "tier": "2",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character fails a check made to heal wounds, they may instead heal a number of wounds equal to their Intellect. Once before the end of the session, [despair] may be spent from a check the healed character makes to have them suffer a number of wounds equal to your character’s Intellect. Your character may only use this talent on a particular target once per game session."],
+"description": ["When your character fails a check made to heal wounds, they may instead heal a number of wounds equal to their Intellect. Once before the end of the session, [despair] may be spent from a check the healed character makes to have them suffer a number of wounds equal to your character's Intellect. Your character may only use this talent on a particular target once per game session."],
 "source": "SotC p. 79"
 },
 {
@@ -1014,7 +1014,7 @@
 "tier": "2",
 "activation": "Passive",
 "ranked": "No",
-"description": ["If your character knows an opponent’s Flaw or Fear motivation, when your character inflicts strain on that opponent using a social skill, the opponent suffers 3 additional strain."],
+"description": ["If your character knows an opponent's Flaw or Fear motivation, when your character inflicts strain on that opponent using a social skill, the opponent suffers 3 additional strain."],
 "source": "SotB p. 49"
 },
 {
@@ -1022,7 +1022,7 @@
 "tier": "2",
 "activation": "Passive",
 "ranked": "No",
-"description": ["When your character make s a combat check using a weapon with the Burn item quality, the attack inflicts additional damage equal to the weapon’s Burn rating. (This does not increase the weapon’s base damage)."],
+"description": ["When your character make s a combat check using a weapon with the Burn item quality, the attack inflicts additional damage equal to the weapon's Burn rating. (This does not increase the weapon's base damage)."],
 "source": "SotC p. 79"
 },
 {
@@ -1030,7 +1030,7 @@
 "tier": "2",
 "activation": "Active (Manuever)",
 "ranked": "No",
-"description": ["You may spend a Story Point to allow your character to use this talent to temporarily repair one damaged item they are engaged with. For a number of rounds equal to your character’s ranks in Mechanics, the item may be used without penalty (see page 89 of the Genesys Core Rulebook), even if it is unusable. When the effect ends, the item is damaged one additional step; if it was already suffering from major damage, it is destroyed and cannot be repaired."],
+"description": ["You may spend a Story Point to allow your character to use this talent to temporarily repair one damaged item they are engaged with. For a number of rounds equal to your character's ranks in Mechanics, the item may be used without penalty (see page 89 of the Genesys Core Rulebook), even if it is unusable. When the effect ends, the item is damaged one additional step; if it was already suffering from major damage, it is destroyed and cannot be repaired."],
 "source": "SotB p. 49"
 },
 {
@@ -1078,7 +1078,7 @@
 "tier": "2",
 "activation": "Active (Maneuver)",
 "ranked": "Yes",
-"description": ["Once per round, your character may suffer a number of strain no greater than their ranks in Side Step to use this talent. Until the end of your character’s next turn, upgrade the difficulty of all ranged combat checks targeting your character a number of times equal to the strain suffered."],
+"description": ["Once per round, your character may suffer a number of strain no greater than their ranks in Side Step to use this talent. Until the end of your character's next turn, upgrade the difficulty of all ranged combat checks targeting your character a number of times equal to the strain suffered."],
 "source": "GCRB p. 77"
 },
 {
@@ -1119,7 +1119,7 @@
 "tier": "2",
 "activation": "Passive",
 "ranked": "No",
-"description": ["When your character performs a combat check using a vehicle weapon, treat the silhouette of your target as one higher for purposes of determining the check’s difficulty. In addition, your character can make Gunnery checks while they are engaged with an opponent; increase the difficulty by two, as if your character were using a two-handed ranged weapon."],
+"description": ["When your character performs a combat check using a vehicle weapon, treat the silhouette of your target as one higher for purposes of determining the check's difficulty. In addition, your character can make Gunnery checks while they are engaged with an opponent; increase the difficulty by two, as if your character were using a two-handed ranged weapon."],
 "source": "SotC p. 80"
 },
 {
@@ -1127,9 +1127,9 @@
 "tier": "2",
 "activation": "Passive",
 "ranked": "No",
-"description": ["This talent costs 2 Æmber plus Æmber equal to your character’s current ranks in this talent. Your character can manipulate objects and affect other characters within short range (as if they were engaged) using their mind instead of their physical body. When they do, any required skill checks linked to Brawn or Agility instead use Willpower. Similarly, to determine the encumbrance your character can telepathically life or move use their Willpower in place of Brawn.",
-"Telekinetic movement is generally too slow and imprecise to effectively wield a weapon, but your character can lash out with mental force to make a Brawl combat check within short range. This attack has a base damage equal to your character’s Willpower instead of Brawn and gains no benefit from weapons.",
-"The range of your character’s telekinesis increases by one range band for each additional rank of this talent. [despair] from a check your character makes using telekinesis may be spent to deplete this talent."],
+"description": ["This talent costs 2 Æmber plus Æmber equal to your character's current ranks in this talent. Your character can manipulate objects and affect other characters within short range (as if they were engaged) using their mind instead of their physical body. When they do, any required skill checks linked to Brawn or Agility instead use Willpower. Similarly, to determine the encumbrance your character can telepathically life or move use their Willpower in place of Brawn.",
+"Telekinetic movement is generally too slow and imprecise to effectively wield a weapon, but your character can lash out with mental force to make a Brawl combat check within short range. This attack has a base damage equal to your character's Willpower instead of Brawn and gains no benefit from weapons.",
+"The range of your character's telekinesis increases by one range band for each additional rank of this talent. [despair] from a check your character makes using telekinesis may be spent to deplete this talent."],
 "source": "SotC p. 80"
 },
 {
@@ -1161,7 +1161,7 @@
 "tier": "2",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "Yes",
-"description": ["After an adversary within short range of your character resolves a combat check that deals damage to one of your character’s allies, your character may suffer 3 strain to use this talent to inflict a number of strain on the adversary equal to your character’s ranks in Coercion. The range of this talent increases by one band per rank of Threaten beyond the first."],
+"description": ["After an adversary within short range of your character resolves a combat check that deals damage to one of your character's allies, your character may suffer 3 strain to use this talent to inflict a number of strain on the adversary equal to your character's ranks in Coercion. The range of this talent increases by one band per rank of Threaten beyond the first."],
 "source": "ROT p. 89"
 },
 {
@@ -1170,7 +1170,7 @@
 "activation": "Active (Incidental)",
 "ranked": "No",
 "description": ["Once per session, you may spend one Story Point use this talent to let your character learn if a character of your choice is in New Angeles, and if so, what district.",
-"At your GM’s discretion, the information may take up to an hour to come back to your character."],
+"At your GM's discretion, the information may take up to an hour to come back to your character."],
 "source": "SotB p. 49"
 },
 {
@@ -1218,7 +1218,7 @@
 "tier": "3",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM’s discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances. As long as the bond persists, the animal follows your character, and you dictate the animal’s overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory). Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character’s turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM. For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size). This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the \"animal\" to be a robot or drone, for example."],
+"description": ["Your character creates a bond with a single animal approved by your GM. This animal must be silhouette 0 (no larger than a mid-sized dog). The bond persists as long as your character chooses, although at your GM's discretion, the bond may also be broken due to abusive treatment or other extenuating circumstances. As long as the bond persists, the animal follows your character, and you dictate the animal's overall behavior (although, since the animal is only bonded with the character, not dominated, it may still perform inconvenient actions such as scratching furniture, consuming rations, and marking territory). Once per round in structured encounters, your character may spend one maneuver to direct their animal in performing one action and one maneuver during your character's turn. The animal must be within hearing and visual range of your character (generally medium range) to do this. Otherwise, the animal does not contribute to the encounter. The specifics of its behavior are up to you and your GM. For every additional rank of Animal Companion your character has, increase the allowed silhouette of the companion by one (this may mean your character gets a new companion, or their companion grows in size). This talent can also change in flavor depending on the nature of your game setting. While an animal companion may make sense in many settings, in a futuristic setting it may make more sense for the \"animal\" to be a robot or drone, for example."],
 "source": "GCRB p. 77"
 },
 {
@@ -1243,7 +1243,7 @@
 "tier": "3",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["Your character may use this talent to attack an unaware adversary using a Melee (Light) weapon. A Backstab is a melee attack, and follows the normal rules for performing a combat check (see page 101 of the Genesys Core Rulebook), using the character’s Skulduggery skill instead of Melee (Light). If the check succeeds, each uncanceled [success] adds +2 damage (instead of the normal +1)."],
+"description": ["Your character may use this talent to attack an unaware adversary using a Melee (Light) weapon. A Backstab is a melee attack, and follows the normal rules for performing a combat check (see page 101 of the Genesys Core Rulebook), using the character's Skulduggery skill instead of Melee (Light). If the check succeeds, each uncanceled [success] adds +2 damage (instead of the normal +1)."],
 "source": "ROT p. 89"
 },
 {
@@ -1251,7 +1251,7 @@
 "tier": "3",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character must have purchased the Bad Breath talent to benefit from this talent. Your character’s Bad Breath weapon profile gains a second item quality from the list included in that talent’s description, with a rating equal to your character’s ranks in Bad Breath."],
+"description": ["Your character must have purchased the Bad Breath talent to benefit from this talent. Your character's Bad Breath weapon profile gains a second item quality from the list included in that talent's description, with a rating equal to your character's ranks in Bad Breath."],
 "source": "SotC p. 81"
 },
 {
@@ -1259,7 +1259,7 @@
 "tier": "3",
 "activation": "Active (Maneuver)",
 "ranked": "No",
-"description": ["Your character may use this talent to become disoriented for the remainder of the encounter. At the beginning of each of your character’s turns, if they are still disoriented due to this talent, they heal 2 strain."],
+"description": ["Your character may use this talent to become disoriented for the remainder of the encounter. At the beginning of each of your character's turns, if they are still disoriented due to this talent, they heal 2 strain."],
 "source": "SotB p. 49"
 },
 {
@@ -1283,7 +1283,7 @@
 "tier": "3",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character makes a check to follow another character’s trail (whether their physical tracks or a trail of information), you may use this talent to add [success] no greater than your character’s ranks in Streetwise or Survival, as appropriate for the environment, to the check results."],
+"description": ["When your character makes a check to follow another character's trail (whether their physical tracks or a trail of information), you may use this talent to add [success] no greater than your character's ranks in Streetwise or Survival, as appropriate for the environment, to the check results."],
 "source": "SotC p. 81"
 },
 {
@@ -1291,7 +1291,7 @@
 "tier": "3",
 "activation": "Active (Maneuver)",
 "ranked": "Yes",
-"description": ["Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose one ally engaged with your character; until the end of your character’s next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered."],
+"description": ["Once per round, your character may suffer a number of strain no greater than their ranks in Body Guard to use this talent. Choose one ally engaged with your character; until the end of your character's next turn, upgrade the difficulty of all combat checks targeting that ally a number of times equal to the strain suffered."],
 "source": "ROT p. 90, SotB p. 49"
 },
 {
@@ -1355,7 +1355,7 @@
 "tier": "3",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["While wielding a musical instrument, your character may use this talent to make an Average ([difficulty][difficulty]) Charm or Verse check. For each [success] the check generates, one enemy of the player’s choosing within medium range suffers 1 wound. For each [advantage], one enemy affected by Dissonance suffers 1 additional wound."],
+"description": ["While wielding a musical instrument, your character may use this talent to make an Average ([difficulty][difficulty]) Charm or Verse check. For each [success] the check generates, one enemy of the player's choosing within medium range suffers 1 wound. For each [advantage], one enemy affected by Dissonance suffers 1 additional wound."],
 "source": "ROT p. 90"
 },
 {
@@ -1387,7 +1387,7 @@
 "tier": "3",
 "activation": "Passive",
 "ranked": "No",
-"description": ["When your character casts the Conjure spell using the Primal skill, they always add the Summon Ally effect without increasing the difficulty, and they must always summon a living animal (such as those starting on Expanded Player’s Guide page 86). The animal remains for the duration of the encounter even if your character does not use a concentrate maneuver to maintain the spell. At your GM’s discretion, the animal may have already been nearby rather than summoned from thin air. Likewise, at the end of the encounter, the animal may revert back to its natural behavior instead of vanishing."],
+"description": ["When your character casts the Conjure spell using the Primal skill, they always add the Summon Ally effect without increasing the difficulty, and they must always summon a living animal (such as those starting on Expanded Player's Guide page 86). The animal remains for the duration of the encounter even if your character does not use a concentrate maneuver to maintain the spell. At your GM's discretion, the animal may have already been nearby rather than summoned from thin air. Likewise, at the end of the encounter, the animal may revert back to its natural behavior instead of vanishing."],
 "source": "EPG p. 96"
 },
 {
@@ -1411,7 +1411,7 @@
 "tier": "3",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Once per encounter before making a ranged combat check, you may use this talent to increase your weapon’s range by one range band (to a maximum of extreme range). This lasts for the duration of the combat check."],
+"description": ["Once per encounter before making a ranged combat check, you may use this talent to increase your weapon's range by one range band (to a maximum of extreme range). This lasts for the duration of the combat check."],
 "source": "GCRB p. 78"
 },
 {
@@ -1419,7 +1419,7 @@
 "tier": "3",
 "activation": "Active (Maneuver)",
 "ranked": "No",
-"description": ["Your character may suffer 3 strain to use this talent. Until the start of your character’s next turn, your character and allies within short range add [boost][boost] to combat checks against immobilized targets."],
+"description": ["Your character may suffer 3 strain to use this talent. Until the start of your character's next turn, your character and allies within short range add [boost][boost] to combat checks against immobilized targets."],
 "source": "ROT p. 90"
 },
 {
@@ -1428,7 +1428,7 @@
 "activation": "Passive",
 "ranked": "No",
 "description": ["This talent costs 3 Æmber. Your character adds the Disorient 2 and Stun 3 item qualities to their unarmed attacks. In addition, Brawl combat checks that target your character add [threat][threat] to their results. [despair] from a Brawl check your character makes may be spent to deplete this talent.",
-"Being electrified may have other narrative effects, at your GM’s discretion."],
+"Being electrified may have other narrative effects, at your GM's discretion."],
 "source": "SotC p. 82"
 },
 {
@@ -1444,7 +1444,7 @@
 "tier": "3",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "No",
-"description": ["When another character makes a check to folow your character’s trail (whether physical tracks or a trail of information), your character may use this talent to add [failure] no greater than their ranks in Streetwise or Survival, as appropriate to the environment, to the check results."],
+"description": ["When another character makes a check to folow your character's trail (whether physical tracks or a trail of information), your character may use this talent to add [failure] no greater than their ranks in Streetwise or Survival, as appropriate to the environment, to the check results."],
 "source": "SotC p. 82"
 },
 {
@@ -1453,7 +1453,7 @@
 "activation": "Active (incidental)",
 "ranked": "No",
 "description": ["Your character must have purchased the Improved Ensorcelled talent to benefit from this talent. If your character has at least three ranks in a magic skill, once per session they can use this talent to force all enemies within medium range to make a Hard ([difficulty][difficulty][difficulty]) Discipline check as an out-of-turn incidental. If they fail, they must spend all available maneuvers moving away from your character and they suffer 5 strain, plus 1 additional strain per [threat] (if your group is using the optional Fear rules on page 243 of the Core Rulebook, this can be treated as a fear check).",
-"What form this reveal takes is up to you, with your GM’s approval, but it should be based on your character’s magic skill and the enhancement they possess from the Improved Ensorcelled talent. Some possibilities include growing golden wings of light, manifesting demonic horns and glowing red eyes, rising into the air on a tornado, becoming a figure of pure shadow, or transforming into a massive treelike humanoid."],
+"What form this reveal takes is up to you, with your GM's approval, but it should be based on your character's magic skill and the enhancement they possess from the Improved Ensorcelled talent. Some possibilities include growing golden wings of light, manifesting demonic horns and glowing red eyes, rising into the air on a tornado, becoming a figure of pure shadow, or transforming into a massive treelike humanoid."],
 "source": "EPG p. 96"
 },
 {
@@ -1469,7 +1469,7 @@
 "tier": "3",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character casts an attack spell, they treat the spell’s Blast quality as having a rating equal to twice your character’s ranks in Knowledge (instead of their ranks in Knowledge). When your character casts an Attack spell with the Blast effect, you may spend one Story Point to use this talent to trigger the spell’s Blast quality, instead of spending [advantage] (even if the attack misses)."],
+"description": ["When your character casts an attack spell, they treat the spell's Blast quality as having a rating equal to twice your character's ranks in Knowledge (instead of their ranks in Knowledge). When your character casts an Attack spell with the Blast effect, you may spend one Story Point to use this talent to trigger the spell's Blast quality, instead of spending [advantage] (even if the attack misses)."],
 "source": "EPG p. 97"
 },
 {
@@ -1485,7 +1485,7 @@
 "tier": "3",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["Your character may use this talent to make an Average ([difficulty][difficulty]) Leadership check. If successful, a number of allies equal to your character’s Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter."],
+"description": ["Your character may use this talent to make an Average ([difficulty][difficulty]) Leadership check. If successful, a number of allies equal to your character's Presence may immediately suffer 1 strain to perform one maneuver (out of turn). If there are any questions as to which allies take their maneuvers first, your character is the final arbiter."],
 "source": "GCRB p. 78"
 },
 {
@@ -1501,7 +1501,7 @@
 "tier": "3",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["While driving or flying, your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Piloting or Driving check. If successful, the top speed of the vehicle increases by one (to a maximum of 5) for a number of rounds equal to your character’s Cunning. The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent simply makes the vehicle go much faster than normal, with the specifics up to your GM."],
+"description": ["While driving or flying, your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Piloting or Driving check. If successful, the top speed of the vehicle increases by one (to a maximum of 5) for a number of rounds equal to your character's Cunning. The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent simply makes the vehicle go much faster than normal, with the specifics up to your GM."],
 "source": "GCRB p. 78"
 },
 {
@@ -1509,7 +1509,7 @@
 "tier": "3",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon’s Blast quality, instead of spending [advantage] (even if the attack misses). In addition, your character treats grenades as having a range of medium."],
+"description": ["When your character makes a ranged combat check with a weapon that has the Blast item quality, you may spend one Story Point to use this talent to trigger the weapon's Blast quality, instead of spending [advantage] (even if the attack misses). In addition, your character treats grenades as having a range of medium."],
 "source": "GCRB p. 78"
 },
 {
@@ -1565,7 +1565,7 @@
 "tier": "3",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character must have purchased the Inspiring Rhetoric talent to benefit from this talent. Allies affected by your character’s Inspiring Rhetoric add [boost] to all skill checks they make for a number of rounds equal to your character’s ranks in Leadership."],
+"description": ["Your character must have purchased the Inspiring Rhetoric talent to benefit from this talent. Allies affected by your character's Inspiring Rhetoric add [boost] to all skill checks they make for a number of rounds equal to your character's ranks in Leadership."],
 "source": "GCRB p. 78"
 },
 {
@@ -1573,7 +1573,7 @@
 "tier": "3",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Once per round on your character’s turn, your character may suffer 3 strain to use this talent to add damage equal to their ranks in Discipline to one hit of a successful melee attack."],
+"description": ["Once per round on your character's turn, your character may suffer 3 strain to use this talent to add damage equal to their ranks in Discipline to one hit of a successful melee attack."],
 "source": "ROT p. 90"
 },
 {
@@ -1598,7 +1598,7 @@
 "tier": "3",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["After your character makes a successful Mask spell check to create an illusion, you may spend a Story Point to have your character use this talent to make the illusion last until the end of the encounter, without performing concentrate maneuvers, and not need to remain with the spell’s range after being cast. You may spend two Story Points to make the illusion last until the end of the session instead."],
+"description": ["After your character makes a successful Mask spell check to create an illusion, you may spend a Story Point to have your character use this talent to make the illusion last until the end of the encounter, without performing concentrate maneuvers, and not need to remain with the spell's range after being cast. You may spend two Story Points to make the illusion last until the end of the session instead."],
 "source": "EPG p. 97"
 },
 {
@@ -1622,7 +1622,7 @@
 "tier": "3",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["At the start of your character’s turn, you may spend one Story Point to use this talent to allow your character to perform a move maneuver as an incidental. (This does not count against the limit of two maneuvers per turn.) If you use this talent, your character can only perform one additional move maneuver during this turn."],
+"description": ["At the start of your character's turn, you may spend one Story Point to use this talent to allow your character to perform a move maneuver as an incidental. (This does not count against the limit of two maneuvers per turn.) If you use this talent, your character can only perform one additional move maneuver during this turn."],
 "source": "SotB p. 50"
 },
 {
@@ -1638,7 +1638,7 @@
 "tier": "3",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "No",
-"description": ["Your character must have purchased the Parry talent to benefit from this talent. When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend [despair] or [threat][threat][threat] from the attacker’s check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities. Your character can’t use this talent if the original attack incapacitates them."],
+"description": ["Your character must have purchased the Parry talent to benefit from this talent. When your character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend [despair] or [threat][threat][threat] from the attacker's check to use this talent. Then, your character automatically hits the attacker once with a Brawl or Melee weapon your character is wielding. The hit deals the weapon's base damage, plus any damage from applicable talents or abilities. Your character can't use this talent if the original attack incapacitates them."],
 "source": "GCRB p. 79"
 },
 {
@@ -1662,7 +1662,7 @@
 "tier": "3",
 "activation": "Passive",
 "ranked": "No",
-"description": ["When making a Ranged combat check targeting a character engaged with one of your character’s allies, downgrade the difficulty of the check once (thus negating the penalty for shooting at engaged targets)."],
+"description": ["When making a Ranged combat check targeting a character engaged with one of your character's allies, downgrade the difficulty of the check once (thus negating the penalty for shooting at engaged targets)."],
 "source": "ROT p. 90"
 },
 {
@@ -1678,7 +1678,7 @@
 "tier": "3",
 "activation": "Active (Maneuver)",
 "ranked": "No",
-"description": ["While your character is armed with a bow (or similar weapon, at your GM’s discretion) they may suffer 2 strain to use this talent. During the next ranged combat check your character makes this turn, the bow gains the Linked quality with a value equal to their ranks in the Ranged skill."],
+"description": ["While your character is armed with a bow (or similar weapon, at your GM's discretion) they may suffer 2 strain to use this talent. During the next ranged combat check your character makes this turn, the bow gains the Linked quality with a value equal to their ranks in the Ranged skill."],
 "source": "GCRB p. 79"
 },
 {
@@ -1686,7 +1686,7 @@
 "tier": "3",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character must have purchased the Scathing Tirade talent to benefit from this talent. Enemies affected by your character’s Scathing Tirade add [setback] to all skill checks they make for a number of rounds equal to your character’s ranks in Coercion."],
+"description": ["Your character must have purchased the Scathing Tirade talent to benefit from this talent. Enemies affected by your character's Scathing Tirade add [setback] to all skill checks they make for a number of rounds equal to your character's ranks in Coercion."],
 "source": "GCRB p. 79"
 },
 {
@@ -1702,7 +1702,7 @@
 "tier": "3",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character treats Melee (Heavy) weapons as possessing the Blast item quality with a rating equal to your character’s ranks in Melee (Heavy). Your character does not suffer damage from their weapon’s Blast quality (but allies do!)."],
+"description": ["Your character treats Melee (Heavy) weapons as possessing the Blast item quality with a rating equal to your character's ranks in Melee (Heavy). Your character does not suffer damage from their weapon's Blast quality (but allies do!)."],
 "source": "ROT p. 90"
 },
 {
@@ -1718,9 +1718,9 @@
 "tier": "3",
 "activation": "Active (Maneuver)",
 "ranked": "Yes",
-"description": ["If your character does not make a combat check during their turn, they may use this talent to target one character (or minion group) within long range. That character must upgrade the difficulty of any ranged combat checks they make once until the end of your character’s next turn. Your character may choose to affect one additional character for each additional rank of Suppressing Fire.",
+"description": ["If your character does not make a combat check during their turn, they may use this talent to target one character (or minion group) within long range. That character must upgrade the difficulty of any ranged combat checks they make once until the end of your character's next turn. Your character may choose to affect one additional character for each additional rank of Suppressing Fire.",
 "Your character must be holding a ranged weapon to use this talent.",
-"Your GM can also rule that your character can’t use this talent if they have no line of fire or range to the target."],
+"Your GM can also rule that your character can't use this talent if they have no line of fire or range to the target."],
 "source": "SotB p. 50"
 },
 {
@@ -1736,7 +1736,7 @@
 "tier": "3",
 "activation": "Passive",
 "ranked": "No",
-"description": ["When your character makes a combat check that inflicts strain on the target, the attack inflicts additional strain equal to your character’s ranks in Knowledge (Science)."],
+"description": ["When your character makes a combat check that inflicts strain on the target, the attack inflicts additional strain equal to your character's ranks in Knowledge (Science)."],
 "source": "SotC p. 83"
 },
 {
@@ -1744,7 +1744,7 @@
 "tier": "3",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["Your character may use this talent to make an opposed Brawl vs. Resilience check targeting one engaged opponent. If the check succeeds, the target is knocked prone and immobilized until the end of your character’s next turn. If the target is a minion or rival, your character may spend [triumph] to incapacitate (but not kill) the target instead."],
+"description": ["Your character may use this talent to make an opposed Brawl vs. Resilience check targeting one engaged opponent. If the check succeeds, the target is knocked prone and immobilized until the end of your character's next turn. If the target is a minion or rival, your character may spend [triumph] to incapacitate (but not kill) the target instead."],
 "source": "SotB p. 51"
 },
 {
@@ -1752,7 +1752,7 @@
 "tier": "3",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Your character must have purchased the Undercity Contacts talent to benefit from this talent. When you use Undercity Contacts, you may choose to spend two Story Points instead of one. If you do, your character learns the target’s specific location."],
+"description": ["Your character must have purchased the Undercity Contacts talent to benefit from this talent. When you use Undercity Contacts, you may choose to spend two Story Points instead of one. If you do, your character learns the target's specific location."],
 "source": "SotB p. 51"
 },
 {
@@ -1761,7 +1761,7 @@
 "activation": "Active (Incidental)",
 "ranked": "No",
 "description": ["Once per session, you may spend two Story Points to use this talent to have one NPC in the current encounter owe your character a favor. If the favor is not resolved by the end of the encounter, it is forgotten.",
-"It’s up to you and your GM to determine exactly why the NPC owes your character a favor."],
+"It's up to you and your GM to determine exactly why the NPC owes your character a favor."],
 "source": "SotB p. 51"
 },
 {
@@ -1781,7 +1781,7 @@
 "source": "SotB p. 51"
 },
 {
-"name": "Can’t We Talk About This?",
+"name": "Can't We Talk About This?",
 "tier": "4",
 "activation": "Active (Action)",
 "ranked": "No",
@@ -1817,7 +1817,7 @@
 "tier": "4",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["Each rank of Defensive increases your character’s melee defense and ranged defense by one."],
+"description": ["Each rank of Defensive increases your character's melee defense and ranged defense by one."],
 "source": "GCRB p. 80"
 },
 {
@@ -1825,7 +1825,7 @@
 "tier": "4",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["Increase the defense of any vehicle your character pilots by one per rank of Defensive Driving. The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent adds [setback] per rank to combat checks targeting your character’s vehicle or your character while piloting it."],
+"description": ["Increase the defense of any vehicle your character pilots by one per rank of Defensive Driving. The specifics of this talent require the optional vehicle rules, on page 220. If your game does not use these rules, this talent adds [setback] per rank to combat checks targeting your character's vehicle or your character while piloting it."],
 "source": "GCRB p. 80"
 },
 {
@@ -1849,7 +1849,7 @@
 "tier": "4",
 "activation": "Active (out of turn incidental)",
 "ranked": "No",
-"description": ["Your character must have purchased the Improved Elementalist talent to benefit from this talent. When your character casts an augment, barrier, or transform spell, they must use this talent to choose to have the targets of the spell gain the ability your character gained when they purchased Improved Elementalist for the spell’s duration."],
+"description": ["Your character must have purchased the Improved Elementalist talent to benefit from this talent. When your character casts an augment, barrier, or transform spell, they must use this talent to choose to have the targets of the spell gain the ability your character gained when they purchased Improved Elementalist for the spell's duration."],
 "source": "EPG p. 97"
 },
 {
@@ -1857,7 +1857,7 @@
 "tier": "4",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["Once per session, your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Perception check while present at a crime scene. If they succeed, they identify all prominent physical characteristics of one person who was at the crime scene when the crime was committed (as long as the crime was committed in the past 48 hours). This could include a person’s height, weight, body type, clothing, and if they are human or not. Your character may identify all the physical characteristics of one additional person present at the crime scene per additional [success]."],
+"description": ["Once per session, your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Perception check while present at a crime scene. If they succeed, they identify all prominent physical characteristics of one person who was at the crime scene when the crime was committed (as long as the crime was committed in the past 48 hours). This could include a person's height, weight, body type, clothing, and if they are human or not. Your character may identify all the physical characteristics of one additional person present at the crime scene per additional [success]."],
 "source": "SotB p. 51"
 },
 {
@@ -1865,7 +1865,7 @@
 "tier": "4",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["Each rank of Enduring increases your character’s soak value by one."],
+"description": ["Each rank of Enduring increases your character's soak value by one."],
 "source": "GCRB p. 80"
 },
 {
@@ -1873,7 +1873,7 @@
 "tier": "4",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character must have purchased the Field Commander talent to benefit from this talent. When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character’s Presence. In addition, you may spend [triumph] to allow one ally to suffer 1 strain to perform an action, instead of a maneuver."],
+"description": ["Your character must have purchased the Field Commander talent to benefit from this talent. When your character uses the Field Commander talent, your character affects a number of allies equal to twice the character's Presence. In addition, you may spend [triumph] to allow one ally to suffer 1 strain to perform an action, instead of a maneuver."],
 "source": "GCRB p. 80"
 },
 {
@@ -1905,7 +1905,7 @@
 "tier": "4",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["Once per session, your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Mechanics check. If successful, one device involved in the current encounter (subject to your GM’s approval) spontaneously fails. This can be because of your character’s actions, or it can simply be incredibly convenient timing!"],
+"description": ["Once per session, your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Mechanics check. If successful, one device involved in the current encounter (subject to your GM's approval) spontaneously fails. This can be because of your character's actions, or it can simply be incredibly convenient timing!"],
 "source": "GCRB p. 80"
 },
 {
@@ -1913,7 +1913,7 @@
 "tier": "4",
 "activation": "Active (Incidental)",
 "ranked": "No",
-"description": ["Once per session, before making a check your character may use this talent to substitute a Knowledge skill of their choice instead of the skill the check would normally require. You should explain how your character’s ingenious solution made this possible-in laypeople’s terms, anyway."],
+"description": ["Once per session, before making a check your character may use this talent to substitute a Knowledge skill of their choice instead of the skill the check would normally require. You should explain how your character's ingenious solution made this possible-in laypeople's terms, anyway."],
 "source": "SotC p. 84"
 },
 {
@@ -1929,7 +1929,7 @@
 "tier": "4",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["Once per session, your character may use this talent to make a Mechanics check to attempt to cobble together the functional equivalent of any item using spare parts or salvage. The difficulty of the check is based on the item’s rarity; see Table I.4–1: Mad Inventor Item Rarity in the Genesys Core Rulebook. Your GM will modify the check based on the circumstances and might decide that some items simply can’t be created with what’s available (if you are being held in a prison cell, for instance). Your GM may spend [despair] on the check to indicate the item ends up being dangerous to the user and anyone around them in some way. For instance, a pistol might explode instead of running out of ammo, or a breathing mask might make the user light-headed."],
+"description": ["Once per session, your character may use this talent to make a Mechanics check to attempt to cobble together the functional equivalent of any item using spare parts or salvage. The difficulty of the check is based on the item's rarity; see Table I.4–1: Mad Inventor Item Rarity in the Genesys Core Rulebook. Your GM will modify the check based on the circumstances and might decide that some items simply can't be created with what's available (if you are being held in a prison cell, for instance). Your GM may spend [despair] on the check to indicate the item ends up being dangerous to the user and anyone around them in some way. For instance, a pistol might explode instead of running out of ammo, or a breathing mask might make the user light-headed."],
 "source": "GCRB p. 80"
 },
 {
@@ -1945,7 +1945,7 @@
 "tier": "4",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["While driving or piloting a vehicle, your character may use this talent to select one other vehicle within medium range and make an opposed Driving or Piloting verus Driving or Piloting check (depending on whether your character and their opponent are using Driving or Piloting to control their vehicle) targeting the other vehicle’s driver or pilot. If successful, roll twice on the Table III.2-19 Critical Hit Result, on page 230 of the Genesys Core Rulebook. Choose one Critical Hit result to apply to your character’s vehicle, and the other to apply to the other vehicle. You may spend [triumph] to add +20 to one Critical Hit result. Your GM may spend [despair] to add +20 to both Critical Hit results."],
+"description": ["While driving or piloting a vehicle, your character may use this talent to select one other vehicle within medium range and make an opposed Driving or Piloting verus Driving or Piloting check (depending on whether your character and their opponent are using Driving or Piloting to control their vehicle) targeting the other vehicle's driver or pilot. If successful, roll twice on the Table III.2-19 Critical Hit Result, on page 230 of the Genesys Core Rulebook. Choose one Critical Hit result to apply to your character's vehicle, and the other to apply to the other vehicle. You may spend [triumph] to add +20 to one Critical Hit result. Your GM may spend [despair] to add +20 to both Critical Hit results."],
 "source": "SotB p. 51"
 },
 {
@@ -1957,7 +1957,7 @@
 "source": "GCRB p. 80"
 },
 {
-"name": "Pain Don’t Hurt",
+"name": "Pain Don't Hurt",
 "tier": "4",
 "activation": "Active (Maneuver)",
 "ranked": "No",
@@ -1985,7 +1985,7 @@
 "tier": "4",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "No",
-"description": ["Once per encounter, after another character makes a social skill check, your character may use this talent to make an Average ([difficulty][difficulty]) Vigilance check. If successful, you may add a number of [success] or [advantage] (your choice) equal to your character’s ranks in Charm to the other character’s check. If your character fails, your character suffers 3 strain."],
+"description": ["Once per encounter, after another character makes a social skill check, your character may use this talent to make an Average ([difficulty][difficulty]) Vigilance check. If successful, you may add a number of [success] or [advantage] (your choice) equal to your character's ranks in Charm to the other character's check. If your character fails, your character suffers 3 strain."],
 "source": "SotB p. 51"
 },
 {
@@ -2026,7 +2026,7 @@
 "activation": "Active (Action)",
 "ranked": "No",
 "description": ["If your character has at least one rank in Arcana, once per session, your character may use this talent to make a Daunting ([difficulty][difficulty][difficulty][difficulty]) Arcana check.   If they succeed, they instantly vanish and reappear in any other location in the world that they already know about.",
-"Your character may bring up to five allies with them when they teleport, but they must add [setback] to the check for each ally. They may also teleport to different worlds or planes of existence; however they must upgrade the difficulty of the check once (or more, at your GM’s discretion) if they do so.  Whenever your character uses this talent, your GM may spend [threat] to have the teleportation miss the location by a range band per [threat] spent, or may spend [threat][threat][threat][threat] or [despair] to have the teleportation go catastrophically wrong (by having a character materialize in a wall, another person, or midair, for instance, with the awful consequences to be determined by your GM). "],
+"Your character may bring up to five allies with them when they teleport, but they must add [setback] to the check for each ally. They may also teleport to different worlds or planes of existence; however they must upgrade the difficulty of the check once (or more, at your GM's discretion) if they do so.  Whenever your character uses this talent, your GM may spend [threat] to have the teleportation miss the location by a range band per [threat] spent, or may spend [threat][threat][threat][threat] or [despair] to have the teleportation go catastrophically wrong (by having a character materialize in a wall, another person, or midair, for instance, with the awful consequences to be determined by your GM). "],
 "source": "EPG p. 97"
 },
 {
@@ -2042,7 +2042,7 @@
 "tier": "4",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "No",
-"description": ["When your character is targeted by a combat check while in an urban environment, you may spend one Story Point to use this talent before the dice pool is rolled. If you do so, your character’s opponent removes all [setback] added to the check, and instead adds an equal number of [failure] to the results.."],
+"description": ["When your character is targeted by a combat check while in an urban environment, you may spend one Story Point to use this talent before the dice pool is rolled. If you do so, your character's opponent removes all [setback] added to the check, and instead adds an equal number of [failure] to the results.."],
 "source": "SotB p. 52"
 },
 {
@@ -2074,8 +2074,8 @@
 "tier": "5",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character must have purchased the Animal Companion talent to benefit from this talent. Your character may have two animal companions with a combined silhouette no greater than your character’s ranks in Animal Companion. Your character spends on maneuver to allow both to perform an action and a maneuver and resolves each companion’s turn individually, choosing the order in which they activate.",
-"One or both of your character’s animal companions can instead be a minion group of animals with a combined silhouette no greater than your character’s ranks in Animal Companion. For this purpose, treat every two silhouette 0 animals as silhouette 1."],
+"description": ["Your character must have purchased the Animal Companion talent to benefit from this talent. Your character may have two animal companions with a combined silhouette no greater than your character's ranks in Animal Companion. Your character spends on maneuver to allow both to perform an action and a maneuver and resolves each companion's turn individually, choosing the order in which they activate.",
+"One or both of your character's animal companions can instead be a minion group of animals with a combined silhouette no greater than your character's ranks in Animal Companion. For this purpose, treat every two silhouette 0 animals as silhouette 1."],
 "source": "SotC p. 84"
 },
 {
@@ -2099,7 +2099,7 @@
 "tier": "5",
 "activation": "Passive",
 "ranked": "Yes",
-"description": ["Each rank of Dedication increases one of your character’s characteristics by one. This talent cannot increase a characteristic above 5. You cannot increase the same characteristic with Dedication twice."],
+"description": ["Each rank of Dedication increases one of your character's characteristics by one. This talent cannot increase a characteristic above 5. You cannot increase the same characteristic with Dedication twice."],
 "source": "GCRB p. 81"
 },
 {
@@ -2107,7 +2107,7 @@
 "tier": "5",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "No",
-"description": ["Your character must have purchased Dramatic Entrance talent to benefit from this talent. When your character uses Dramatic Entrance, they may immediately perform one action. If this interrupts another character’s turn or activity, that character resumes their turn or activity after the action is resolved"],
+"description": ["Your character must have purchased Dramatic Entrance talent to benefit from this talent. When your character uses Dramatic Entrance, they may immediately perform one action. If this interrupts another character's turn or activity, that character resumes their turn or activity after the action is resolved"],
 "source": "SotC p. 84"
 },
 {
@@ -2115,7 +2115,7 @@
 "tier": "5",
 "activation": "Passive",
 "ranked": "No",
-"description": ["Your character may control two drones or minion groups of drones no larger than your character’s Willpower (either via the rules found on page 233 of Android: Shadow of the Beanstalk or via the Animal Companion talent, found on page 77 of the Genesys Core Rulebook). Your character resolves each drone’s (or minion group’s) turn individually, choosing the order in which they activate."],
+"description": ["Your character may control two drones or minion groups of drones no larger than your character's Willpower (either via the rules found on page 233 of Android: Shadow of the Beanstalk or via the Animal Companion talent, found on page 77 of the Genesys Core Rulebook). Your character resolves each drone's (or minion group's) turn individually, choosing the order in which they activate."],
 "source": "SotB p. 52"
 },
 {
@@ -2123,8 +2123,8 @@
 "tier": "5",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["As long as they have some sort of access point to the Network, your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Computers (Hacking) check. If they succeed, they may select one drone, vehicle, or piece of equipment involved in the current encounter and dictate its actions until the start of your character’s next turn.",
-"Alternatively, your character can select someone with cybernetic implants or who is wearing powered armor or an exosuit and manipulate it until the beginning of your character’s next turn. This must be approved by your GM but could include shutting off cybereyes, directing the movements of cyberlimbs, or causing an exosuit to eject its occupant.",
+"description": ["As long as they have some sort of access point to the Network, your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Computers (Hacking) check. If they succeed, they may select one drone, vehicle, or piece of equipment involved in the current encounter and dictate its actions until the start of your character's next turn.",
+"Alternatively, your character can select someone with cybernetic implants or who is wearing powered armor or an exosuit and manipulate it until the beginning of your character's next turn. This must be approved by your GM but could include shutting off cybereyes, directing the movements of cyberlimbs, or causing an exosuit to eject its occupant.",
 "Your character may spend [advantage][advantage][advantage] on the check to extend the effects for one additional round, or they may spend [triumph] to extend the effects for the remainder of the encounter."],
 "source": "SotB p. 52"
 },
@@ -2137,11 +2137,11 @@
 "source": "GCRB p. 81"
 },
 {
-"name": "Let’s Talk This Over",
+"name": "Let's Talk This Over",
 "tier": "5",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "No",
-"description": ["Once per game session, when a combat encounter against one or more sentient beings is about to begin, the character make a Daunting ([difficulty][difficulty][difficulty][difficulty]) Charm check. If successful, the combat encounter instead becomes a social encounter, with the PCs attempting to convince their opposition to back down, come around to their viewpoint, or accept a compromise. The GM is the final arbiter of how the situation resolves without violence (or how the combat encounter continues if the character’s check is unsuccessful)."],
+"description": ["Once per game session, when a combat encounter against one or more sentient beings is about to begin, the character make a Daunting ([difficulty][difficulty][difficulty][difficulty]) Charm check. If successful, the combat encounter instead becomes a social encounter, with the PCs attempting to convince their opposition to back down, come around to their viewpoint, or accept a compromise. The GM is the final arbiter of how the situation resolves without violence (or how the combat encounter continues if the character's check is unsuccessful)."],
 "source": "ROT p. 91"
 },
 {
@@ -2158,7 +2158,7 @@
 "activation": "Active (Action)",
 "ranked": "No",
 "description": ["Once per session, your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Discipline check. If they succeed, they reveal that whatever terrible circumstances they currently find themselves in are all part of a brilliant plan that they established at an earlier point. They then choose one non-nemesis adversary in the encounter and reveal them to be a close friend or ally who has positioned themselves to help your character at this exact moment.",
-"The details of which character turns out to be an ally depend on the type of encounter and your GM’s approval. However, the ally could also have done their work beforehand, such as loading a squadron of drones with blank ammunition, shutting down power to a security system, or planting a tracer in an opponent’s vehicle."],
+"The details of which character turns out to be an ally depend on the type of encounter and your GM's approval. However, the ally could also have done their work beforehand, such as loading a squadron of drones with blank ammunition, shutting down power to a security system, or planting a tracer in an opponent's vehicle."],
 "source": "SotB p. 52"
 },
 {
@@ -2174,7 +2174,7 @@
 "tier": "5",
 "activation": "Active (Incidental, Out of Turn)",
 "ranked": "No",
-"description": ["Once per round when an adversary attacks an ally within medium range, your character may spend one Story Point to use this talent to automatically hit that enemy once with a weapon your character is wielding, if the enemy is within the weapon’s range. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities."],
+"description": ["Once per round when an adversary attacks an ally within medium range, your character may spend one Story Point to use this talent to automatically hit that enemy once with a weapon your character is wielding, if the enemy is within the weapon's range. The hit deals the weapon's base damage, plus any damage from applicable talents or abilities."],
 "source": "ROT p. 91"
 },
 {
@@ -2182,7 +2182,7 @@
 "tier": "5",
 "activation": "Active (Action)",
 "ranked": "No",
-"description": ["Once per encounter, your character may use this talent to make an opposed Charm or Coercion versus Discipline check targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character’s Presence, plus one additional strain per [success]. Your character heals strain equal to the strain inflicted. If incapacitated due to this talent, the target could flee the scene in shame, collapse in a dejected heap, or throw themself at your character in fury, depending on your GM and the nature of your character’s witty barbs."],
+"description": ["Once per encounter, your character may use this talent to make an opposed Charm or Coercion versus Discipline check targeting one character within medium range (or within earshot). If successful, the target suffers strain equal to twice your character's Presence, plus one additional strain per [success]. Your character heals strain equal to the strain inflicted. If incapacitated due to this talent, the target could flee the scene in shame, collapse in a dejected heap, or throw themself at your character in fury, depending on your GM and the nature of your character's witty barbs."],
 "source": "GCRB p. 81"
 },
 {
@@ -2200,7 +2200,7 @@
 "ranked": "Yes",
 "description": ["Your character must have purchased the Teleportation talent to benefit from this talent. Your character may use this talent to make a Hard ([difficulty][difficulty][difficulty]) Arcana check to create a permanent beacon glyph or teleportation circle in a location (how it appears is up to you and your GM, but it should be large and noticeable).",
 "When your character uses the Teleportation talent, if they choose to teleport to the location of their beacon, glyph, or teleportation circle, they reduce the difficulty of the check to Average ([difficulty][difficulty]) and do not add [setback] for teleporting additional allies. They also do not upgrade the difficulty of the check if teleporting to a different world or plane of existence. ",
-"Your character can have two glyphs, beacons, or circles established at any one time per rank of Teleportation (Improved). If they create any over this limite, one of the originals of your character’s choice is destroyed."],
+"Your character can have two glyphs, beacons, or circles established at any one time per rank of Teleportation (Improved). If they create any over this limite, one of the originals of your character's choice is destroyed."],
 "source": "EPG p. 98"
 },
 {

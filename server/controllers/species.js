@@ -14,6 +14,11 @@ module.exports = {
 
       // filter by queries
       let list = filter(archetypes, archetype => {
+         const matchSkillChoice = () => {
+            return skillChoice.toLowerCase() === 'true' && archetype.skills.choice
+               || skillChoice.toLowerCase() === 'false' && !archetype.skills.choice;
+         };
+
          if (
             brawn && archetype.characteristics.brawn != brawn
             || agility && archetype.characteristics.agility != agility
@@ -25,7 +30,8 @@ module.exports = {
             || st && archetype.st != st
             || xp && archetype.xp != xp
             || skill && !includes(archetype.skills.skills, skill.toLowerCase())
-            || skillChoice && archetype.skills.choice !== skillChoice
+            || skillChoice && !matchSkillChoice()
+            // || skillChoice && archetype.skills.choice !== skillChoice
             || activation && some(archetype.abilities, a => a.activation === activation)
             || setting && !includes(archetype.settings, setting.toLowerCase())
             || source && !includes(archetype.source.toLowerCase(), source.toLowerCase())

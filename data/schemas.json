@@ -1,13 +1,13 @@
 [
    {
-      "name": "",
+      "name": "career",
       "careerSkills": [],
       "description": [],
       "settings": [],
       "source": ""
    },
    {
-      "name": "",
+      "name": "species",
       "characteristics": {
          "brawn": 2,
          "agility": 2,
@@ -31,12 +31,12 @@
          "description": [],
          "activation": ""
       }],
-      "fluff": [],
+      "description": [],
       "settings": [],
       "source": ""
    },
    {
-      "name": "",
+      "name": "talent",
       "tier": "",
       "activation": "",
       "ranked": "",

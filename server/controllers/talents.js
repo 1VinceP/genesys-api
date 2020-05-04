@@ -10,10 +10,15 @@ module.exports = {
 
 		// filter by queries
 		let list = filter(talents, talent => {
+         const matchRanked = () => {
+            return ranked.toLowerCase() === 'true' && talent.ranked === 'Yes'
+               || ranked.toLowerCase() === 'false' && talent.ranked === 'No';
+         };
+
 			if (
 				tier && tier !== talent.tier
-				|| activation && activation.toLowerCase() !== talent.activation.toLowerCase()
-				|| ranked && ranked.toLowerCase() !== talent.ranked.toLowerCase()
+				|| activation && !includes(talent.activation.toLowerCase(), activation.toLowerCase())
+				|| ranked && !matchRanked()
 				|| source && !includes(talent.source.toLowerCase(), source.toLowerCase())
 			) return false;
 
