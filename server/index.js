@@ -4,7 +4,8 @@ const express = require('express')
     , helmet = require('helmet')
     , chalk = require('chalk');
 
-const careers = require('./controllers/careers')
+const adversaries = require('./controllers/adversaries')
+	 , careers = require('./controllers/careers')
     , species = require('./controllers/species')
     , talents = require('./controllers/talents');
 
@@ -22,6 +23,9 @@ app.use(helmet());
 app.use(bodyParser.json());
 
 /* endpoints */
+// ADVERSARIES
+app.get('/api/adversaries', adversaries.getMany);
+app.get('/api/adversaries/:name', adversaries.getOne);
 // CAREERS
 app.get('/api/careers', careers.getMany);
 app.get('/api/careers/:name', careers.getOne);

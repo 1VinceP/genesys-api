@@ -71,10 +71,8 @@ header {
 }
 
 .body {
-   /* height: 100%; */
    width: 100%;
    display: flex;
-   /* position: relative; */
 }
 
 .column.left { flex: 2; }
@@ -133,7 +131,7 @@ header {
 .query-table div:nth-child(8n-3) { background: #E0F4FC; }
 
 .search {
-   height: calc(100vh - 100px);
+   max-height: calc(100vh - 1000px);
    position: sticky;
    top: 84px;
 }

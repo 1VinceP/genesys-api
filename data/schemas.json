@@ -56,9 +56,12 @@
             "damage": 0,
             "critical": 0,
             "range": "",
-            "special": []
+            "special": [
+               { "name": "", "rating": 0 }
+            ]
          }
       ],
+      "description": [],
       "settings": [],
       "source": ""
    },

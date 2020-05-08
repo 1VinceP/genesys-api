@@ -1,7 +1,7 @@
 [
    {
       "name": "Ancient Dragon",
-      "profile": "Nemesis",
+      "profile": "nemesis",
       "type": "mythical",
       "characteristics": {
          "brawn": 5,
@@ -45,7 +45,7 @@
          {
             "name": "Swift",
             "description": [
-               "A dragon does not spend additional maneuvers to move through difficult terrain"
+               "A dragon does not spend additional maneuvers to move through difficult terrain."
             ],
             "activation": "passive"
          }
@@ -101,7 +101,7 @@
          {
             "name": "Fiery Breath",
             "description": [
-               "Ranged; Damage 16; Critical 3; Range Medium; Blast 16, Burn 3, Prepare 1"
+               "Ranged; Damage 16; Critical 3; Range Medium; Blast 16, Burn 3, Prepare 1."
             ],
             "skill": "ranged",
             "damage": 16,
@@ -116,7 +116,7 @@
          {
             "name": "Claws",
             "description": [
-               "Brawl; Damage 17; Critical 2; Range Engaged; Knockdown, Sunder, Vicious 5"
+               "Brawl; Damage 17; Critical 2; Range Engaged; Knockdown, Sunder, Vicious 5."
             ],
             "skill": "brawl",
             "damage": 17,
@@ -129,6 +129,11 @@
             ]
          }
       ],
+      "description": [
+         "The feral beasts that terrorize the people of Terrinoth are only pale echoes of the dragons to be found in the Molten Heath. Here, the oldest, wisest, and most powerful dragons make their kingdom, under the guidance of the Dragon Rex. Ancient dragons have all the physical power of their southern kin, matched to an intellect and mastery of magic beyond any mortal. Seldom have the dragons seen fit to meddle in the affairs of mortals, and since the time of the Dragon Wars, these godlike beings have largely passed into legend.",
+         "The vast minds of dragons are alien to those of Humans and their kin, and even the Elves can only barely grasp the desires and plots of these ancient wyrms. Scholars still puzzle over the reasons for the Dragon Wars and for the dragons’ abrupt departure. In the vanishingly rare event that a dragon’s activities are known to mortals, they are likely to seem cruel or even senseless. Dragons measure time in spans that mortals can scarcely comprehend; without this context, the lesser races cannot hope to grasp the true cause or goal of a dragon’s action. Compounding matters, dragons have little regard for the lives of Humans or the other peoples of Mennara, with the notable exception of the Elves.",
+         "Dragons do sometimes make use of Humans, Orcs, and the other peoples of Mennara in their continued guardianship. More often than not, such individuals never realize they serve the interests of a dragon—particularly in the case of Dwarves, who harbor an abiding hatred for the Dragonkin. Despite the risks of relying on such inferior creatures, throughout history, a number of dragons have seen the mortals of Mennara as potentially useful tools in the battle to protect the Yrthwrights’ creation from the depredations of the Ynfernael and the abyssal entities that dwell within."
+      ],
       "settings": [
          "fantasy"
       ],
@@ -136,7 +141,7 @@
    },
    {
       "name": "Assassin",
-      "profile": "Nemesis",
+      "profile": "nemesis",
       "type": "humanoid",
       "characteristics": {
          "brawn": 2,
@@ -215,12 +220,4895 @@
             "activation": "incidental"
          }
       ],
-      "equipment": [],
-      "settings": [],
-      "source": ""
+      "equipment": [
+         {
+            "name": "Scimitar",
+            "description": [
+               "Melee (Light); Damage 6; Critical 2; Range Engaged; Defensive 1."
+            ],
+            "skill": "Melee (Light)",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Two katars",
+            "description": [
+               "Melee (Light); Damage 5; Critical 2; Range Engaged; Accurate 1."
+            ],
+            "skill": "Melee (Light)",
+            "damage": 5,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Three daggers",
+            "description": [
+               "Ranged; Damage 5; Critical 3; Range Short; Accurate 1; Limited Ammo 3."
+            ],
+            "skill": "Ranged",
+            "damage": 5,
+            "critical": 3,
+            "range": "short",
+            "special": [
+               { "name": "Limited Ammo", "rating": 3 }
+            ]
+         },
+         {
+            "name": "Bow",
+            "description": [
+               "Ranged; Damage 7; Critical 3; Range Medium; Unwieldy 2."
+            ],
+            "skill": "ranged",
+            "damage": 7,
+            "critical": 3,
+            "range": "medium",
+            "special": [
+               { "name": "Unwieldy", "rating": 2 }
+            ]
+         },
+         {
+            "name": "A variety of concealing cloaks"
+         }
+      ],
+      "description": [
+         "The assassins of the Hysshari Brotherhoods are as deadly shadows that stalk the courts of Al-Kalim. These cults of murder serve the Caliph and their viziers and train their assassins in hidden mountain temples and oasis fortresses. At the Tower of Knives, which hangs like a dagger from the cavern roof of Haruun, acrobatic killers master the arts of wall walking. In the Valley of Ash, Brotherhood members train with mysterious bladewomen to learn the secrets of silent killing and night fighting.",
+         "Once an assassin has accepted a contract to kill, they are unwavering in pursuit of their prey, taking an oath to the masters of their order that the sands will drink either the blood of their victim or their own. The true talent of an assassin, however, lies in their ability to blend in with their surroundings. They are also well trained in disguise, and no matter their own gender or form can take on new personas to move among any echelon of Al-Kalim’s society."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 247"
    },
    {
-      "name": "",
+      "name": "Aymhelin Scion",
+      "profile": "rival",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 2,
+         "presence": 3
+      },
+      "soak": 5,
+      "wt": 18,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 6,
+         "social": 2,
+         "general": 3
+      },
+      "silhouette": 2,
+      "skills": [
+         { "name": "cool", "ranks": 2 },
+         { "name": "discipline", "ranks": 2 },
+         { "name": "brawl", "ranks": 3 },
+         { "name": "resilience", "ranks": 4 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Swift",
+            "description": [
+               "An Aymhelin Scion does not perform extra maneuvers to move through difficult terrain."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Cage of Roots",
+            "description": [
+               "Once per round after a character moves within medium range of the Aymhelin Scion, the Aymhelin Scion may perform an out-of-turn incidental to immobilize that character for the remainder of the encounter. As an action an immobilized character can attempt a Hard ([difficulty][difficulty][difficulty]) Athletics check on their turn to no longer be immobilized."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Silhouette 2",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Limbs",
+            "description": [
+               "Brawl; Damage 8; Critical 4; Range Engaged; Knockdown."
+            ],
+            "skill": "brawl",
+            "damage": 8,
+            "critical": 4,
+            "range": "engaged",
+            "special": [
+               { "name": "knockdown", "rating": 0 }
+            ]
+         }
+      ],
+      "description": [
+         "Some say the Elves use arcane, ritualistic magic to animate huge Deepwood trees. Others claim that the trees achieved mobility on their own, a byproduct from millennia of magic being cast across the Aymhelin. No matter their origin, the trees of the Aymhelin are potent allies. Scions are young, only a few centuries old perhaps, and often accompany the Elves when battle must be done outside the great forest. Though not as powerful as Forest Guardians, these trees can ensnare foes to make then easy targets for Elven archers."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 178"
+   },
+   {
+      "name": "Bane Spider",
+      "profile": "rival",
+      "type": "beast",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 3,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 5,
+      "wt": 16,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 5,
+         "social": 1,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 2 },
+         { "name": "cool", "ranks": 2 },
+         { "name": "coordination", "ranks": 2 },
+         { "name": "ranged", "ranks": 1 },
+         { "name": "stealth", "ranks": 2 },
+         { "name": "vigilance", "ranks": 3 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Skitter",
+            "description": [
+               "Can move across walls, ceilings, and giant spider webs without penalty."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Venomous Fangs",
+            "description": [
+               "Brawl; Damage 5; Critical 3; Range (Engaged); Burn 2, Pierce 3."
+            ],
+            "skill": "brawl",
+            "damage": 5,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "burn", "rating": 2 },
+               { "name": "pierce", "rating": 3 }
+            ]
+         },
+         {
+            "name": "Acid Spit",
+            "description": [
+               "Ranged; Damage 4; Critical 4; Range (Short); Burn 2, Pierce 3."
+            ],
+            "skill": "ranged",
+            "damage": 4,
+            "critical": 4,
+            "range": "short",
+            "special": [
+               { "name": "burn", "rating": 2 },
+               { "name": "pierce", "rating": 3 }
+            ]
+         },
+         {
+            "name": "Webbing",
+            "description": [
+               "Ranged; Damage 1; Critical 6; Range (Short); Ensnare 3."
+            ],
+            "skill": "ranged",
+            "damage": 1,
+            "critical": 6,
+            "range": "short",
+            "special": [
+               { "name": "ensnare", "rating": 3 }
+            ]
+         }
+      ],
+      "description": [
+         "Giant spiders are a mainstay of the fantasy genre. As horrifying as any huge arachnid, bane spiders have the added ability to spit globs of acidic venom. This venom, which bane spiders can also inject with their fangs, conveniently allows them to start digesting their prey before even closing to striking range.",
+         "Most bane spiders are roving hunters, but you might prefer one that shoots bundles of sticky webbing instead of (or in addition to) venom."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "GCRB p. 147"
+   },
+   {
+      "name": "Barghest",
+      "profile": "rival",
+      "type": "undead",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 3,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 1
+      },
+      "soak": 5,
+      "wt": 13,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 4,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "athletics", "ranks": 2 },
+         { "name": "brawl", "ranks": 2 },
+         { "name": "perception", "ranks": 3 },
+         { "name": "resilience", "ranks": 3 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [
+         {
+            "name": "swift",
+            "description": [
+               "A barghest does not spend additional maneuvers to move through difficult terrain."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Maul",
+            "description": [
+               "A barghest adds [boost][boost] to Brawl checks against prone or immobilized targets."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make a Hard ([difficulty][difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Undead",
+            "description": [
+               "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins."
+            ]
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Claws and Fangs",
+            "description": [
+               "Brawl; Damage 6; Critical 3; Range (Engaged); Knockdown, Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "knockdown", "rating": 0 },
+               { "name": "vicious", "rating": 1 }
+            ]
+         }
+      ],
+      "description": [
+         "Some necromancers specialize in commanding barghests, ghastly canines of immense size and strength, rather than raising simple Reanimates. The origins of these bestial creatures is the subject of dark myths, and most firmly hold that they have existed in Mennara long before Waiqar was born. All tales agree, though, that their vicious, undead form has no resemblance to any living creature, and that they appear more the work of some twisted mentality than any natural evolution.",
+         "Barghests often travel in scouting packs, attacking from out of woodlands and misted fields to harass and drive prey. They prefer to strike when the night is darkest, relying on their keen senses of smell and taste to detect the signs of life. Those that prove their worth are elevated to become barghest alphas; these share a special mystical bond with their undead master. By meditating, the necromancer can extend their grasp over the barghest alpha, seeing through its eyes and directing the others in its pack with even greater control."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 163"
+   },
+   {
+      "name": "Baronial Knight",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 3
+      },
+      "soak": 5,
+      "wt": 16,
+      "st": 0,
+      "mDef": 4,
+      "rDef": 3,
+      "powerLevel": {
+         "combat": 6,
+         "social": 3,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "athletics", "ranks": 2 },
+         { "name": "discipline", "ranks": 2 },
+         { "name": "leadership", "ranks": 1 },
+         { "name": "melee (light)", "ranks": 3 },
+         { "name": "resilience", "ranks": 2 },
+         { "name": "riding", "ranks": 3 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [],
+      "equipment": [
+         {
+            "name": "Sword",
+            "description": [
+               "Melee (Light); Damage 6; Critical 2; Range (Engaged); Defensive 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Lance",
+            "description": [
+               "Melee (Light); Damage 9; Critical 3; Range (Engaged); Knockdown; a lance can only be used while mounted and can only be used to attack immediately after performing a maneuver to engage the target."
+            ],
+            "skill": "melee (light)",
+            "damage": 9,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "knockdown", "rating": 0 },
+               { "name": "a lance can only be used while mounted and can only be used to attack immediately after performing a maneuver to engage the target", "rating": 0 }
+            ]
+         },
+         {
+            "name": "Large Shield",
+            "description": [
+               "Melee (Light); Damage 4; Critical 5; Range (Engaged); Defensive 2, Deflection 2, Inaccurate 2, Knockdown."
+            ],
+            "skill": "melee (light)",
+            "damage": 4,
+            "critical": 5,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 2 },
+               { "name": "deflection", "rating": 2 },
+               { "name": "inaccurate", "rating": 2 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         },
+         {
+            "name": "Plate Armor",
+            "description": [
+               "+2 soak, +1 defense."
+            ]
+         },
+         {
+            "name": "War Mount",
+            "description": [
+               "see RoT page 105."
+            ]
+         }
+      ],
+      "description": [
+         "It is the dream of many a soldier to be elevated to the position of knight. Not only does it bring honor and pride to their family name, but having a baron’s favor and a position in their retinue is most often the key to advancement later in life. Many seek further glory in a knightly order, such as the Knights of the Greatwood, or the legendary Citadel Guard. Tougher than the average swordsman, baronial knights are usually armed with either a long spear or a sword and a shield to ward off blows.",
+         "Baronial knights begin their training to fight on foot before being accepted into one of the equestrian orders. From their sworn baron, these warriors receive a small stipend as well as their weapons, distinctive plate armor, and extensive martial training. As a result of that training, average baronial knights are stalwart and experienced enough to hold their own against far more powerful foes, at least until reinforcements can arrive."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 150"
+   },
+   {
+      "name": "Beastman",
+      "profile": "minion",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 3,
+      "wt": 6,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 2,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 0 },
+         { "name": "perception", "ranks": 0 },
+         { "name": "vigilance", "ranks": 0 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Bestial Rage",
+            "description": [
+               "A beastman or beastman minion group that has taken damage reduces the Critical rating of its attacks to 1."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Fangs and Claws",
+            "description": [
+               "Brawl; Damage 6; Critical 3; Range (Engaged)."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": []
+         }
+      ],
+      "description": [
+         "Beastmen are awful hybrids of human and animal. Although their particular features vary, most resemble predatory mammals, with thick fur, long claws, and big fangs. There are countless legends about the origins of beastmen, many attributing their inception to a curse for angering the gods. All are ferociously violent and almost impossible to communicate with."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "GCRB p. 147"
+   },
+   {
+      "name": "Berserker",
+      "profile": "minion",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 3,
+      "wt": 5,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 2,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 0 },
+         { "name": "melee (light)", "ranks": 0 },
+         { "name": "resilience", "ranks": 0 },
+         { "name": "survival", "ranks": 0 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Bone Spurs",
+            "description": [
+               "A berserker who is targeted by a melee combat check may spend [threat][threat][threat] or [despair] to cause the attacker to suffer 3 wounds."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "A Good Death",
+            "description": [
+               "As an incidental, at the start of its turn a minion group of berserkers that is engaged with an enemy may remove a member of its group as a casulty to add +6 damage to the minion group's attack in that turn."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Two Bone Blades",
+            "description": [
+               "Melee (Light); Damage 6; Critical 4; Range (Engaged)."
+            ],
+            "skill": "melee (light)",
+            "damage": 6,
+            "critical": 4,
+            "range": "engaged",
+            "special": []
+         }
+      ],
+      "description": [
+         "Frothing with bloody frenzy, Uthuk berserkers hurl themselves into the press of combat, craving only to hack apart their foes. Touched by the demonic darkness of the Ru, these Uthuk warriors have given themselves over completely to mindless savagery. Forsaking the discipline of drill and formation, as well as armor and shield, scorning anything that might slow their headlong charge into the fray, they become depraved murderers in combat.",
+         "Berserkers all bear the distinctive Uthuk bone spurs that jut from their flesh, each horrid spike the result of Ynfernael corruption. These fearsome spurs can be deadly in the embrace of melee, where opponents are shredded simply by getting too close to a berserker’s thrashing form. For their actual weaponry, berserkers tend to favor the largest and most vicious items they can find, such as crude hook axes, sawtooth blades, or spiked hammers. In battle, these tools of war create a crimson mist around berserkers as they dispatch their adversaries as messily as possible.",
+         "Even when not in battle, berserkers carry an air of violence. Once Uthuk warriors become berserkers, they have embraced a destiny that can only end in their own bloody demise. Berserkers’ only desire is to charge screaming into the midst of the enemy and murder everything within reach until at last they themselves are cut down, to join their victims in a sea of gore."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 213"
+   },
+   {
+      "name": "Bloodsister and Nightseer",
+      "profile": "nemesis",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 4,
+         "cunning": 3,
+         "willpower": 4,
+         "presence": 4
+      },
+      "soak": 3,
+      "wt": 17,
+      "st": 17,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 8,
+         "social": 5,
+         "general": 4
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "divine", "ranks": 3 },
+         { "name": "coercion", "ranks": 3 },
+         { "name": "cool", "ranks": 2 },
+         { "name": "knowledge (forbidden)", "ranks": 4 },
+         { "name": "melee (light)", "ranks": 1 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Dark Insight",
+            "description": [
+               "Use Knowledge (Forbidden) to determine spell effects."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Telepathic Bond",
+            "description": [
+               "A bloodsister can perform an incidental once per round to add [boost] to the next check made by all other Uthuk Y'llan in the encounter."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Telepathic Domination",
+            "description": [
+               "A bloodsister or nightseer may attempt to telepathically dominate a foe once per encounter as an action, making an opposed Coercion vs. Discipline check targeting one character in short range; if successful, the target is immobilized for 1 round per [success], and the bloodsister may spend [triumph] to stagger the target for 1 round."
+            ],
+            "activation": "action"
+         },
+         {
+            "name": "Dreamwalker",
+            "description": [
+               "Once per session, a nightseer can spend a Story Point to either re-roll the dice pool after making a check, or to force a PC to re-roll the dice pool after the PC makes a check."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "spellcasting": {
+         "description": [
+            "Bloodsisters and nightseers can choose any magic action allowed for the Divine skill, and may select additional spell effects as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Bone Eruption",
+               "description": [
+                  "Select one target at short or medium range make a Hard ([difficult][difficult][difficult]) Divine check. If the check is successful, this magic attack inflicts 8 damage, +1 damage per [success], with the Pierce 4, Sunder, and Vicious 4 qualities, and with a Critical Rating of 2."
+               ]
+            },
+            {
+               "name": "Exsanguinate",
+               "description": [
+                  "Select one target at short or medium range for this curse and make a Hard ([difficulty][difficulty][difficulty]) Divine check. If the check is successful, until the end of the witch’s next turn, the target deceases the ability of any skill checks they make by one and suffers one additional wound each time they suffer wounds. The witch can maintain these effects with the concentrate maneuver"
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Bone Staff",
+            "description": [
+               "+4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound."
+            ]
+         },
+         {
+            "name": "Leather Armor",
+            "description": [
+               "+1 soak."
+            ]
+         }
+      ],
+      "description": [
+         "The most powerful of the Uthuk witches and warlocks are known as bloodsisters and nightseers, respectively. Though not part of the Blood Coven, these immensely skilled sorcerers are the true leaders of the Uthuk tribes. Their influence stretches out across the Ru Darklands, reaching wherever the blades of the Uthuk draw blood. Nightseers in particular are skilled in dreamwalking, a discipline of the original Loth K’har peoples, and have preserved this ancient tradition across the centuries. Adept in battle, gifted with supernatural longevity and resilience, and able to control the minds of those around them, few dare stand against them.",
+         "Hierarchy among the bloodsisters and nightseers is based upon the favor of the Ynfernael Lords; these witches and warlocks must constantly prove their right to lead, often through torture and murder. The greatest of their number become the mortal representatives of Ynfernael Lords such as Vel’tar Demonblood or Eurth Kel’yr, the Mistress of Bones, and the interests of their masters often become their own.",
+         "While all seek vengeance against Terrinoth and its allies, some bloodsisters and nightseers have their own goals, such as dispatching their rivals or bringing the tribes together under a single leader. The nightseer Quin’tar Shymaex, who dreams of larger things than mere conquest of the Land of Steel, is perhaps one of the most infamous of these. Shymaex seeks to take his place among the Ynfernael Lords himself and transform all Uthuk into true demons, a goal that eluded even Llovar."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 213"
+   },
+   {
+      "name": "Brigand Leader",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 4,
+      "wt": 14,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 2 },
+         { "name": "leadership", "ranks": 1 },
+         { "name": "ranged", "ranks": 2 },
+         { "name": "melee (light)", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [],
+      "equipment": [
+         {
+            "name": "Axe",
+            "description": [
+               "Melee (Light); Damage 6; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Bow",
+            "description": [
+               "Ranged; Damage 7; Critical 3; Range (Medium); Unwieldy 2."
+            ],
+            "skill": "ranged",
+            "damage": 7,
+            "critical": 3,
+            "range": "medium",
+            "special": [
+               { "name": "unwieldy", "rating": 2 }
+            ]
+         },
+         {
+            "name": "Shield",
+            "description": [
+               "Melee (Light); Damage 3; Critical 6; Range (Engaged); Defensive 1, Deflection 1, Inaccurate 2, Knockdown."
+            ],
+            "skill": "melee (light)",
+            "damage": 3,
+            "critical": 6,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 },
+               { "name": "deflection", "rating": 1 },
+               { "name": "inaccurate", "rating": 2 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         },
+         {
+            "name": "Padded Armor",
+            "description": [
+               "+1 soak."
+            ]
+         }
+      ],
+      "description": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "HC p. 2"
+   },
+   {
+      "name": "Brigand",
+      "profile": "minion",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 3,
+      "wt": 4,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 0 },
+         { "name": "melee (light)", "ranks": 0 },
+         { "name": "ranged", "ranks": 0 }
+      ],
+      "talents": [],
+      "abilities": [],
+      "equipment": [
+         {
+            "name": "Mace",
+            "description": [
+               "Melee (Light); Damage 6; Critical 4; Range (Engaged)."
+            ],
+            "skill": "melee (light)",
+            "damage": 6,
+            "critical": 4,
+            "range": "engaged",
+            "special": []
+         }
+      ],
+      "description": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "HC p. 2"
+   },
+   {
+      "name": "Carnivorous Flora",
+      "profile": "rival",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 1,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 2,
+      "wt": 12,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 2,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 2,
+      "skills": [
+         { "name": "brawl", "ranks": 3 },
+         { "name": "resilience", "ranks": 2 },
+         { "name": "stealth", "ranks": 4 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Drag",
+            "description": [
+               "a carnivorous flora can use a maneuver to move a target affected by its thorny vines’ Ensnare quality to engaged range."
+            ],
+            "activation": "maneuver"
+         },
+         {
+            "name": "Inconspicuous",
+            "description": [
+               "a carnivorous flora in a natural environment appears indistinguishable from an ordinary plant; a character can make a Hard ([difficulty][difficulty][difficulty]) Perception or Vigilance check to identify a carnivorous flora."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Rooted",
+            "description": [
+               "a carnivorous flora cannot perform maneuvers to move."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Silhouette 2",
+            "description": [
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Unexpected Attack",
+            "description": [
+               "a carnivorous flora that has not yet been identified as a threat uses Stealth to determine initiative."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Thorny Vines",
+            "description": [
+               "Brawl; Damage 8; Critical 3; Range (Engaged); Vicious 2."
+            ],
+            "skill": "brawl",
+            "damage": 4,
+            "critical": 4,
+            "range": "short",
+            "special": [
+               { "name": "auto-fire", "rating": 0 },
+               { "name": "ensnare", "rating": 3 }
+            ]
+         },
+         {
+            "name": "Snapping Jaws",
+            "description": [
+               "Brawl; Damage 8; Critical 3; Range (Engaged); Vicious 2."
+            ],
+            "skill": "brawl",
+            "damage": 8,
+            "critical":30,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 2 }
+            ]
+         }
+      ],
+      "description": [
+         "There are many kinds of carnivorous flora in Zanaga, like the violet talon, which glows in the dark to lure its prey into its clutches; the traveler’s folly, which mimics cries for help; and the karko noose, which hangs down from trees to snatch up victims as they walk below. Those caught in the grip of these plants have but a short time to free themselves as paralytic toxins assail them."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 258"
+   },
+   {
+      "name": "City Guard",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 4,
+      "wt": 13,
+      "st": 0,
+      "mDef": 2,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "discipline", "ranks": 1 },
+         { "name": "melee (light)", "ranks": 2 },
+         { "name": "perception", "ranks": 1 },
+         { "name": "vigilance", "ranks": 1 }
+      ],
+      "talents": [],
+      "abilities": [],
+      "equipment": [
+         {
+            "name": "Militia Spear",
+            "description": [
+               "Melee (Light); Damage 5; Critical 4; Range (Engaged); Accurate 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 5,
+            "critical": 4,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Shield",
+            "description": [
+               "Melee (Light); Damage 3; Critical 6; Range (Engaged); Defensive 1, Deflection 1, Inaccurate 2, Knockdown."
+            ],
+            "skill": "melee (light)",
+            "damage": 3,
+            "critical": 6,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 },
+               { "name": "deflection", "rating": 1 },
+               { "name": "inaccurate", "rating": 2 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         },
+         {
+            "name": "Leather Armor",
+            "description": [
+               "+1 soak."
+            ]
+         }
+      ],
+      "description": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "HC p. 10"
+   },
+   {
+      "name": "Coachman",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 3,
+      "wt": 10,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 1 },
+         { "name": "ranged", "ranks": 1 },
+         { "name": "riding", "ranks": 2 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "equipment": [
+         {
+            "name": "Dagger",
+            "description": [
+               "Melee (Light) Damage 3; Critical 3; Range (Engaged); Accurate 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 3,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Padded Armor",
+            "description": [
+               "+1 soak."
+            ]
+         }
+      ],
+      "description": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "HC p. 8"
+   },
+   {
+      "name": "Danne Bulvert",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 1,
+         "presence": 2
+      },
+      "soak": 2,
+      "wt": 12,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 2 },
+         { "name": "coordination", "ranks": 2 },
+         { "name": "deception", "ranks": 2 },
+         { "name": "melee (light)", "ranks": 2 },
+         { "name": "skulduggery", "ranks": 3 },
+         { "name": "stealth", "ranks": 3 }
+      ],
+      "talents": [],
+      "abilities": [],
+      "equipment": [
+         {
+            "name": "Dagger",
+            "description": [
+               "Melee (Light); Damage 3; Critical 3; Range (Engaged); Accurate 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 3,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Blackjack",
+            "description": [
+               "Melee (Light); Damage 5; Critical 5; Range (Engaged); Disorient 2, Stun Damage."
+            ],
+            "skill": "melee (light)",
+            "damage": 5,
+            "critical": 5,
+            "range": "engaged",
+            "special": [
+               { "name": "stun damage", "rating": 0 }
+            ]
+         }
+      ],
+      "description": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "HC p. 13"
+   },
+   {
+      "name": "Death Knight",
+      "profile": "nemesis",
+      "type": "undead",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 3,
+         "presence": 1
+      },
+      "soak": 5,
+      "wt": 20,
+      "st": 14,
+      "mDef": 1,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 9,
+         "social": 2,
+         "general": 3
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 2 },
+         { "name": "discipline", "ranks": 3 },
+         { "name": "melee (heavy)", "ranks": 3 },
+         { "name": "melee (light)", "ranks": 3 },
+         { "name": "resilience", "ranks": 2 },
+         { "name": "riding", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Parry 3",
+            "description": [
+               "When a death knight suffers a hit from a melee combat check, after damage is calculated (but before soak is applied, so immediately after Step 3 of Perform a Combat check on page 102 of Genesys Core Rulebook), they may take a Parry incidental. They suffer 3 strain and reduce the damage dealt by that hit by five. This talent may only be used once per hit and when the death knight is wielding a Melee weapon."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Improved Parry",
+            "description": [
+               "When a death knight suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, they may spend [threat][threat][threat] or [despair] from the attacker’s check to use this talent. Then, the death knight automatically hits the attacker once with a Brawl or Melee weapon they are wielding. The hit deals the weapon’s base damage, plus any damage from applicable talents or abilities. The death knight can’t use this talent if the original attack incapacitates them."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Mounted Charge",
+            "description": [
+               "A mounted death knight adds [boost][boost] to its first melee attack after performing a maneuver to engage the target in the same turn."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make a Daunting ([difficulty][difficulty][difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Undead",
+            "description": [
+               "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Sword",
+            "description": [
+               "Melee (Light); Damage 8; Critical 2; Range (Engaged); Defensive 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 8,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Flail",
+            "description": [
+               "Melee (Heavy); Damage 9; Critical 3; Range (Engaged); Cumbersome 3, Linked 1, Unwieldy 3."
+            ],
+            "skill": "melee (heavy)",
+            "damage": 9,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "cumbersome", "rating": 3 },
+               { "name": "linked", "rating": 1 },
+               { "name": "unwieldy", "rating": 3 }
+            ]
+         },
+         {
+            "name": "Battered Armor",
+            "description": [
+               "+2 soak, +1 defense."
+            ]
+         },
+         {
+            "name": "War Mount",
+            "description": [
+               "see RoT page 105."
+            ]
+         }
+      ],
+      "description": [
+         "Leagues above mere Reanimates, death knights are the very hammer of Waiqar, his hatred and will to dominate all life made manifest. Made from the dust of the most infamous and loyal of his original soldiers, they possess a degree of autonomy unknown in lesser undead, even retaining and developing personalities to a degree.",
+         "Like Waiqar’s elites who fought with him in the Second Darkness, death knights wear heavy armor that has been consecrated in unholy rituals of blood. Their blades are powerful relics of the events of Waiqar’s betrayal, artifacts that have only become more potent after centuries of war. Riding vampiric steeds that feast upon the flesh of the living, death knights can spring suddenly out of the mists before their foes are aware of them."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 164"
+   },
+   {
+      "name": "Deep Elf",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 3,
+         "presence": 2
+      },
+      "soak": 2,
+      "wt": 12,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 3,
+         "social": 2,
+         "general": 3
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "discipline", "ranks": 2 },
+         { "name": "knowledge (forbidden)", "ranks": 3 },
+         { "name": "melee (light)", "ranks": 3 },
+         { "name": "skulduggery", "ranks": 2 },
+         { "name": "stealth", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Dual Wielder",
+            "description": [
+               "May perform a maneuver to reduce the difficulty of the Deep Elf's next combined check to attack with two weapons during their turn by one."
+            ],
+            "activation": "maneuver"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Shadow Training",
+            "description": [
+               "Enemies add [setback] to magic checks targeting a Deep Elf"
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Two Freezing Blades",
+            "description": [
+               "Melee (Light); Damage 5; Critical 2; Range (Engaged); Accurate 1, Sunder."
+            ],
+            "skill": "melee (light)",
+            "damage": 5,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 },
+               { "name": "sunder", "rating": 0 }
+            ]
+         }
+      ],
+      "description": [
+         "Though most Elves live in relative harmony with the world and the races around them, some members of the Elven race have turned their back on their cousins. The goals of these Elves are to more fully embrace Emorial’s mission against the forces of the Ynfernael and to redeem their name from its sullying by Malcorne, the Corrupted One.",
+         "Called Deep Elves for the elaborate networks of tunnels they inhabit, they were drawn underground because of the proliferation of Ynfernael gates beneath the surface. Now these Elves generally only emerge aboveground to hunt for new sources of Ynfernael power or when their crusade against the otherworldly demons forces them to do so. Their endless crusade has drained them of any dregs of mercy or compassion, however, as the dark powers they use to fight the Ynfernael slowly poisons their souls. Many adventurers who stray into these underground lairs are lucky to escape with their lives, for the Deep Elves do not suffer trespassers or the inquisitive."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 190"
+   },
+   {
+      "name": "Deepwood Archer",
+      "profile": "minion",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 4,
+      "wt": 4,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 4,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 0 },
+         { "name": "ranged", "ranks": 0 },
+         { "name": "perception", "ranks": 0 },
+         { "name": "vigilance", "ranks": 0 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Point Blank Shot",
+            "description": [
+               "When making a Ranged combat check target an opponent the Deepwood Archer is engaged with, increase the difficulty once (instead of twice)."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Deepwood Longbow",
+            "description": [
+               "Ranged; Damage 8; Critical 2; Range (Extreme); Accurate 1, Cumbersome 3, Superior, Unwieldy 3."
+            ],
+            "skill": "ranged",
+            "damage": 8,
+            "critical": 2,
+            "range": "extreme",
+            "special": [
+               { "name": "accurate", "rating": 1 },
+               { "name": "cumbersome", "rating": 3 },
+               { "name": "superior", "rating": 0 },
+               { "name": "unwieldy", "rating": 3 }
+            ]
+         },
+         {
+            "name": "Leather Armor",
+            "description": [
+               "+1 soak."
+            ]
+         }
+      ],
+      "description": [
+         "Almost every race in Mennara has developed its own legions of archers, but few—if any—can match the skill and power of the Deepwood Archers, who take their name from the Deepwood trees unique to the forests of the Aymhelin. Their nigh-magical longbows, formed of laminated layers of venerated wood from the cores of ancient branches, are unrivaled in strength and flexibility. They draw smoother, fire harder, and break less often than any other bow in the land.",
+         "However, it is more than simply these weapons that makes the Deepwood Archers feared adversaries. They are trained from childhood to draw and control their unrivaled bows, so by the time they are of fighting age, they are capable of firing at a rate and accuracy that few can match—even if using a bow one-third the strength.",
+         "The Deepwood Archers take exceptional pride in their abilities, a confidence that often drifts into high-handed arrogance— especially when dealing with bowmen in other lands. When they are not serving as guards within the ranks of the Starplain Archers, the Blythwth Arethyl, or the Deepwood Rangers, they seek to participate in bowyer contests, instruct other Elven archers, and locate more impressive game than can be found in the Thalian Glades."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 179"
+   },
+   {
+      "name": "Dimora",
+      "profile": "nemesis",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 1,
+         "intellect": 3,
+         "cunning": 2,
+         "willpower": 4,
+         "presence": 1
+      },
+      "soak": 6,
+      "wt": 18,
+      "st": 18,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 7,
+         "social": 3,
+         "general": 3
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "arcana", "ranks": 3 },
+         { "name": "brawl", "ranks": 2 },
+         { "name": "cool", "ranks": 3 },
+         { "name": "knowledge (lore)", "ranks": 3 },
+         { "name": "melee (light)", "ranks": 2 },
+         { "name": "stealth", "ranks": 2 }
+      ],
+      "talents": [
+         {
+            "name": "Durable 2",
+            "description": [
+               "A Dimora reduces any Critical Injury result it suffers by 20, to a minimum of 01."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Creature of the Aenlong",
+            "description": [
+               "A Dimora reduces the difficulty of Arcana checks by one, to a minimum of Easy ([difficulty]), and increases the base damage of their Attack spells by three."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Stonewalker",
+            "description": [
+               "A Dimora moves normally through difficult or impassable terrain of stone, soil, or similar materials."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make an Average ([difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "spellcasting": {
+         "description": [
+            "The Dimora can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Tremor",
+               "description": [
+                  "The Dimora chooses one target at short range and makes an Average ([difficulty][difficulty]) Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per [success] and the target and all characters engaged with the target are knocked prone. The Dimora can spend [advantage] on the check to move the target up to one range band in any direction."
+               ]
+            },
+            {
+               "name": "Prison of Stone",
+               "description": [
+                  "The Dimora chooses one target at short range and makes an Average ([difficulty][difficulty]) Arcana check. If the check is successful, the magic attack inflicts 7 damage, +1 damage per [success], with the Blast 3 and Ensnare 3 qualities."
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Stone Blades",
+            "description": [
+               "Melee (Light); Damage 7; Critical 3; Range (Engaged); Vicious 2."
+            ],
+            "skill": "melee (light)",
+            "damage": 7,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 2 }
+            ]
+         },
+         {
+            "name": "Stone Fists",
+            "description": [
+               "Brawl; Damage 5; Critical 3; Range (Engaged); Disorient 2, Knockdown."
+            ],
+            "skill": "brawl",
+            "damage": 5,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "disorient", "rating": 2 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         }
+      ],
+      "description": [
+         "Creatures born of the Aelong, the Dimora are believed to cross into the world as formless elementals. They then build themselves out of the earth, taking on the form of stony, vaguely mole-like creatures. They are constantly shifting in density and composition, perpetually shedding the soil of their bodies and replacing what’s lost with fresh loam from the ground beneath them.",
+         "The motivations for the Dimora to cross into this realm are generally unknown, as they rarely stray far from the rifts that allowed them entry, they refuse to communicate with any creatures except the Dwarves, and they seek no contact with the outside world. They aggressively defend the land around their rifts, however; pubs and taverns all across the world are filled with stories of travelers destroyed without warning for accidentally trespassing on land the Dimora have claimed as their own."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 191"
+   },
+   {
+      "name": "Djinn",
+      "profile": "nemesis",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 3,
+         "intellect": 4,
+         "cunning": 5,
+         "willpower": 5,
+         "presence": 5
+      },
+      "soak": 6,
+      "wt": 25,
+      "st": 25,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 12,
+         "social": 12,
+         "general": 10
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "arcana", "ranks": 5 },
+         { "name": "brawl", "ranks": 3 },
+         { "name": "charm", "ranks": 3 },
+         { "name": "cool", "ranks": 3 },
+         { "name": "deception", "ranks": 4 },
+         { "name": "discipline", "ranks": 4 },
+         { "name": "lore", "ranks": 4 },
+         { "name": "melee (light)", "ranks": 3 },
+         { "name": "negotiation", "ranks": 4 },
+         { "name": "vigilance", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 3",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character three times."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Ruinous Repartee",
+            "description": [
+               "As an action, target a character within medium range and make an opposed Charm or Coercion check version Discipline; if successful, target suffers 10 strain +1 strain per [success], and the Djinn heals an equal amount of strain."
+            ],
+            "activation": "action"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Airborne",
+            "description": [
+               "Can fly; see page 100 of the Genesys Core Rulebook."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Shapeshifter",
+            "description": [
+               "Once per round as an incidental, a Djinn may increase or decrease its silhouette by 1 and change is appearance to that of any character or creature of its current silhouette."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "spellcasting": {
+         "description": [
+            "Djinn may use any magic action permitted for the Arcana skill, and may add spell effects as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Cyclone",
+               "description": [
+                  "The Djinn chooses one target at up to medium range and make a Hard ([difficulty][difficulty][difficulty]) Arcana check. If successful, this magic attack inflicts 4 damage +1 damage per [success], with the Disorient 4 and Knockdown qualities. The Djinn can also spend [advantage] to move the target up to one range band in any direction."
+               ]
+            },
+            {
+               "name": "Twisted Walls",
+               "description": [
+                  "The Djinn chooses one target within short range and make a Daunting ([difficulty][difficulty][difficulty]) Arcana check. If successful, until the end of the Djinn’s next turn, each time the target makes a skill check, decrease the ability by one and the Djinn may choose to change any die in the pool not displaying [triumph] or [despair] to any other face. The Djinn may sustain these effects with the concentrate maneuver."
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Conjured Scimitar",
+            "description": [
+               "Melee (Light); Damage 9; Critical 2; Range (Engaged)."
+            ],
+            "skill": "melee (light)",
+            "damage": 9,
+            "critical": 2,
+            "range": "engaged",
+            "special": []
+         },
+         {
+            "name": "Illusionary Claws",
+            "description": [
+               "Brawl; Damage 6; Critical 3; Range (Engaged); Vicious 2."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 2 }
+            ]
+         }
+      ],
+      "description": [
+         "Djinni love to meddle in the affairs of mortals, promising riches to those who do their bidding and pretending to be an agent of the Caliph or other lord to sow discord from afar. It is not without cause that many tales of Al-Kalim warn against treating with them. All are skilled sorcerers, but even should their magic fail them, Djinni can take on gigantic forms to dispatch foes with great falchions or daggerlike claws.",
+         "Many Djinni dream of reclaiming empires, and heroes might find themselves their unwitting pawns. Djinni also lurk behind many enemies heroes might face as they unravel the threads of plots against the Caliphs. Of particular interest to Djinni is the recovery of the secrets stolen from them by the Collegiate Arcane and as immortal beings they can spend years scheming and plotting, perhaps to recover a single artifact or to arrange the theft of a glowing blue stone."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 248"
+   },
+   {
+      "name": "Dragon Hybrid",
+      "profile": "rival",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 3,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 2
+      },
+      "soak": 6,
+      "wt": 15,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 7,
+         "social": 2,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 2 },
+         { "name": "coercion", "ranks": 2 },
+         { "name": "melee (heavy)", "ranks": 1 },
+         { "name": "ranged", "ranks": 2 },
+         { "name": "resilience", "ranks": 2 },
+         { "name": "vigilance", "ranks": 1 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Draconic Heritage",
+            "description": [
+               "Dragon hybrids reduce the damage they take from fire and similar sources by 3."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Flyer",
+            "description": [
+               "Can fly; see page 100 of the Genesys Core Rulebook."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Greatsword",
+            "description": [
+               "Melee (Heavy); Damage 8; Critical 2; Range (Engaged); Defensive 1, Pierce 1, Unwieldy 3."
+            ],
+            "skill": "melee (heavy)",
+            "damage": 8,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 },
+               { "name": "pierce", "rating": 1 },
+               { "name": "unwieldy", "rating": 3 }
+            ]
+         },
+         {
+            "name": "Fiery Breath",
+            "description": [
+               "Ranged; Damage 6; Critical 3; Range (Short); Blast 6, Burn 1, Prepare 1, Slow-Firing 2."
+            ],
+            "skill": "ranged",
+            "damage": 6,
+            "critical": 3,
+            "range": "short",
+            "special": [
+               { "name": "blast", "rating": 6 },
+               { "name": "burn", "rating": 1 },
+               { "name": "prepare", "rating": 1 },
+               { "name": "slow-firing", "rating": 2 }
+            ]
+         },
+         {
+            "name": "Talons",
+            "description": [
+               "Brawl; Damage 5; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 5,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Scale Armor",
+            "description": [
+               "+2 soak."
+            ]
+         }
+      ],
+      "description": [
+         "Dragon hybrids are cruel abominations, relics from the age of the Third Darkness. They are the result of depraved experiments of the most inventive draconic invaders, who required loyal servants with both the cunning of Humans and the resiliency and magic of dragon-kind.",
+         "The results of these experiments were largely deemed miserable failures, as dragon hybrids were neither as strong as dragons nor as intelligent as them (or even Humans). They served as foot soldiers and were discarded after the end of the Dragon Wars, left to fend for themselves in the wilds of Terrinoth.",
+         "Raised in the harshest life imaginable, dragon hybrids are vicious fighters, and time has only made them deadlier. Some possess wings, others deadly talons, and still others a hint of the fiery breath so commonly associated with their larger draconic ancestors. Like dragons, they have a hunger for magic in all its forms. As such, hybrids often delve into Terrinoth’s many ruins, or sell their swords to sorcerers and wizards willing to pay their price in magical artifacts. In recent years, they have become more accepted in Dragonkin society, and fight alongside other Dragonkin as inheritors of Margath's legacy."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 151"
+   },
+   {
+      "name": "Dwarf Ancestral Specter",
+      "profile": "rival",
+      "type": "undead",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 4,
+         "presence": 2
+      },
+      "soak": 4,
+      "wt": 14,
+      "st": 0,
+      "mDef": 3,
+      "rDef": 2,
+      "powerLevel": {
+         "combat": 6,
+         "social": 2,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "discipline", "ranks": 3 },
+         { "name": "melee (light)", "ranks": 3 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Ancestral Gaze",
+            "description": [
+               "While within short range of a Dwarf Ancestral Specter, living Dwarves add [success] to their combat checks and [triumph] if the opponent is a dragon."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Ghostly",
+            "description": [
+               "Dwarf Ancestral Specters ignore the effects of terrain and darkness."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make a Hard ([difficulty][difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Undead",
+            "description": [
+               "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Ethereal Hammer",
+            "description": [
+               "Melee (Light) Damage 7; Critical 2; Range (Engaged); Stun Damage."
+            ],
+            "skill": "melee (light)",
+            "damage": 7,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "stun damage", "rating": 0 }
+            ]
+         }
+      ],
+      "description": [
+         "The Dwarves of Dunwarr hold that the valiant Dwarves who bravely gave their lives defending their ancestral homes against the dragons have never ended their battle, even in death. Many ballads tell of the brave spirits who still roam the Molten Heath, seeking vengeance against the dragons and others who stole their lands. One day, the Dwarves know, they will reclaim their ancestral home, and perhaps only then will these spirits allow themselves to rest."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 195"
+   },
+   {
+      "name": "Dwarf Guilder",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 1,
+         "intellect": 3,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 2
+      },
+      "soak": 3,
+      "wt": 14,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 1,
+         "social": 2,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "melee (light)", "ranks": 2 },
+         { "name": "ranged", "ranks": 2 },
+         { "name": "resilience", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Dark Vision",
+            "description": [
+               "When making skill checks, Dwarves remove up to [setback][setback] imposed due to darkness."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Guild Member",
+            "description": [
+               "When performing a check related to their specific guild, Dwarf Guilders upgrade the ability check twice."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Guild tools and scrolls"
+         }
+      ],
+      "description": [
+         "Dwarf guilds dominate society in the Dunwarr Mountains, and guild members are everywhere in the tunnels under the mountains here. The ten guilds cover a wide range of knowledge, abilities, and traditions, and so guild members are ideal sources of information for visitors. Depending on the guild, they can be excellent weapon forgers and repairers, decipherers of mysterious runes, and even scouts and fighters. For tired adventurers, though, members of the Brewers' Guild may be the most welcome to locate."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 191"
+   },
+   {
+      "name": "Dwarven Dragon Hunter",
+      "profile": "nemesis",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 4,
+         "presence": 2
+      },
+      "soak": 6,
+      "wt": 17,
+      "st": 18,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 9,
+         "social": 3,
+         "general": 3
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "discipline", "ranks": 4 },
+         { "name": "melee (light)", "ranks": 3 },
+         { "name": "ranged", "ranks": 4 },
+         { "name": "resilience", "ranks": 3 },
+         { "name": "survival", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Dauntless",
+            "description": [
+               "Dwarven Dragon Hunters upgrade the ability of Discipline checks they make to resist fear or intimidation once."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Dark Vision",
+            "description": [
+               "When making skill checks, Dwarves remove up to [setback][setback] imposed due to darkness."
+            ]
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Axe",
+            "description": [
+               "Melee (Light); Damage 8; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 8,
+            "critical":30,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Portable Bolt Thrower",
+            "description": [
+               "Ranged; Damage 9; Critical 2; Range (Extreme); Cumbersome 3, Pierce 2, Prepare 1."
+            ],
+            "skill": "ranged",
+            "damage": 9,
+            "critical": 2,
+            "range": "extreme",
+            "special": [
+               { "name": "cumbersome", "rating": 3 },
+               { "name": "pierce", "rating": 2 },
+               { "name": "prepare", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Dwarven Firebombs",
+            "description": [
+               "Ranged; Damage 8; Critical 3; Range (Short); Blast 6, Burn 2, Limited Ammo 1."
+            ],
+            "skill": "ranged",
+            "damage": 8,
+            "critical": 3,
+            "range": "short",
+            "special": [
+               { "name": "blast", "rating": 6 },
+               { "name": "burn", "rating": 2 },
+               { "name": "limited ammo", "rating": 1 }
+            ]
+         }
+      ],
+      "description": [
+         "The Dwarven Dragon Hunters are hostile, rage-filled, proselytizing zealots who give every aspect of their lives to the hunt of their ancestral foes. They train endlessly in a specialized style of combat most effectively suited to ending the lives of dragons wherever they can be found, then make pilgrimages to places that report sightings of the beasts. Typically, when Dragon Hunters leave the Dunwarr Mountains, they aggressively try to enlist anyone whom they see as having the makings of an adventurer to join their quest. Refusal results in a barrage of harsh and belittling insults at best, for Dragon Hunters tend to take a dim view of anyone who doesn’t hate dragons as enthusiastically as they do. In some cases, they have even taken their blade to anyone seen as “Dargeth Moni,” or “friend of filth-lizards.”"
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 191"
+   },
+   {
+      "name": "Eliza Farrow",
+      "profile": "nemesis",
+      "type": "undead",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 4,
+         "intellect": 4,
+         "cunning": 4,
+         "willpower": 4,
+         "presence": 5
+      },
+      "soak": 6,
+      "wt": 18,
+      "st": 20,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "arcana", "ranks": 3 },
+         { "name": "brawl", "ranks": 2 },
+         { "name": "charm", "ranks": 3 },
+         { "name": "cool", "ranks": 3 },
+         { "name": "discipline", "ranks": 3 },
+         { "name": "knowledge (forbidden)", "ranks": 4 },
+         { "name": "negotiation", "ranks": 3 },
+         { "name": "ranged", "ranks": 3 },
+         { "name": "riding", "ranks": 2 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 2",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character twice."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Dark Insight",
+            "description": [
+               "Use Knowledge (Forbidden) to determine spell effects."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Blood Call",
+            "description": [
+               "When Eliza Farrow damages a target using her fangs or a magic attack, she heals wounds equal to the wounds inflicted."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Blood Mist",
+            "description": [
+               "If Eliza Farrow suffers damage in excess of her Wound Threshold, she is not incapacitated, but takes the form of a cloud of blood mist. While in this form, she can fly (see page 100 of the GENESYS Core Rulebook) and does not suffer damage from physical attacks. If she suffers additional damage from a magical attack, she becomes incapacitated as normal and resumes corporeal form."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Dominate",
+            "description": [
+               "May use the Dominate action once per encounter, making an opposed Charm vs. Discipline check targeting once character in short range; if successful, the target is immobilized for 1 round per uncanceled [success], and Eliza may spend [triumph] to stagger the target for 1 round."
+            ],
+            "activation": "action"
+         },
+         {
+            "name": "Sunlight Sensitivity",
+            "description": [
+               "While exposed to sunlight, Eliza Farrow reduces all her characteristics by 2 and halves her Wound Threshold and Strain Threshold."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Undead",
+            "description": [
+               "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Vampiric Magic",
+            "description": [
+               "Eliza Farrow reduces the difficulty of all magic skill checks one step."
+            ],
+            "activation": ""
+         }
+      ],
+      "spellcasting": {
+         "description": [
+            "Eliza Farrow can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. Her favored spells are:"
+         ],
+         "spells": [
+            {
+               "name": "Blood Funnel",
+               "description": [
+                  "Choose one target at short range for the attack and make a Hard ([difficulty][difficulty][difficulty]) Arcana check; if the magic combat check succeeds, the target suffers 4 damage + 1 damager per uncanceled [success], with Critical Rating 2 and the Blast 4 and Vicious 4 qualities."
+               ]
+            },
+            {
+               "name": "Curse of the Night",
+               "description": [
+                  "Choose one target within short range and make a Hard ([difficulty][difficulty][difficulty]) Arcana check; if the check succeeds, the tar-get decreases the ability of any skill checks they make by one and reduce their strain and wound thresholds by 4 until the end of Eliza Farrow’s next turn; she may maintain these effects by performing the Concentrate maneuver."
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Fangs",
+            "description": [
+               "Brawl; Damage 6; Critical 2; Range (Engaged); Ensnare 1, Vicious 2."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "ensnare", "rating": 1 },
+               { "name": "vicious", "rating": 2 }
+            ]
+         }
+      ],
+      "description": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "HC p. 6"
+   },
+   {
+      "name": "Farrow's Guard",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 4,
+      "wt": 14,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 2 },
+         { "name": "discipline", "ranks": 1 },
+         { "name": "ranged", "ranks": 2 },
+         { "name": "riding", "ranks": 1 },
+         { "name": "melee (light)", "ranks": 2 },
+         { "name": "vigilance", "ranks": 1 }
+      ],
+      "talents": [
+         {
+            "name": "Quick Draw",
+            "description": [
+               "Once per round, may draw or stow weapon as an incidental"
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Grapple",
+            "description": [
+               "May take the Grapple incidental; until the start of the guard's next turn, enemies must spend two maneuvers to disengage."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Stay Back!",
+            "description": [
+               "When a character within short range attempts to move past the guard, the guard may, as an out-of-turn incidental, spend a Story Point from the GM pool and knock the character prone."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Sword",
+            "description": [
+               "Melee (Light); Damage 6; Critical 2; Range (Engaged); Defensive 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Crossbow",
+            "description": [
+               "Ranged; Damage 7; Critical 2; Range (Medium); Pierce 2, Prepare 1."
+            ],
+            "skill": "ranged",
+            "damage": 7,
+            "critical": 2,
+            "range": "medium",
+            "special": [
+               { "name": "pierce", "rating": 2 },
+               { "name": "prepare", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Shield",
+            "description": [
+               "Melee (Light); Damage 3; Critical 6; Range (Engaged); Defensive 1, Deflection 1, Inaccurate 2, Knockdown."
+            ],
+            "skill": "melee (light)",
+            "damage": 3,
+            "critical": 6,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 },
+               { "name": "deflection", "rating": 1 },
+               { "name": "inaccurate", "rating": 2 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         },
+         {
+            "name": "Leather Armor",
+            "description": [
+               "+1 soak."
+            ]
+         }
+      ],
+      "description": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "HC p. 7"
+   },
+   {
+      "name": "Feral Dragon",
+      "profile": "nemesis",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 5,
+         "agility": 4,
+         "intellect": 2,
+         "cunning": 4,
+         "willpower": 4,
+         "presence": 2
+      },
+      "soak": 8,
+      "wt": 41,
+      "st": 20,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 13,
+         "social": 3,
+         "general": 2
+      },
+      "silhouette": 4,
+      "skills": [
+         { "name": "brawl", "ranks": 4 },
+         { "name": "coercion", "ranks": 4 },
+         { "name": "cool", "ranks": 3 },
+         { "name": "discipline", "ranks": 4 },
+         { "name": "ranged", "ranks": 4 },
+         { "name": "resilience", "ranks": 4 },
+         { "name": "vigilance", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 2",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character twice."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Swift",
+            "description": [
+               "A dragon does not perform additional maneuvers to move through difficult terrain."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Flyer",
+            "description": [
+               "Can fly; see page 100 of the Genesys Core Rulebook."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Silhouette 4",
+            "description": [],
+            "activation": ""
+         },
+         {
+            "name": "Sweep Attack",
+            "description": [
+               "A dragon may spend [advantage] from a Brawl check to hit an additional engaged opponent that would be no more difficult to attack than the original target, dealing base damage +1 damage per [success]."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make a Daunting ([difficulty][difficulty][difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Fiery Breath",
+            "description": [
+               "Ranged; Damage 12; Critical 3; Range (Medium); Blast 12, Burn 3, Slow-Firing 2."
+            ],
+            "skill": "ranged",
+            "damage": 12,
+            "critical": 3,
+            "range": "medium",
+            "special": [
+               { "name": "blast", "rating": 12 },
+               { "name": "burn", "rating": 3 },
+               { "name": "slow-firing", "rating": 2 }
+            ]
+         },
+         {
+            "name": "Claws",
+            "description": [
+               "Brawl; Damage 11; Critical 2; Range (Engaged); Knockdown, Vicious 3"
+            ],
+            "skill": "ranged",
+            "damage": 11,
+            "critical": 2,
+            "range": "medium",
+            "special": [
+               { "name": "knockdown", "rating": 0 },
+               { "name": "vicious", "rating": 3 }
+            ]
+         }
+      ],
+      "description": [
+         "Dragons are perhaps most powerful beings in all of Mennara. No one knows where they come from or what their purpose is when they embark on their destructive flights. What is known is that all dragons possess an insatiable appetite for magical objects and can detect magic from hundreds of leagues away. During the Third Darkness, also known as the Dragon Wars, they plundered countless holdings for their magical artifacts, leaving their other treasures untouched or burning them to ash.",
+         "Feral dragons—uncultured, savage remnants of the Dragon Wars—occasionally appear and rampage across Terrinoth as little more than violent beasts. Suffused with magic, dragons are very nearly impossible for the average soldier to kill, and even mighty heroes must rely on the aid of runebound shards to have any hope of slaying the beasts.",
+         "As dragons have the power of flight and a mastery of magic great enough to level cities, a dragon sighting is a sure sign to flee. As everyone knows, rarely does anything but doom follow."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 152"
+   },
+   {
+      "name": "Ferrox",
+      "profile": "rival",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 3,
+      "wt": 13,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 3,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 2 },
+         { "name": "cool", "ranks": 2 },
+         { "name": "coordination", "ranks": 1 },
+         { "name": "resilience", "ranks": 1 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Bloodthirst",
+            "description": [
+               "When a ferrox inflicts wounds with its fangs, it heals an equal number of wounds."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Glider",
+            "description": [
+               "Ferrox can fly, but cannot increase their altitude while doing so; see page 100 of the Genesys Core Rulebook."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Savage",
+            "description": [
+               "A ferrox increases the damage of its attacks by 2 when targeting an immobilized foe."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Hooked Claws",
+            "description": [
+               "Brawl; Damage 6; Critical 3; Range (Engaged); Ensnare 1."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "ensnare", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Fangs",
+            "description": [
+               "Brawl; Damage 5; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 5,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 2 }
+            ]
+         }
+      ],
+      "description": [
+         "Ferrox are humanoid creatures with pale green skin over powerful muscles. Membranous skin stretched between their arms and torsos allows ferrox to glide, and gives a very bat-like appearance when extended. Their arms terminate in wicked, hook-like claws, and their mouths are filled with razor-like teeth. Vicious and savage, these creatures are only dimly intelligent, and easily dominated by certain dark magics.",
+         "Those unfortunate enough to encounter ferrox whilst in the Mistlands rarely live to tell the tale. There are even rumors that those who survive their bite slowly transform into one of these foul creatures."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 165"
+   },
+   {
+      "name": "Flesh Ripper",
+      "profile": "minion",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 3,
+      "wt": 6,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 3,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 0 },
+         { "name": "cool", "ranks": 0 },
+         { "name": "resilience", "ranks": 0 },
+         { "name": "vigilance", "ranks": 0 }
+      ],
+      "talents": [
+         {
+            "name": "Swift",
+            "description": [
+               "A flesh ripper does not spend additional maneuvers to move through difficult terrain."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make a Hard ([difficulty][difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Claws and Fangs",
+            "description": [
+               "Brawl; Damage 5; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 5,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Spiked Tail",
+            "description": [
+               "Brawl; Damage 5; Critical 4; Range (Engaged); Ensnare 1."
+            ],
+            "skill": "brawl",
+            "damage": 5,
+            "critical": 4,
+            "range": "engaged",
+            "special": [
+               { "name": "ensnare", "rating": 1 }
+            ]
+         }
+      ],
+      "description": [
+         "Flesh rippers are the heralds of the Uthuk armies: packs of these slavering beasts lead the charge into battle with savage roars and screams. There can be little doubt as to the demonic ancestry of these twisted creatures given their blood-red sinew, bulging muscles, and bony, armored hides. As large as fullgrown lions, flesh rippers tower over most prey. Their size, however, belies their speed. Racing across the ground on all fours, these vicious beasts can easily catch a knight on horseback, while soldiers on foot have no hope of outrunning them. When flesh rippers catch their foes, they truly live up to their name; even a single such monster will paint the earth red as it rends apart its prize. Of course, when one sees a single flesh ripper, others are never far behind.",
+         "The wrangling of flesh rippers is no easy task, as Uthuk beastmasters’ countless old scars and missing limbs can prove. Witches and warlocks use blood sacrifice to lure the flesh rippers from the tempestuous heart of the Ru and cage them with sorcerous power. The demons are then branded with the N’klashth, or bloodmark, making the covenant of ownership complete. Once the creatures are broken to the will of the Blood Coven, beastmasters use barbed whips to corral them. Then, when the horns of war sound and the beasts are let loose, their instincts takes over, and their masters need only prod them toward the foe and watch the carnage they unleash."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 214"
+   },
+   {
+      "name": "Forest Guardian",
+      "profile": "nemesis",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 5,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 3
+      },
+      "soak": 6,
+      "wt": 25,
+      "st": 18,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 8,
+         "social": 3,
+         "general": 2
+      },
+      "silhouette": 3,
+      "skills": [
+         { "name": "cool", "ranks": 2 },
+         { "name": "discipline", "ranks": 2 },
+         { "name": "brawl", "ranks": 2 },
+         { "name": "resilience", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 2",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character twice."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Sweep Attack",
+            "description": [
+               "A Forest Guardian my spend [advantage] from a Brawl check to hit an additional engaged opponent that would be no more difficult to attack than the original target, dealing base damage +1 damage per [success]."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Silhouette 3",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Huge Limbs",
+            "description": [
+               "Brawl; Damage 10; Critical 4; Range (Short); Knockdown, Prepare 1."
+            ],
+            "skill": "brawl",
+            "damage": 10,
+            "critical": 4,
+            "range": "short",
+            "special": [
+               { "name": "knockdown", "rating": 0 },
+               { "name": "prepare", "rating": 1 }
+            ]
+         }
+      ],
+      "description": [
+         "Forest Guardians are unnerving to behold at any time, but especially in combat. The largest of the animated trees of the Aymhel, they march forward with a fearless abandon, lashing out with their “legs” and using the dense gnarl of their branches and trunks to smash and crush anything that stands before them. Forest Guardians are preternaturally strong, have the inherent resilience of a dense hardwood tree, and act with an efficient brutality borne of beings who may be utterly divorced from the constraints of traditional mortality. They almost never stride beyond the great forest, however, though some have been seen in large battles against Broken Plains Orc invaders or Uthuk raiding parties."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 179"
+   },
+   {
+      "name": "Giant",
+      "profile": "nemesis",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 6,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 8,
+      "wt": 33,
+      "st": 29,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 12,
+         "social": 2,
+         "general": 1
+      },
+      "silhouette": 3,
+      "skills": [
+         { "name": "athletics", "ranks": 2 },
+         { "name": "brawl", "ranks": 2 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Giant Stomp!",
+            "description": [
+               "Brawl attacks that giants make have a Critical rating of 3, and if they inflict Critical Injuries +40 is added to the resulting Critical Injury result."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Silhouette 3",
+            "description": [],
+            "activation": ""
+         },
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make a Hard ([difficulty][difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Huge Club",
+            "description": [
+               "Melee; Damage 12; Critical 2; Range (Short); Inaccurate 1, Knockdown, Prepare 1."
+            ],
+            "skill": "melee",
+            "damage": 12,
+            "critical": 2,
+            "range": "short",
+            "special": [
+               { "name": "inaccurate", "rating": 3 },
+               { "name": "knockdown", "rating": 0 },
+               { "name": "prepare", "rating": 1 }
+            ]
+         }
+      ],
+      "description": [
+         "Few have seen these huge, lumbering creatures and lived to speak of it, for their raw strength is enough to crush entire bands of soldiers like lesser beings would swat away flies. Many are as old as the hills, with reclusive natures, and immediately see outsiders as enemies. Despite the relatively small sizes of its islands, much of the Torue Albes is still unexplored, and giants can still be discovered within enormous underground caverns or wading through deep marshes and lakes in search of prey.",
+         "Luckily, giants are relatively slow, though their long strides more than compensate. Cunning or magic are the weapons of choice when facing these immense foes, for attempting to match them in brute strength or common weaponry likely ends with a fresh gravestone to mark yet another adventurer’s death."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 226"
+   },
+   {
+      "name": "Giant Snake",
+      "profile": "rival",
+      "type": "beast",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 4,
+      "wt": 14,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 4,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 3,
+      "skills": [
+         { "name": "brawl", "ranks": 3 },
+         { "name": "resilience", "ranks": 2 },
+         { "name": "stealth", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Silhouette 3",
+            "description": [],
+            "activation": ""
+         },
+         {
+            "name": "Swallow",
+            "description": [
+               "May make an opposed Brawl check to swallow an engaged target. If the check is successful, swallowed characters are immobilized and suffer 6 damage at the start of each round but can escape if the snake is killed or by making a successful Hard ([difficulty][difficulty][difficulty]) Athletics check."
+            ],
+            "activation": "action"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Jaws",
+            "description": [
+               "Brawl; Damage 6; Critical 2; Range (Engaged); Vicious 2."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 2 }
+            ]
+         },
+         {
+            "name": "Constricting Coils",
+            "description": [
+               "Brawl; Damage 10; Critical 3; Range (Engaged); Ensnare 4, Stun 4."
+            ],
+            "skill": "brawl",
+            "damage": 10,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "ensnare", "rating": 4 },
+               { "name": "stun", "rating": 4 }
+            ]
+         }
+      ],
+      "description": [
+         "The jungles of Zanaga host a great many types of snakes, and the larger they are the more deadly they become. Some seem to have no upper limit on their size, and tales speak of entire groups of adventurers swallowed up in fanged, cavernous maws."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 258"
+   },
+   {
+      "name": "Gnome Minstrel",
+      "profile": "nemesis",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 4,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 2,
+      "wt": 7,
+      "st": 11,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 1,
+         "social": 2,
+         "general": 3
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "charm", "ranks": 3 },
+         { "name": "coordination", "ranks": 1 },
+         { "name": "knowledge (geography)", "ranks": 2 },
+         { "name": "stealth", "ranks": 1 },
+         { "name": "verse", "ranks": 2 }
+      ],
+      "talents": [
+         {
+            "name": "Encouraging Song",
+            "description": [
+               "While using a musical instrument, select one target within medium range and make a Hard ([difficulty][difficulty][difficulty]) Verse check. If the check is successful, for each [success] the target adds [boost] to their next skill check. For each [advantage], the target heals 1 strain."
+            ],
+            "activation": "action"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Haunting Melodies",
+            "description": [
+               "Gnome minstrels may spend [advantage] in a successful Charm check to inflict 1 strain on their target, and may do this multiple times."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Silhouette 0",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "spellcasting": {
+         "description": [
+            "Gnome minstrels can choose any magic action allowed for the Verse skill, and may select additional spell effects as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Addling Tune",
+               "description": [
+                  "Make an Average ([difficulty][difficulty]) Verse check. If the check is successful, until the end of the minstrel’s next turn, all other characters within medium range must first suffer one strain before using the concentrate maneuver. The minstrel can sustain this effect with the concentrate maneuver."
+               ]
+            },
+            {
+               "name": "Demoralizing Stanza",
+               "description": [
+                  "Select one target within short range and make an Average ([difficulty][difficulty]) Verse check. If the check is successful, until the end of the minstrel’s next turn, the target decreases the ability of any skill checks they make by one. The minstrel can sustain this effect with the concentrate maneuver"
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Lute, pipes and other musical instruments"
+         },
+         {
+            "name": "Colorful garb."
+         }
+      ],
+      "description": [
+         "For reasons still unknown, a large number of Gnomes from across Mennara make their way to the Torue Albes each year, often in the early days of summer. They spend months traveling from island to island surviving on their wits and their skills with the lute, pipes, small drums, and their own musical voices to pay for lodgings and meals. Some of these bards display arcane abilities, leading scholars to believe their could be something in the Albes that calls to their magical nature.",
+         "Whatever the reasons, these entertainers can be found playing in almost every tavern, inn, and other gathering place in the area. They tend to pick up all of the local gossip as well, and can be excellent sources of the latest word on the streets— for a price, of course."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 226"
+   },
+   {
+      "name": "Goblin",
+      "profile": "minion",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 3,
+      "wt": 4,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 2,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 0 },
+         { "name": "cool", "ranks": 0 },
+         { "name": "deception", "ranks": 0 },
+         { "name": "melee (light)", "ranks": 0 },
+         { "name": "ranged", "ranks": 0 },
+         { "name": "stealth", "ranks": 0 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Dark Vision",
+            "description": [
+               "When making skill checks, goblins remove up to [setback][setback] imposed due to darkness."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Opportunistic",
+            "description": [
+               "Goblins inflict 1 additional damage with successful melee attacks on prove or immobilized targets."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Jagged Blade",
+            "description": [
+               "Melee (Light); Damage 5; Critical 3; Range (Engaged)."
+            ],
+            "skill": "melee (light)",
+            "damage": 5,
+            "critical": 3,
+            "range": "engaged",
+            "special": []
+         },
+         {
+            "name": "Crude Bow",
+            "description": [
+               "Ranged; Damage 6; Critical 4; Range (Medium); Unwieldy 2."
+            ],
+            "skill": "ranged",
+            "damage": 6,
+            "critical": 4,
+            "range": "medium",
+            "special": [
+               { "name": "unwieldy", "rating": 2 }
+            ]
+         },
+         {
+            "name": "Wooden Buckler",
+            "description": [
+               "Melee (Light); Damage 2; Critical 6; Range (Engaged); Defensive 1, Inaccurate 2."
+            ],
+            "skill": "melee (light)",
+            "damage": 2,
+            "critical": 6,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 },
+               { "name": "inaccurate", "rating": 2 }
+            ]
+         },
+         {
+            "name": "Pointy Teeth",
+            "description": [
+               "Brawl; Damage 3; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 3,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Grimy Patchwork Armor",
+            "description": [
+               "+1 soak."
+            ]
+         }
+      ],
+      "description": [
+         "Goblins are smelly, small, and decidedly cunning when they wish to be. On average, goblins in Terrinoth stand shorter than a Dwarf and are usually possessed of a cowardly personality, a valuable instinct in a place where death is usually quick and painful. Lacking any real sense of courage or tactics, goblins usually attack in packs, raiding and stealing what they can before being chased off by the local guard or an angry farmer with a pitchfork. Though it seems they should be easy to exterminate, goblins are quite difficult to completely root out from their caves and homes. Breeding quickly in the dark, they can rebuild their numbers in a matter of months.",
+         "In their willingness to steal anything and everything they find valuable (mostly food and shiny things), goblins are more of a resilient, destructive pest than anything. Still, they must not be underestimated, for though they are cowardly, they can also be turned into a semi-coherent fighting force by a leader who offers the correct motivation…"
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 152"
+   },
+   {
+      "name": "Goblin Witcher",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 3,
+      "wt": 16,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 4,
+         "social": 2,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 0 },
+         { "name": "deception", "ranks": 0 },
+         { "name": "arcana", "ranks": 0 },
+         { "name": "knowledge (forbidden)", "ranks": 0 },
+         { "name": "stealth", "ranks": 0 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Dark Insight",
+            "description": [
+               "Use Knowledge (Forbidden) to determine spell effects."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Dark Vision",
+            "description": [
+               "When making skill checks, goblins remove up to [setback][setback] imposed due to darkness."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Spiteful Curse",
+            "description": [
+               "Add [boost][boost] to magic actions that target a character who has previously inflicted wounds on the goblin witcher during this encounter."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "spellcasting": {
+         "description": [
+            "Goblin witchers can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Agonizing Hex",
+               "description": [
+                  "Choose a target at short or medium range for this attack and make an Average ([difficulty][difficulty]) Arcana check. If successful, this magic attack inflicts 6 damage +1 damage per [success], with the Disorient 2 and Knockdown qualities."
+               ]
+            },
+            {
+               "name": "Bad Luck",
+               "description": [
+                  "Choose a target at short or medium range and make a Hard ([difficulty][difficulty][difficulty]) Arcana check. If successful, the target decreases the ability of any skill checks they make by 1 until the end of the goblin witcher’s next turn, and when the target makes a check, may change one [setback] to a face displaying [failure]. The goblin witcher may maintain these effects by performing the concentrate maneuver"
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Bone Staff",
+            "description": [
+               "+4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound."
+            ]
+         },
+         {
+            "name": "Pointy Teeth",
+            "description": [
+               "Brawl; Damage 3; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 3,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Robed Bone Armor",
+            "description": [
+               "+1 soak, +1 defense."
+            ]
+         }
+      ],
+      "description": [
+         "Few would consider goblins intelligent enough to utilize magic. However, there are indeed some of exceptional cleverness who have managed to not only discover their sorcerous abilities, but also harness them to a degree. Adventurers who come across witchers often take them for mere goblin leaders, but soon learn better when bolts of energy are hurled their way. Like all goblins, witchers are cowardly and avaricious, but with their access to dark magics they are able to brutally slay foes from which most of their kin would flee in terror."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 152"
+   },
+   {
+      "name": "Greyhaven Wizard",
+      "profile": "nemesis",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 2,
+         "intellect": 4,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 2
+      },
+      "soak": 1,
+      "wt": 12,
+      "st": 18,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 6,
+         "social": 3,
+         "general": 5
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "arcana", "ranks": 3 },
+         { "name": "cool", "ranks": 2 },
+         { "name": "discipline", "ranks": 2 },
+         { "name": "knowledge (lore)", "ranks": 4 },
+         { "name": "runes", "ranks": 3 }
+      ],
+      "talents": [],
+      "abilities": [],
+      "spellcasting": {
+         "description": [
+            "A wizard can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Fireball",
+               "description": [
+                  "Choose one target at short or medium range and make a Hard ([difficulty][difficulty][difficulty]) Arcana check; if successful, this magic attack inflicts 8 damage +1 damage per [success], with the Blast 4 and Burn 4 qualities."
+               ]
+            },
+            {
+               "name": "Magic Shield",
+               "description": [
+                  "Make a Hard ([difficulty][difficulty][difficulty]) Arcana check; if successful, until the end of the wizard’s next turn, reduce the damage of all hits against them by one, plus one for every [success][success], and the wizard gains +3 defense. The wizard can maintain these effects with the concentrate maneuver."
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Magic Staff",
+            "description": [
+               "Add +4 damage to magic attacks; the first Range effect added does not increase difficulty."
+            ]
+         },
+         {
+            "name": "Heavy Robes",
+            "description": [
+               "+1 defense."
+            ]
+         }
+      ],
+      "description": [
+         "To the outside world, the wizards of Greyhaven are a reclusive bunch, hiding away in their towers to augur the arcane truths of rune magic away from prying eyes. To those who have fought beside them, they are some of the mightiest allies one could ask for.",
+         "Those wizards with the aptitude and dedication to see combat are known as battlemages, and they are often deployed to support battalions of infantry and knights. Most are more than capable of defending themselves, however, with runic bolts of fire or lightning. Some can even channel rune magic into the ground, causing limbs of soil and stone to rise up and smash their enemies. For many adventurers, though, it is their knowledge that is most desired. Scholars of Greyhaven are privy to the mysteries concerning the runebound shards and how they came into the world, and they can offer much to those desiring to know more of the arcane."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 153"
+   },
+   {
+      "name": "Grotesque",
+      "profile": "rival",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 5,
+      "wt": 14,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 5,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 2 },
+         { "name": "melee (light)", "ranks": 3 },
+         { "name": "ranged", "ranks": 2 },
+         { "name": "resilience", "ranks": 2 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Bone Spurs",
+            "description": [
+               "A grotesque may spend [threat][threat][threat] or [despair] on a melee combat check targeting them to inflict 6 damage on the attacker."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Killing Frenzy",
+            "description": [
+               "A grotesque adds [boost][boost] to all melee combat checks, but attackers add [boost] to all combat checks targeting the grotesque."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Massive Claw",
+            "description": [
+               "Melee (Light); Damage 7; Critical 3; Range (Engaged); Ensnare 1, Knockdown."
+            ],
+            "skill": "melee (light)",
+            "damage": 7,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "ensnare", "rating": 1 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         },
+         {
+            "name": "Hurled Bone Shards",
+            "description": [
+               "Ranged; Damage 5; Critical 3; Range (Short); Vicious 2."
+            ],
+            "skill": "ranged",
+            "damage": 5,
+            "critical": 3,
+            "range": "short",
+            "special": [
+               { "name": "vicious", "rating": 2 }
+            ]
+         }
+      ],
+      "description": [
+         "The power of the Blood Coven can twist and torment Uthuk warriors, but it can also grant them great power, should they be strong enough to bear its blessing. Grotesques are monstrosities, each a uniquely horrid form that only vaguely resembles the Uthuk they once were. Having offered themselves up for sacrifice to the Blood Coven, they have hacked off limbs, given over eyes, or even torn out their own beating heart in hopes of receiving the witches’ Ynfernael blessing.",
+         "If the Blood Coven approves of a warrior’s offering, they might be rewarded and their mangled body remade anew. Bone ridges begin to cover their body, their hunched back becoming a forest of razor-sharp spines while their muscles swell and distort under their pale flesh. Gone are the vestiges of mortality from their face, elongated fangs and glowing red eyes marking them as the beast they have become.",
+         "In battle, the grotesques are the lumbering elite of the Uthuk tribes, many rising to become warlords of their own raiding armies or wasteland fortresses. Horrendously strong in combat, grotesques can rip a person apart with their bare hands, carve them up with their bone spines, and even fling bone shards from their fists to fell enemies at a distance. Few bother to carry weapons or wear armor, as their demonically transformed bodies are able to take and dish out enormous amounts of punishment.",
+         "More monstrous than mortal, the mutated blood that fills grotesques and grants them their strength and resilience often comes with other gifts. A supernatural terror clings to them, making combatants who wouldn’t normally flee before their grotesque size and appearance find their nerve undone. This panic can become infectious: just one of these towering horrors can send a disciplined force into a rout. Grotesques grow intoxicated upon the outpouring of fear, rising to a killing frenzy as they fall upon their fleeing foes."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 215"
+   },
+   {
+      "name": "Gurak Tol",
+      "profile": "rival",
+      "type": "beast",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 3,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 1
+      },
+      "soak": 5,
+      "wt": 18,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 5,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "athletics", "ranks": 3 },
+         { "name": "brawl", "ranks": 2 },
+         { "name": "resilience", "ranks": 2 }
+      ],
+      "talents": [
+         {
+            "name": "Swift",
+            "description": [
+               "A Gurak Tol does not spend extra maneuvers to move across difficult terrain."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Tail Catapult",
+            "description": [
+               "When engaged with a Gurak Tol that the Orc outrider is bonded with, the Orc outrider may use the steed to perform a Ranged attack with the following profile: Ranged; Damage 8; Critical 4; Range (Medium); Concussive 1, Inaccurate 1, Knockdown."
+            ],
+            "activation": "action"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Claws and Fangs",
+            "description": [
+               "Brawl; Damage 7; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 7,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Tail",
+            "description": [
+               "Brawl; Damage 7; Critical 4; Range (Engaged); Disorient 3, Knockdown."
+            ],
+            "skill": "brawl",
+            "damage": 7,
+            "critical": 4,
+            "range": "engaged",
+            "special": [
+               { "name": "disorient", "rating": 3 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         },
+         {
+            "name": "",
+            "description": [
+               "When bonded with an Orc outrider, a Gurak Tol gains armor that adds +2 to its soak."
+            ]
+         }
+      ],
+      "description": [
+         "Gurak Tols are territorial, six-legged lizards that jealously guard their homes; whether that be a warren, isolated cave, or valley. That instinctive behavior has made the creatures invaluable allies for the Orcs.",
+         "Swift, sure-footed, and incredibly aggressive by nature, Gurak Tols do battle and defend themselves with vicious attacks from strong tails that are tipped with a bone club or spikes. Generally, they tend to rely on their teeth and the claws on their lead fore-legs at the start of combat. Once their prey is wounded and the Gurak feels bold enough to take its eyes off their enemy, though, they swing their massive tails with the force of a trebuchet's ball upon the target's skull or spine. Their tails also allow them to perform a ranged attack when an Orc outrider provides suitable ammunition.",
+         "Gurak Tols have been captured and \"domesticated\" into becoming Orc steeds, but there are still many wild herds that occupy the Broken Plains. While the Orcs actively seek out Gurak Tols for new mounts, they also protect the great lizards from outsiders lest their numbers diminish."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 202"
+   },
+   {
+      "name": "Ice Wyrm",
+      "profile": "nemesis",
+      "type": "beast",
+      "characteristics": {
+         "brawn": 5,
+         "agility": 5,
+         "intellect": 3,
+         "cunning": 3,
+         "willpower": 3,
+         "presence": 2
+      },
+      "soak": 8,
+      "wt": 31,
+      "st": 20,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 13,
+         "social": 5,
+         "general": 6
+      },
+      "silhouette": 4,
+      "skills": [
+         { "name": "brawl", "ranks": 4 },
+         { "name": "coercion", "ranks": 4 },
+         { "name": "cool", "ranks": 3 },
+         { "name": "discipline", "ranks": 3 },
+         { "name": "ranged", "ranks": 4 },
+         { "name": "resilience", "ranks": 4 },
+         { "name": "stealth", "ranks": 3 },
+         { "name": "vigilance", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 2",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character twice."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Swift",
+            "description": [
+               "An ice wyrm does not spend additional maneuvers to move through difficult terrain."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Flyer",
+            "description": [
+               "Can fly; see page 100 of the Genesys Core Rulebook."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Camouflaged Scales",
+            "description": [
+               "An ice wyrm adds [boost][boost] to Stealth checks in icy or snowy surroundings."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Silhouette 4",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Freezing Blood Torrent",
+            "description": [
+               "Ranged; Damage 10; Critical 3; Range (Medium); Blast 8, Concussive 1, Ensnare 4."
+            ],
+            "skill": "ranged",
+            "damage": 10,
+            "critical": 3,
+            "range": "medium",
+            "special": [
+               { "name": "blast", "rating": 8 },
+               { "name": "concussive", "rating": 1 },
+               { "name": "ensnare", "rating": 4 }
+            ]
+         },
+         {
+            "name": "Claws and Fangs",
+            "description": [
+               "Brawl; Damage 8; Critical 2; Range (Engaged); Knockdown, Vicious 3."
+            ],
+            "skill": "brawl",
+            "damage": 8,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "knockdown", "rating": 0 },
+               { "name": "vicious", "rating": 3 }
+            ]
+         }
+      ],
+      "description": [
+         "As cold as the lands in which they crawl, ice wyrms are truly beings of ice and snow. Dimly related to the great dragons of ancient times, they are creations of the Rime Storm, their blood cold enough to freeze flesh. Covered in glittering diamond scales, each like a huge icy mirror, ice wyrms move across the snow, dazzling enemies just before they strike. Long, icicle-like fangs and wickedly sharp claws make swift work of their victims, while the wyrms’ spines are sharp enough to slice a Human in two.",
+         "Ice wyrms, like their dragon ancestors, are deeply dangerous foes. Conversant in many dark tongues, these beings have enslaved or bargained with most of the monstrous races of the north, enlisting them in their unending war against the remnants of the Salishwyrd. Many grow great wings of cold leather, and silently glide over the glaciers in search of prey. Some ice wyrms even practice sorcery and are able to spit spells as well as streams of freezing blood. Scarsha the Vile, Queen of the ice wyrms, is perhaps the most deadly of her kind. Heroes who wander into the far north are likely to find themselves drawing her gaze, whether as potential adversaries, prey, or tools in her hunt for the Green Vale."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 237"
+   },
+   {
+      "name": "Ice-Blood Warrior",
+      "profile": "minion",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 3,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 4,
+      "wt": 5,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 2,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 0 },
+         { "name": "brawl", "ranks": 0 },
+         { "name": "melee (light)", "ranks": 0 },
+         { "name": "resilience", "ranks": 0 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Ice Madness",
+            "description": [
+               "Upgrade the difficulty of social skill checks targeting an ice-blood warrior once."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Brittle Axe",
+            "description": [
+               "Melee (Light); Damage 6; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         }
+      ],
+      "description": [
+         "The White Death is an insidious effect of the Rime Storm that can claim those unfortunates who traverse Isheim’s northern wilds. For some, the White Death merely kills, leaving their frozen corpses contorted in their final moments of death. For others, it can be even worse, transmuting their once-warm blood into icy fluid. Their veins filled with sorcerous cold, they become sadistic killers, preying upon any being or creature that crosses their path. Raging and cursing, these frozen beings are drawn to the warmth of hot-blooded creatures so they might quench the heat with their eternal cold. Fighting off such adversaries is a terrible struggle; even their touch can blacken flesh with frostbite.",
+         "As the cold does not affect them anymore, wild clans of ice-blood warriors plague the silent forests and endless tundra of the north, their white eyes unblinking as they search for warm prey. While the ice-blood warriors are perils of the north, heroes might seek them out regardless. Like that of ice wyrms and wendigo, their blood has value. Further, rumor has it that there is magic that can bring an individual back from this icy fate, giving hope to those who have lost loved ones to the White Death."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 237"
+   },
+   {
+      "name": "Ironbound",
+      "profile": "rival",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 1,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 6,
+      "wt": 15,
+      "st": 0,
+      "mDef": 3,
+      "rDef": 2,
+      "powerLevel": {
+         "combat": 7,
+         "social": 2,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "discipline", "ranks": 3 },
+         { "name": "melee (heavy)", "ranks": 3 },
+         { "name": "melee (light)", "ranks": 3 },
+         { "name": "resilience", "ranks": 3 },
+         { "name": "vigilance", "ranks": 3 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Graven Wards",
+            "description": [
+               "Increase the difficulty of all spells that target an ironbound twice."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Strength of Iron",
+            "description": [
+               "An ironbound can wield a Melee (Heavy) weapon in one hand."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Watchful",
+            "description": [
+               "Ironbound add [boost][boost] to Perception and Vigilance checks to detect the use or effects of Magic skills."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Halberd",
+            "description": [
+               "Melee (Heavy); Damage 7; Critical 3; Range (Engaged); Defensive 1, Pierce 3."
+            ],
+            "skill": "melee (heavy)",
+            "damage": 7,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 },
+               { "name": "pierce", "rating": 3 }
+            ]
+         },
+         {
+            "name": "Large Shield",
+            "description": [
+               "Melee (Light); Damage 5; Critical 5; Range (Engaged); Defensive 2, Deflection 2, Inaccurate 2, Knockdown."
+            ],
+            "skill": "melee (light)",
+            "damage": 5,
+            "critical": 5,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 2 },
+               { "name": "deflection", "rating": 2 },
+               { "name": "inaccurate", "rating": 2 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         }
+      ],
+      "description": [
+         "The ironbound are the unfeeling, ever-watching eyes of the sorcerers of Nerekhall. Mechanical soldiers originally created to police against necromantic and other dark acts, they have far surpassed the expectations of their creators, and they now form the majority of Nerekhall’s military forces.",
+         "Armed with long spears and heavy shields, and covered in armor plates with special runic wards that give them further immunity to destructive magic, the ironbound are also Terrinoth’s strongest response to its magic-wielding enemies. The ironbound lack initiative and drive, though, and can often be defeated through cunning and ingenuity. This can prove useful for travelers who run afoul of Nerekhall’s many laws against uncivil behavior or its antimagic ordinances (or who merely cross the wrong noble) and face the wrath of these metal guardians."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 153"
+   },
+   {
+      "name": "Kennsir Dwarf",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 1,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 3,
+         "presence": 2
+      },
+      "soak": 3,
+      "wt": 15,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 3,
+         "social": 1,
+         "general": 3
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "melee (light)", "ranks": 3 },
+         { "name": "resilience", "ranks": 3 },
+         { "name": "skulduggery", "ranks": 2 },
+         { "name": "stealth", "ranks": 2 },
+         { "name": "survival", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Dark Vision",
+            "description": [
+               "When making skill checks, Dwarves remove up to [setback][setback] imposed due to darkness."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Tunnel Fighter",
+            "description": [
+               "Add [boost][boost] to combat checks Kennsir Dwarves make in enclosed spaces."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Brace of Dwarven Pickaxes",
+            "description": [
+               "Melee (Light); Damage 4; Critical 2; Range (Engaged); Pierce 2."
+            ],
+            "skill": "melee (light)",
+            "damage": 4,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "pierce", "rating": 2 }
+            ]
+         },
+         {
+            "name": "Smokebombs."
+         },
+         {
+            "name": "Vials of poison gas."
+         }
+      ],
+      "description": [
+         "Though Dunwarr Dwarves live, fight, and often die in the tunnels beneath the mountains, the Kennsir Dwarves take fighting to horrifying levels of strategic brutality. They live for battle in the claustrophobic, fortified tunnels under the mountains—employing the unconventional, unpredictable strategies of guerrilla warriors. Whether they are tunneling deep behind invaders’ flanks, collapsing mine shafts, or choking their foes in noxious gasses from the Alchemists’ League, there are none better at tunnel fighting in all the world."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 192"
+   },
+   {
+      "name": "Kobold",
+      "profile": "minion",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 2,
+         "intellect": 1,
+         "cunning": 1,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 1,
+      "wt": 3,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 1,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 0,
+      "skills": [
+         { "name": "brawl", "ranks": 0 },
+         { "name": "melee (light)", "ranks": 0 },
+         { "name": "skulduggery", "ranks": 0 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Not Another!",
+            "description": [
+               "In an encounter with any number of kobolds, the GM may spend [threat][threat] from any check made by a PC to add one kobold to an existing minion group, or spend [despair] to add a new minion group of three kobolds to the encounter."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Silhouette 0",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Claws and Teeth",
+            "description": [
+               "Brawl; Damage 2; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 2,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1}
+            ]
+         },
+         {
+            "name": "Crude Blade",
+            "description": [
+               "Melee (Light); Damage 4; Critical 3; Range (Engaged)."
+            ],
+            "skill": "melee (light)",
+            "damage": 4,
+            "critical": 3,
+            "range": "engaged",
+            "special": []
+         }
+      ],
+      "description": [
+         "Centuries ago, a sorcerer desperately in need of minions used magic to twist a race of beastmen to suit his own depraved purposes. He made them smaller so they could better work in tight spaces, slashed their intelligence so they would never revolt against him, made them genderless so they wouldn’t be distracted by mating instincts, and gave them the ability to reproduce asexually so they would always have large enough numbers for their tasks. He was an exceptionally powerful magician whose intellect was matched only by his lack of foresight.",
+         "The kobolds reproduced at an astonishing rate, and they soon overwhelmed the wizard, his stronghold, and the surrounding lands. Luckily, being small and about as bright a particularly dim dog, they tend to fall prey to anything higher up on the food chain (which includes just about everything). Even so, they remain a blight on every corner of Mennara. Occasionally, a kobold may figure out how to construct simple traps, make rudimentary weapons, or even lead a group of their fellows in some semblance of tactics, at which point a pack of kobolds can go from nuisance to menace. They carry out raids on isolated villages or farms, hunting for fresh(ish) meat, shiny baubles, and small domesticated animals.",
+         "Packs of kobolds infest the Dunwarr Mountains, and the Dwarves view them as the rest of the world does—annoying, predatory vermin. One of the Rangers' and Warriors' Guilds’ more onerous duties is kobold extermination, which usually falls on the newest members."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 192"
+   },
+   {
+      "name": "Lava Elemental",
+      "profile": "rival",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 2
+      },
+      "soak": 3,
+      "wt": 13,
+      "st": 0,
+      "mDef": 4,
+      "rDef": 4,
+      "powerLevel": {
+         "combat": 6,
+         "social": 2,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 2 },
+         { "name": "cool", "ranks": 2 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Amorphous",
+            "description": [
+               "As an incidental, a lava elemental may increase or decrease its silhouette by 1."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Inconspicuous",
+            "description": [
+               "A lava elemental in a natural pool of molten rock appears indistinguishable from ordinary lava; a character can make a Hard ([difficulty][difficulty][difficulty]) Perception or Vigilance check to identify a lava elemental."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Pseudopods",
+            "description": [
+               "Brawl; Damage 7; Critical 2; Range (Engaged); Burn 2, Sunder."
+            ],
+            "skill": "brawl",
+            "damage": 7,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "burn", "rating": 2 },
+               { "name": "sunder", "rating": 0 }
+            ]
+         },
+         {
+            "name": "Lava Projectile",
+            "description": [
+               "Ranged; Damage 9; Critical 3; Range (Short); Blast 4, Burn 2, Concussive 1."
+            ],
+            "skill": "ranged",
+            "damage": 9,
+            "critical": 3,
+            "range": "short",
+            "special": [
+               { "name": "burn", "rating": 4 },
+               { "name": "blast", "rating": 2 },
+               { "name": "concussive", "rating": 1 }
+            ]
+         }
+      ],
+      "description": [
+         "While most elementals reside in the distant lands of Al-Kalim, a few also live in the even hotter lairs within the Heart. The volcanoes in this land are an ideal environment for these magical creatures, though it is uncertain if the elementals are the cause of the deadly heat or if the volcanoes attracted their attention.",
+         "This matters little to those unfortunate adventurers who might encounter them, though. Lava elementals jealously guard their lairs and are always seeking to expand any area where rock is still stubbornly solid—which is usually a place where mortals are to be found."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 196"
+   },
+   {
+      "name": "Leonx",
+      "profile": "rival",
+      "type": "beast",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 4,
+         "intellect": 1,
+         "cunning": 3,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 4,
+      "wt": 14,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 4,
+         "social": 1,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 2 },
+         { "name": "survival", "ranks": 3 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [
+         {
+            "name": "Swift",
+            "description": [
+               "A Leonx does not perform extra maneuvers to move through difficult terrain."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Maul",
+            "description": [
+               "A Leonx adds [boost][boost] to Brawl checks against prone or immobilized targets."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Claws and Fangs",
+            "description": [
+               "Brawl; Damage 6; Critical 3; Range (Engaged); Knockdown, Pierce 2, Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "knockdown", "rating": 0 },
+               { "name": "pierce", "rating": 2 },
+               { "name": "vicious", "rating": 1 }
+            ]
+         }
+      ],
+      "description": [
+         "Each half of a Leonx-Verdelam pair trusts the other with its life, and the bond a Leonx shares with its rider is akin to that of family. In battle, the Leonx and rider coordinate their movements as one, fusing Elven skill with the deadly instincts of one of Mennara’s most fearsome predators."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 180"
+   },
+   {
+      "name": "Leonx Rider",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 3,
+         "presence": 3
+      },
+      "soak": 4,
+      "wt": 15,
+      "st": 0,
+      "mDef": 2,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 4,
+         "social": 3,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "cool", "ranks": 2 },
+         { "name": "melee (heavy)", "ranks": 2 },
+         { "name": "riding", "ranks": 2 },
+         { "name": "survival", "ranks": 2 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Leonx Bond",
+            "description": [
+               "When a Leonx Rider directs its mound, the mount may perform an action and a maneuver and is not limited to using its maneuvers to move."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Spear",
+            "description": [
+               "Melee (Heavy); Damage 6; Critical 3; Range (Engaged); Accurate 1, Defensive 1."
+            ],
+            "skill": "melee (heavy)",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 },
+               { "name": "defensive", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Leather Armor",
+            "description": [
+               "+1 soak."
+            ]
+         },
+         {
+            "name": "",
+            "description": [
+               "Leonx see page 180."
+            ]
+         }
+      ],
+      "description": [
+         "None exemplify the primal, wild nature of the Verdelam Elves more than the Leonx Riders. Charging into battle atop the ferocious Leonx, large sentient felines native to the Aymhelin, these Elven warriors pierce through enemy lines with the force of a storm, using their lightning speed to evade counterblows and change their angles of attack with the swiftness of a gale.",
+         "Many Elves see the nomadic Leonx Riders as little more than feral barbarians who have lost their connection to the teachings of Latariana and the Path of the Stars. Far from unthinking savages, the Free Hunters (as they were called in ancient days) saw their wild nature as a way to better attune themselves with the wild lands around them.",
+         "In time, they learned to temper their tremendous skill for hunting and combat with a deeper wisdom gained from their animal family. The mightiest killed only to survive, and the pack went to war only in defense of their own. Over time, songs were sung in Caelcira of lost Latari children rescued from the wild by strange, feral Elves, or even whole villages saved by Elven nomads who could speak the tongues of animals. Nevertheless, some of the most prominent leaders of the Latari noble houses wished to exile these “barbarians” from their sacred forest. Still shunned by the rest of Latari society, the Leonx Riders now keep mostly to themselves and their pack, only making contact with outsiders to offer aid."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 179"
+   },
+   {
+      "name": "Lord of Bilehall",
+      "profile": "nemesis",
+      "type": "undead",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 5,
+         "intellect": 4,
+         "cunning": 4,
+         "willpower": 4,
+         "presence": 4
+      },
+      "soak": 6,
+      "wt": 18,
+      "st": 20,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 11,
+         "social": 5,
+         "general": 7
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "arcana", "ranks": 3 },
+         { "name": "brawl", "ranks": 2 },
+         { "name": "charm", "ranks": 3 },
+         { "name": "cool", "ranks": 3 },
+         { "name": "discipline", "ranks": 3 },
+         { "name": "knowledge (forbidden)", "ranks": 5 },
+         { "name": "negotiation", "ranks": 3 },
+         { "name": "ranged", "ranks": 3 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 2",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character twice."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Dark Insight",
+            "description": [
+               "Use Knowledge (Forbidden) to determine spell effects."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Blood Call",
+            "description": [
+               "When a Lord of Bilehall damaegs a target using their fangs or a magic attack, they heal wounds equal to the wounds inflicted."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Sunlight Sensitivity",
+            "description": [
+               "While exposed to sunlight, a Lord of Bilehall reduces all their characteristics by 2 and halves their Wound Threshold and Strain Threshold."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make an Daunting ([difficulty][difficulty][difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Undead",
+            "description": [
+               "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Vampiric Magic",
+            "description": [
+               "A Lord of Bilehall reduces the difficulty of all magic skill checks by one step."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "spellcasting": {
+         "description": [
+            "A Lord of Bilehall can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Blood Funnel",
+               "description": [
+                  "Choose one target at short range for the attack and make a Hard ([difficulty][difficulty][difficulty]) Arcana check; if the magic combat check succeeds, the target suffers 4 damage + 1 damager per uncanceled [success], with Critical Rating 2 and the Blast 4 and Vicious 4 qualities."
+               ]
+            },
+            {
+               "name": "Curse of the Night",
+               "description": [
+                  "Choose one target within short range and make a Hard ([difficulty][difficulty][difficulty]) Arcana check; if the check succeeds, the target decreases the ability of any skill checks they make by one and reduce their strain and wound thresholds by 4 until the end of the Lord of Bilehall's next turn. The Lord of Bilehall may maintain these effefcts by performing the Concentrate maneuver."
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Bloodstained Fangs",
+            "description": [
+               "Brawl; Damage 6; Critical 2; Range (Engaged); Ensnare 1, Vicious 2."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "ensnare", "rating": 1 },
+               { "name": "vicious", "rating": 2 }
+            ]
+         },
+         {
+            "name": "Magic Staff",
+            "description": [
+               "Add +4 damage to magic attacks; the first Range effect added does not increase difficulty."
+            ]
+         }
+      ],
+      "description": [
+         "When the Lords of Bilehall discarded their humanity to join Waiqar, they tied their fates to that of his. They became immensely more powerful as the corrupting mists covered their lands and they rose in undeath. Today, they are an arrogant line, besotted from centuries of indulging in their every desire, exulting in the pleasures of immortality. Each has become a ruler in their own right, and even the lowest vampire of the line of Bilehall can claim a crypt-fortress as their own.",
+         "The ages have made the Lords of Bilehall both shrewd and knowledgeable. Some have dedicated themselves to necromancy, even gaining enough power to raise lesser Reanimates. Still others have become masters of warfare and lead raids on the baronies to the south or even into Dunwarr and other realms. It is rare to encounter such creatures without powerful minions to defend them, but such is their hubris that they fear little except Waiqar himself and may step forth alone to toy with those who dare venture into their domains. For an adventurer to survive such an occurrence is even rarer, for Lords such as Kyndrithul and Vorun'thul have had hundreds of years to set traps, arrange countermeasures, and prepare themselves for almost any enemy."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 165"
+   },
+   {
+      "name": "Lorimor Marine",
+      "profile": "minion",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "soak": 4,
+      "wt": 5,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 2,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "athletics", "ranks": 0 },
+         { "name": "cool", "ranks": 0 },
+         { "name": "melee (light)", "ranks": 0 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Sea Legs",
+            "description": [
+               "A Lorimor marine does not add [setback] to checks due to unstable footing on a ship or boat, or in a similar environment."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Saber",
+            "description": [
+               "Melee (Light); Damage 6; Critical 2; Range (Engaged); Defensive 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Scale Breastplate",
+            "description": [
+               "+1 soak."
+            ]
+         }
+      ],
+      "description": [
+         "Lorimor is known for its fleets, but while its ships are among the finest on the seas, it is the quality of the crews that really make them shine. As not all seafaring ventures are peaceful ones, the crews always include a contingent of marines ready to both repel boarders and lead assaults against enemy vessels.",
+         "Each marine is a skilled fighter, even on uncertain decks awash with saltwater and blood. The sight of them high in the riggings, ready to cross with a boarding rope in one hand and shortsword in the other, has made many an enemy captain quickly offer surrender."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 227"
+   },
+   {
+      "name": "Lost Knight",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 4,
+         "presence": 3
+      },
+      "soak": 5,
+      "wt": 15,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 4,
+         "social": 3,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "athletics", "ranks": 2 },
+         { "name": "discipline", "ranks": 2 },
+         { "name": "melee (light)", "ranks": 3 },
+         { "name": "resilience", "ranks": 2 },
+         { "name": "survival", "ranks": 1 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Fatalistic Ferocity",
+            "description": [
+               "A lost knight adds [success][threat] to any combat checks they make."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Ancient Sword",
+            "description": [
+               "Melee (Light); Damage 6; Critical 2; Range (Engaged); Defensive 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "defensive", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Heraldic Plate Armor",
+            "description": [
+               "+2 soak, +1 defense."
+            ]
+         }
+      ],
+      "description": [
+         "One of the mysteries of the Lorimor peninsula are the lost knights sometime seen in the hinterlands and rougher inland areas. Descriptions range from proud wanderers in gleaming plate armor to wizened ancients with rusted swords and long, grey beards, but they all seem to share weary expressions that speak of far too many years, if not centuries, of endless and hopeless existence.",
+         "These mysterious knights rarely, if ever, speak of their pasts or origins, leading some to wonder if they are members of Rusticar Lorimor's bonded knights who followed he and Riya Penacor into exile. Records indicate not all of the company made it to what would become the city of Lorim, as some gave up on the trek and their new lord. Tavern tales in the Albes speculate these figures may still be questing across Lorimor in search of rights to wrong, hoping one day to one day be allowed to achieve a final rest."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 227"
+   },
+   {
+      "name": "Magistrate Edmin Cawl",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 3,
+         "cunning": 3,
+         "willpower": 3,
+         "presence": 3
+      },
+      "soak": 2,
+      "wt": 12,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "charm", "ranks": 1 },
+         { "name": "coercion", "ranks": 2 },
+         { "name": "cool", "ranks": 2 },
+         { "name": "deception", "ranks": 1 },
+         { "name": "discipline", "ranks": 2 },
+         { "name": "negotiation", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [],
+      "equipment": [
+         {
+            "name": "Fine clothing"
+         },
+         {
+            "name": "Sash of office"
+         }
+      ],
+      "description": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "HC p. 14"
+   },
+   {
+      "name": "Makhim",
+      "profile": "minion",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 4,
+      "wt": 6,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 3,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 0 },
+         { "name": "ranged", "ranks": 0 },
+         { "name": "survival", "ranks": 0 },
+         { "name": "stealth", "ranks": 0 },
+         { "name": "vigilance", "ranks": 0 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Four-armed",
+            "description": [
+               "A Makhim does not increase the difficulty of combined checks to attack with both of its dolochs and fists."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Dolochs",
+            "description": [
+               "Brawl; Damage 5; Critical 3; Range (Engaged); Accurate 1, Linked 1."
+            ],
+            "skill": "brawl",
+            "damage": 5,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 },
+               { "name": "linked", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Fists",
+            "description": [
+               "Brawl; Damage 4; Critical 3; Range (Engaged); Linked 1, Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 4,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "linked", "rating": 1 },
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Sling",
+            "description": [
+               "Ranged; Damage 4; Critical 4; Range [Medium]; Disorient 2, Prepare 1."
+            ],
+            "skill": "ranged",
+            "damage": 4,
+            "critical": 4,
+            "range": "medium",
+            "special": [
+               { "name": "disorient", "rating": 2 },
+               { "name": "prepare", "rating": 1 }
+            ]
+         }
+      ],
+      "description": [
+         "Makhim warriors are as fierce as any in Zanaga, and they have adapted to the environments they fight in. Most employ weapons that only a four-armed fighter could wield, like the dagger-like dolochs they wear a gauntlets. They also employ leather slings which they twist and swing to send a missile flying with tremendous momentum. Makhim are seldom encountered alone; they usually travel in great war parties, some scouting ahead, others staying to the shadows. At first glance, their opponents might believe they face but a few of the reptilian creatures, at least until the jungle comes alive with a cacophony of hissing war cries."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 258"
+   },
+   {
+      "name": "Manticore",
+      "profile": "nemesis",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 3,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 5,
+      "wt": 21,
+      "st": 19,
+      "mDef": 1,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 8,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 2,
+      "skills": [
+         { "name": "athletics", "ranks": 2 },
+         { "name": "brawl", "ranks": 3 },
+         { "name": "ranged", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Flyer",
+            "description": [
+               "Can fly; see page 100 of the Genesys Core Rulebook."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Poisonous Stinger",
+            "description": [
+               "A character wounded by a manticore's tail stinger must make a Hard ([difficulty][difficulty][difficulty]) Resilience check as an out-of-turn incidental or suffer 4 additional wounds, and must check again on their next turn if the check generates [despair]."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Silhouette 2",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Claws and Fangs",
+            "description": [
+               "Brawl; Damage 6; Critical 3; Range (Engaged)."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": []
+         },
+         {
+            "name": "Tail Stinger",
+            "description": [
+               "Ranged; Damage 7; Critical 3; Range (Medium); Slow-Firing 1, Pierce 2."
+            ],
+            "skill": "ranged",
+            "damage": 7,
+            "critical": 3,
+            "range": "medium",
+            "special": [
+               { "name": "slow-firing", "rating": 1 },
+               { "name": "pierce", "rating": 2 }
+            ]
+         }
+      ],
+      "description": [
+         "There are many theories about how manticores came to be, most assuming an artificial origin, as no natural process can readily be imagined for how lion bodies, bat-like wings, and scorpion tails could come to exist in a single entity. Such theories tend to involve drunken mages and spells gone horribly wrong. Unfortunately, the fierce nature of these creatures means there are very few opportunities to study them.",
+         "Manticores appear to be not only perpetually hungry but vicious as well, especially those that fly across the western islands. They take delight in each raking claw that draws blood and each stinging stab of their insectoid tail. Many foes learn far too late that the creatures can also hurl volleys of spikes from their tails, which can puncture armor to deliver deadly venoms. Some alchemists who have studied the venoms claim they have traces of magical properties, but proof of this has not yet been established. Sadly, no reliable antivenom has been developed, either."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 227"
+   },
+   {
+      "name": "Mavaris Skain, Necromancer",
+      "profile": "nemesis",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 4,
+         "cunning": 3,
+         "willpower": 3,
+         "presence": 2
+      },
+      "soak": 2,
+      "wt": 13,
+      "st": 17,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "arcana", "ranks": 1 },
+         { "name": "cool", "ranks": 1 },
+         { "name": "discipline", "ranks": 3 },
+         { "name": "knowledge (forbidden)", "ranks": 2 },
+         { "name": "melee (light)", "ranks": 2 },
+         { "name": "vigilance", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Chill of Nordros",
+            "description": [
+               "Magic attacks gain the Ice effect with no increase in difficulty."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Dark Insight",
+            "description": [
+               "Use Knowledge (Forbidden) to determine spell effects."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Necromancy",
+            "description": [
+               "When this character uses the conjure magic action, it gains the Summon Ally effect with no increase in difficulty; all creatures the character summons must be undead."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [],
+      "spellcasting": {
+         "description": [
+            "Mavaris Skain can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. His favored spells are:"
+         ],
+         "spells": [
+            {
+               "name": "Death Knell",
+               "description": [
+                  "Choose one target at short or medium range and make an Average ([difficulty][difficulty]) Arcana check; if the check succeeds, this magic attack inflicts 8 damage +1 damage per uncanceled [success], with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."
+               ]
+            },
+            {
+               "name": "Wilt",
+               "description": [
+                  "Choose two targets within short range and make an Average ([difficulty][difficulty]) Arcana check; if the check succeeds, Skain can choose one additional target for each [advantage] and all targets reduce the ability of any skill checks they make by one until the end of Skain’s next turn; if an affected character suffers strain for any reason, they suffer 1 additional strain; Skain can perform the concentrate maneuver to maintain all effects of this curse."
+               ]
+            },
+            {
+               "name": "Wall of Bones",
+               "description": [
+                  "Make a Hard ([difficulty][difficulty][difficulty]) Arcana check; if the check succeeds, Skain reduces the damage of all hits he suffers by 1 plus 1 for every [success][success] beyond the first until the end of his next turn; in addition, if an attack targeting Skain generates [threat][threat][threat] or [despair], the attacker suffers a hit inflicting damage equal to the total damage of the attack; Skain may perform the concentrate maneuver to maintain the effects of this barrier."
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "One Staff",
+            "description": [
+               "Add +4 damage to magic attacks; the first Range effect added does not increase difficulty; heal 1 wound after damaging a target with a spell."
+            ]
+         },
+         {
+            "name": "Sacrificial Dagger",
+            "description": [
+               "Melee (Light); Damage 4; Critical 3; Range (Engaged); Accurate 1, Vicious 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 4,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 },
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Heavy Robes",
+            "description": [
+               "+1 defense."
+            ]
+         },
+         {
+            "name": "Forbidden Grimoire",
+            "description": [
+               "A user with the Dark Insight talent can add the Additional Target and Enervate effects to curse spells with no increase in difficulty."
+            ]
+         }
+      ],
+      "description": [],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "HC p. 16"
+   },
+   {
+      "name": "Merriod",
+      "profile": "nemesis",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 4,
+         "intellect": 1,
+         "cunning": 3,
+         "willpower": 1,
+         "presence": 1
+      },
+      "soak": 5,
+      "wt": 22,
+      "st": 18,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 0,
+         "social": 0,
+         "general": 0
+      },
+      "silhouette": 2,
+      "skills": [
+         { "name": "athletics", "ranks": 4 },
+         { "name": "brawl", "ranks": 3 },
+         { "name": "stealth", "ranks": 2 },
+         { "name": "vigilance", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Aquatic",
+            "description": [
+               "A merriod never treats water a difficult terrain and can breathe underwater."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Monstrous Limbs",
+            "description": [
+               "A merriod does not increase the difficulty of combined checks to attack with its claws, tentacles, and jaws, and may spend [advantage][advantage] or [triumph] to hit with each additional weapon."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Silhouette 2",
+            "description": [],
+            "activation": ""
+         },
+         {
+            "name": "Terrifying",
+            "description": [
+               "At the start of the encounter, all of their opponents must make a Hard ([difficulty][difficulty][difficulty]) fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Claws",
+            "description": [
+               "Brawl; Damage 7; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "brawl",
+            "damage": 7,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Mawed Tentacles",
+            "description": [
+               "Brawl; Damage 7; Critical 3; Range (Short); Ensnare 3, Linked 1"
+            ],
+            "skill": "brawl",
+            "damage": 7,
+            "critical": 3,
+            "range": "short",
+            "special": [
+               { "name": "ensnare", "rating": 3 },
+               { "name": "linked", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Jaws",
+            "description": [
+               "Brawl; Damage 6; Critical 2; Range (Engaged); Pierce 2, Vicious 2."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "pierce", "rating": 2 },
+               { "name": "vicious", "rating": 2 }
+            ]
+         }
+      ],
+      "description": [
+         "Among Mennara’s aquatic beasts, few elicit as much terror and dread as the merriod. Sailors and pirates in Shellport taverns swear it is the last vengeance of a dead sea god, one who cursed the world with an avatar borne of its own unfathomable malice. Combining the jaws of the shark, the grasping tentacles of the kraken, and the cleverness of the octopus, the god unleashed the merriod into the waters.",
+         "Thankfully, these amphibious beasts are relatively rare, slow to reproduce, and often simply slumber in their dark, damp lairs. When stirred by hunger or some darker motivation, however, merriods become one of the most dangerous predators adventurers can face. They are especially adept at luring or driving their targets places where they can entrap or encircle them, such as a dank cavern or flooded dungeon.",
+         "Merriods often use their mawed tentacles to stealthily grasp an adventurer and pull them down to a watery grave, but the creatures are also formidable when confronted in open battle. They move with a speed that belies their bulk, their great jaws allow them to bite clean through armor, and their thick hide can ward off the mightiest blows."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 228"
+   },
+   {
+      "name": "Minor Elemental",
+      "profile": "rival",
+      "type": "mythical",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 1
+      },
+      "soak": 3,
+      "wt": 13,
+      "st": 0,
+      "mDef": 4,
+      "rDef": 4,
+      "powerLevel": {
+         "combat": 5,
+         "social": 2,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 2 },
+         { "name": "cool", "ranks": 2 },
+         { "name": "stealth", "ranks": 2 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Amorphous",
+            "description": [
+               "As an incidental, a minor elemental may increase or decrease its silhouette by 1."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Inconspicuous",
+            "description": [
+               "A minor elemental in a natural environment appears indistinguishable from an ordinary example of its element; a character can make a Hard ([difficulty][difficulty][difficulty]) Perception or Vigilance check to identify a minor elemental."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Pseudopods",
+            "description": [
+               "Brawl; Damage 6; Critical 3; Range (Engaged); Burn 1 (flame elemental only), Ensnare 1 (quicksand elemental only), Linked 1, Stun 5 (spring elemental only)."
+            ],
+            "skill": "brawl",
+            "damage": 6,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "burn", "rating": 1, "optional": true  },
+               { "name": "ensnare", "rating": 1, "optional": true  },
+               { "name": "linked", "rating": 1 },
+               { "name": "stun", "rating": 5, "optional": true }
+            ]
+         }
+      ],
+      "description": [
+         "Elemental magic, a legacy of the Djinni, runs through the bedrock of Al-Kalim. These vestiges of trapped sorcery tend to draw together to manifest as living things, gathering together like droplets of water might form a shimmering pool or lake. The elemental beings thus created may roam as lone predators, but they are just as likely to group together to form entire regions where the laws of nature no longer apply. Either way, they exist to feed upon mortals, whether drinking the water from their flesh, burning their blood for fuel, or devouring the breath from their lungs.",
+         "There are many kinds of minor elementals in Al-Kalim. Quicksand elementals lie in wait upon trade routes and near wells to trap the unwary. Some regions are rife with these creatures. In the salt swamps of the Endless Desert, they move across the wastes in the night to surround caravans, whose travelers wake to find themselves lost in a new and deadly landscape. Then, there are flame elementals, which drift on the wind like flickering embers, drawn to the heat of the living. When they find their prey, they burst into blazing life and burn away the flesh of their victims. Spring elementals pose as pools, lakes, or streams of tempting water in the desert wastes, although it is the fluids of their quarry they seek. Should a creature or individual be foolish enough to try to drink from one, the elemental sucks them dry, leaving only a desiccated husk behind."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 248"
+   },
+   {
+      "name": "Naga Priestess",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 3,
+         "presence": 4
+      },
+      "soak": 2,
+      "wt": 16,
+      "st": 0,
+      "mDef": 4,
+      "rDef": 4,
+      "powerLevel": {
+         "combat": 4,
+         "social": 5,
+         "general": 3
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "brawl", "ranks": 2 },
+         { "name": "charm", "ranks": 3 },
+         { "name": "cool", "ranks": 3 },
+         { "name": "coordination", "ranks": 4 },
+         { "name": "leadership", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Hypnotic Gaze",
+            "description": [
+               "A naga priestess may make an opposed Charm vs. Discipline check as an action targeting one character within short range. If successful, the target is immobilized for 1 round per [success], and the naga may spend [triumph] to stagger the target for 1 round."
+            ],
+            "activation": "action"
+         },
+         {
+            "name": "Opportunistic Predator",
+            "description": [
+               "When making a combat check targeting an immobilized character, the naga deals +2 damage per [success] instead of +1."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Fangs",
+            "description": [
+               "Brawl; Damage 5; Critical 2; Range [Engaged]; Pierce 1, Vicious 2; a character wounded by this weapon must make a Hard ([difficulty][difficulty][difficulty]) Resilience check or suffer 4 additional wounds, and must check again on their next turn if the check generates [threat]."
+            ],
+            "skill": "brawl",
+            "damage": 5,
+            "critical": 2,
+            "range": "engaged",
+            "special": [
+               { "name": "a character wounded by this weapon must make a Hard ([difficulty][difficulty][difficulty]) Resilience check or suffer 4 additional wounds, and must check again on their next turn if the check generates [threat].", "rating": 0 }
+            ]
+         }
+      ],
+      "description": [
+         "Naga priestesses are the leaders of the naga serpent cults and blessed with the power of their Primal God, Set. The coils of their long, snakelike lower bodies constantly shift in pattern and color, while their slit eyes bore into the minds of any being foolish enough to meet their gaze. Even the sternest warrior might become hypnotized by a priestess and powerless as she moves to sink her venomous fangs into their throat. If the priestess chooses, she can even turn her enemies against each other, the weak-minded so enraptured by the naga that they throw themselves at anyone who might bring her harm."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 258"
+   },
+   {
+      "name": "adversary",
       "profile": "",
       "type": "",
       "characteristics": {
@@ -259,78 +5147,30 @@
             "activation": ""
          }
       ],
-      "spells": [
-         {
-            "name": "",
-            "description": []
-         }
-      ],
+      "spellcasting": {
+         "description": [],
+         "spells": [
+            {
+               "name": "",
+               "description": []
+            }
+         ]
+      },
       "equipment": [
          {
-            "name": "Scimitar",
-            "description": [
-               "Melee (Light); Damage 6; Critical 2; Range Engaged; Defensive 1"
-            ],
-            "skill": "Melee (Light)",
-            "damage": 6,
-            "critical": 2,
-            "range": "engaged",
-            "special": [
-               { "name": "defensive", "rating": 1 }
-            ]
-         },
-         {
-            "name": "Two katars",
-            "description": [
-               "Melee (Light); Damage 5; Critical 2; Range Engaged; Accurate 1"
-            ],
-            "skill": "Melee (Light)",
-            "damage": 5,
-            "critical": 2,
-            "range": "engaged",
-            "special": [
-               { "name": "accurate", "rating": 1 }
-            ]
-         },
-         {
-            "name": "Three daggers",
-            "description": [
-               "Ranged; Damage 5; Critical 3; Range Short; Accurate 1; Limited Ammo 3"
-            ],
-            "skill": "Ranged",
-            "damage": 5,
-            "critical": 3,
-            "range": "short",
-            "special": [
-               { "name": "Limited Ammo", "rating": 3 }
-            ]
-         },
-         {
-            "name": "Bow",
-            "description": [
-               "Ranged; Damage 7; Critical 3; Range Medium; Unwieldy 2"
-            ],
-            "skill": "ranged",
-            "damage": 7,
-            "critical": 3,
-            "range": "medium",
-            "special": [
-               { "name": "Unwieldy", "rating": 2 }
-            ]
-         },
-         {
-            "name": "A variety of concealing cloaks",
+            "name": "",
             "description": [],
             "skill": "",
             "damage": 0,
             "critical": 0,
             "range": "",
-            "special": []
+            "special": [
+               { "name": "", "rating": 0 }
+            ]
          }
       ],
-      "settings": [
-         "fantasy"
-      ],
-      "source": "ROT p. "
+      "description": [],
+      "settings": [],
+      "source": ""
    }
 ]

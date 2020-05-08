@@ -31,7 +31,6 @@ module.exports = {
             || xp && archetype.xp != xp
             || skill && !includes(archetype.skills.skills, skill.toLowerCase())
             || skillChoice && !matchSkillChoice()
-            // || skillChoice && archetype.skills.choice !== skillChoice
             || activation && some(archetype.abilities, a => a.activation === activation)
             || setting && !includes(archetype.settings, setting.toLowerCase())
             || source && !includes(archetype.source.toLowerCase(), source.toLowerCase())

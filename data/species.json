@@ -1527,5 +1527,449 @@
          "science fiction"
       ],
       "source": "SOTB p. 30"
+   },
+   {
+      "name": "Demigod",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 1,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 12,
+      "st": 8,
+      "xp": 85,
+      "skills": {
+         "skills": [
+            "athletics"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A demigod starts with a single rank in Athletics during character creation. They obtain this rank before spending experience points, and Athletics may not be increased above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Tragic Fate",
+         "description": [
+            "When preparing the Story pools at the beginning of a game session, add one Story Point to the GM pool instead of the player pool."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "This character might have been born of a union between a mortal and a god, or perhaps they are the child of gods stolen at birth and robbed of some of their divine majesty."
+      ],
+      "settings": [
+         "age of myth"
+      ],
+      "source": "EPG p. 11"
+   },
+   {
+      "name": "Sorcerer",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 9,
+      "st": 11,
+      "xp": 115,
+      "skills": {
+         "skills": [
+            "archana",
+            "divine",
+            "primal"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A sorcerer starts the game with Arcana, Divine, or Primal as a career skill. Sorcerers also start with a single rank in the magic skill they select as a career skill during character creation. They obtain this rank before spending experience points, and these skills may not be increased above rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "Supernatural Suspicion",
+         "description": [
+            "Once per session after this character makes a magic skill check, you may spend a Story Point to reroll one or more dice of your choice in the pool. After doing so, all NPCs in the current encounter gain an aversion of this character and their supernatural nature as a Fear facet of their Motivation."
+         ],
+         "activation": "incidental"
+      }],
+      "description": [
+         "In many mythologies, a person is born a magic user; magic is not a skill that can be learned or taught. This archetype plays into this concept, and should only be used if the game is using the magic alternate rules starting on page 210 of the Genesys Core Rulebook. It also plays with the idea that magic is something that is feared in most mythologies."
+      ],
+      "settings": [
+         "age of myth"
+      ],
+      "source": "EPG p. 11"
+   },
+   {
+      "name": "Trickster",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 10,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "deception",
+            "knowledge",
+            "skulduggery",
+            "streetwise"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A trickster starts with a single rank in Deception, Knowledge, Skulduggery, or Streetwise during character creation. They obtain this rank before spending experience points, and these skills may not be increased above rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "Too Clever by Half",
+         "description": [
+            "Once per session before your character makes a skill check with [boost] in the dice pool, you may spend a Story Point to double the number of [boost] currently in the dice pool. If your character fails the check, they suffer 6 strain in addition to any other penalties."
+         ],
+         "activation": "incidental"
+      }],
+      "description": [
+         "Without powers from birth, native magic, or even particular strength at arms, some mortals are still able to rise to greatness through their brainpower."
+      ],
+      "settings": [
+         "age of myth"
+      ],
+      "source": "EPG p. 11"
+   },
+   {
+      "name": "Cursed Shifter",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 10,
+      "xp": 105,
+      "skills": {
+         "skills": [
+            "perception"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A cursed shifter begins with one rank in Perception. They obtain this rank before spending experience points, and Perception may not be increased above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Curse of the Beast",
+            "description": [
+               "While cursed shifters normally are human, when the full moon rises, they transform into a monstrous wolf or great cat (whether they can see the moon or not). The cursed shifter changes into their Beast Form as an out-of-turn incidental. This transformation lasts until the following dawn or until the cursed shifter is incapacitated due to exceeding their wound threshold."
+            ],
+            "activation": "incidental"
+         },
+         {
+            "name": "Beast Form",
+            "description": [
+               "When the cursed shifter transforms into Beast Form, they heal all strain they are currently suffering, increase their Brawn and Agility by one to a maximum of 5, and reduce their Intellect and Willpower by one to a minimum of 1. Their unarmed attacks deal +3 damage and have a Critical rating of 2. All opponents must halve the damage dealt to a cursed shifter in Beast Form before applying soak, unless the weapon is made of silver or uses silver ammunition. Finally, the cursed shifter must make a Hard ([difficulty][difficulty][difficulty]) Discipline check as an out-of-turn incidental when they transform. If they succeed, they may act normally, but if they fail, they give in to their animal instincts and must attack anyone around them with frenzied savagery (you should discuss the specifics of how they act with your GM, and it is up to your GM if they can make another attempt to regain control)."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Bite of the Wolf",
+            "description": [
+               "When a cursed shifter in their Beast Form makes an unarmed attack and inflicts a Critical Injury result of 51 or higher on a human PC or nemesis human NPC (your GM determines what counts as human), the human gains the Bite of the Wolf, Curse of the Beast, and Beast Form abilities. You may spend one Story Point after your cursed shifter character inflicts a Critical Injury to prevent this from happening."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "description": [
+         "The curse could have come from a family legacy or a bite from a feral monster, but the result is the same: an individual who transforms into a beast when the moon is full. Some search for a cure, while others embrace their feral nature. A few seek to use their terrible curse to battle others like themselves, knowing it is better to fall that way than to let the call of the beast consume their soul."
+      ],
+      "settings": [
+         "monsterworld"
+      ],
+      "source": "EPG p. 20"
+   },
+   {
+      "name": "Dhampir",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 2
+      },
+      "wt": 11,
+      "st": 11,
+      "xp": 85,
+      "skills": {
+         "skills": [
+            "vigilance"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A dhampir begins the game with one rank in Vigilance. They obtain this rank before spending experience points, and Vigilance may not be increased above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Blood Call",
+            "description": [
+               "A dhampir has fangs and can use them as a weapon with the following profile: (Brawl; Damage +0; Critical 2; Range [Engaged]; Ensnare 1, Pierce 2, Vicious 2). When a dhampir inflicts wounds with their fangs (or narratively drinks blood), you may spend a Story Point to have them heal 4 strain and 4 wounds. However, if a dhampir kills a person with their fangs, the dhampir becomes a vampire, maintaining their profile but becoming an evil spawn of darkness (what this means for your character is up to your GM)."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Sunlight Sensitivity",
+            "description": [
+               "While a dhampir character is exposed to direct sunlight, they reduce their wound and strain thresholds by four."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Vulnerable Heart",
+            "description": [
+               "When a dhampir suffers a Critical Injry from a weapon made of wood, such as a stake or crossbow bolt, add 40 to the Critical Injury result."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "description": [
+         "The dhampir, or half vampire, can be either the child of a union between a vampire and a living person or a human who has not yet fully succumbed to the thirst for blood. Dhampirs inherit some of the strengths (and weaknesses) of their vampire progenitors."
+      ],
+      "settings": [
+         "monsterworld"
+      ],
+      "source": "EPG p. 21"
+   },
+   {
+      "name": "Fearless Slayer",
+      "characteristics": {
+         "brawn": 3,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "wt": 10,
+      "st": 9,
+      "xp": 90,
+      "skills": {
+         "skills": [
+            "discipline",
+            "combat skill"
+         ],
+         "ranksTotal": 3,
+         "ranksEach": 1.5,
+         "description": [
+            "A fearless slayer begins the game with two ranks in Discipline and one rank in a combat skill of your choice. They obtain these ranks before spending experience points, and these skills may not be increased above rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "Strike True",
+         "description": [
+            "Once per session, when a fearless slayer inflicts a Critical Injury, you may spend one Story Point to roll two separate results and choose which result to apply."
+         ],
+         "activation": "incidental"
+      }],
+      "description": [
+         "Those who stalk the monsters of the night can be terrifying individuals themselves. Consumed with vengeance, they attack with all the fury of the creatures they hunt. One day, they will also fall, but not before they end the existence of as many of their hated foes as possible."
+      ],
+      "settings": [
+         "monsterworld"
+      ],
+      "source": "EPG p. 21"
+   },
+   {
+      "name": "Loremaster",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 2,
+         "intellect": 3,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 8,
+      "st": 11,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "knowledge (supernatural)",
+            "arcana"
+         ],
+         "ranksTotal": 1.5,
+         "ranksEach": 1.5,
+         "description": [
+            "A loremaster begins the game with two ranks in Knowledge (Supernatural) or one rank in Arcana (if using the magic rules). They obtain this rank before spending experience points, and these skills may not be increased above rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "Know Its Weakness",
+         "description": [
+            "Once per session, you may spend a Story Point to have your loremaster character increase the damage dealt by all allies’ combat checks by the loremaster’s ranks in Knowledge (Supernatural) until the end of the loremaster’s next turn."
+         ],
+         "activation": "incidental"
+      }],
+      "description": [
+         "Even in a modern age, there is power to be gleaned from ancient knowledge. Loremasters know the importance of crosses, silver, and other items against the supernatural, and often take the lead in defeating monsters."
+      ],
+      "settings": [
+         "monsterworld"
+      ],
+      "source": "EPG p. 21"
+   },
+   {
+      "name": "Mutant",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 1,
+         "intellect": 1,
+         "cunning": 2,
+         "willpower": 1,
+         "presence": 1
+      },
+      "wt": 10,
+      "st": 10,
+      "xp": 160,
+      "skills": {
+         "skills": [
+            "resilience"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A mutant begins the game with one rank in Resilience. They obtain this rank before spending experience points, and Resilience may not be increased above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [
+         {
+            "name": "Just a Scratch",
+            "description": [
+               "When making a check to recover strain at the end of an encounter, a mutant may use Resilience instead of Discipline or Cool. In addition, a mutant may spend [advantage][advantage] from that check to heal 1 wound (and they may do so multiple times)."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Mutation",
+            "description": [
+               "Before spending starting experience, choose one of the following abilities for your mutant character:",
+               "Flyer: Your mutant character can fly. See page 100 of the Genesys Core Rulebook for details on flying.",
+               "Amphibious: Your mutant character can breathe underwater and move through water without penalty.",
+               "Scaly Hide: Increase your mutant character’s soak by +1.",
+               "Multiple Limbs: Your mutant character gains an additional free maneuver per turn. They still may not perform more than two maneuvers during their turn.",
+               "Natural Weapons: Your mutant character’s unarmed attacks have their damage increased by +2 and have a Critical rating of 3."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "description": [
+         "The mutant presented here is a basic brute. Since mutation is so fickle, we’ve given the mutant low starting characteristics and a fair amount of experience. Using this basic template, players can customize their mutant to their heart’s content to make the perfect character."
+      ],
+      "settings": [
+         "apocalypse"
+      ],
+      "source": "EPG p. 33"
+   },
+   {
+      "name": "Sleeper",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 12,
+      "st": 12,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "mechanics",
+            "computers"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A sleeper begins the game with one rank in Mechanics or one rank in Computers. They obtain this rank before spending experience points, and these skills may not be increased above rank 2 during character creation."
+         ],
+         "choice": true
+      },
+      "abilities": [{
+         "name": "Remember This?",
+         "description": [
+            "A sleeper adds [advantage] to the results of any checks they make to identify, use, or repair pre-apocalypse items, equipment, or media (including combat checks)."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "Sleepers are the near-perfect remnants of the humanity that existed before the apocalypse. Perhaps they were sealed in underground shelters, or they have just been thawed out of cryosleep. Sleepers are unique thanks to their lack of mutations and general good health."
+      ],
+      "settings": [
+         "apocalypse"
+      ],
+      "source": "EPG p. 33"
+   },
+   {
+      "name": "Survivor",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 2,
+         "presence": 2
+      },
+      "wt": 10,
+      "st": 7,
+      "xp": 100,
+      "skills": {
+         "skills": [
+            "survival"
+         ],
+         "ranksTotal": 1,
+         "ranksEach": 1,
+         "description": [
+            "A survivor begins the game with one rank in Survival. They obtain this rank before spending experience points, and Survival may not be increased above rank 2 during character creation."
+         ],
+         "choice": false
+      },
+      "abilities": [{
+         "name": "Always Prepared",
+         "description": [
+            "When a survivor makes a check to heal strain at the end of an encounter, they heal 1 additional strain."
+         ],
+         "activation": "passive"
+      }],
+      "description": [
+         "Most of the people one finds in the post apocalypse are survivors, average people who through luck and skill have managed to ride out the calamity that destroyed civilization. Now they’re trying to master the most valuable skill in this new era: staying alive."
+      ],
+      "settings": [
+         "apocalypse"
+      ],
+      "source": "EPG p. 33"
    }
 ]
