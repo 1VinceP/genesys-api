@@ -5108,6 +5108,419 @@
       "source": "ROT p. 258"
    },
    {
+      "name": "Necromancer",
+      "profile": "nemesis",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 1,
+         "agility": 2,
+         "intellect": 3,
+         "cunning": 2,
+         "willpower": 3,
+         "presence": 2
+      },
+      "soak": 1,
+      "wt": 12,
+      "st": 18,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 6,
+         "social": 3,
+         "general": 6
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "arcana", "ranks": 3 },
+         { "name": "cool", "ranks": 2 },
+         { "name": "discipline", "ranks": 2 },
+         { "name": "knowledge (forbidden)", "ranks": 3 },
+         { "name": "melee (light)", "ranks": 1 },
+         { "name": "vigilance", "ranks": 1 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Chill of Nordros",
+            "description": [
+               "Magic attacks gain the Ice effect with no increase in difficulty."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Necromancy",
+            "description": [
+               "When this character uses the conjure magic action, it gains the Summon Ally effect with no increase in difficulty; all creatures the character summons must be undead."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [],
+      "spellcasting": {
+         "description": [
+            "Necromancers can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Death Knell",
+               "description": [
+                  "Choose one target at short or medium range and make an Average ([difficulty][difficulty]) Arcana check. If successful, this magic attack inflicts 8 damage +1 damage per uncanceled [success], with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."
+               ]
+            },
+            {
+               "name": "Wilt",
+               "description": [
+                  "Choose two targets within short range and make an Average ([difficulty][difficulty]) Arcana check. If successful, the Necromancer can choose one additional target for each [advantage] and all targets reduce the ability of any skill checks they make by one until the end of the Necromancer's next turn; if an affected character suffers strain for any reason, they suffer 1 additional strain. The Necromancer can perform the concentrate maneuver to maintain all effects of this curse."
+               ]
+            },
+            {
+               "name": "Wall of Bones",
+               "description": [
+                  "Make a Hard ([difficulty][difficulty][difficulty]) Arcana check. If successful, the necromancer reduces the damage of all hits they suffer by 1 plus 1 for every [success][success] beyond the first until the end of his next turn; in addition, if an attack targeting the necromancer generates [threat][threat][threat] or [despair], the attacker suffers a hit inflicting damage equal to the total damage of the attack; the necromancer may perform the concentrate maneuver to maintain the effects of this barrier."
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Bone Staff",
+            "description": [
+               "Add +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound."
+            ]
+         },
+         {
+            "name": "Ceremonial Dagger",
+            "description": [
+               "Melee (Light); Damage 4; Critical 3; Range (Engaged); Accurate 1, Vicious 1;"
+            ],
+            "skill": "melee (light)",
+            "damage": 4,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "accurate", "rating": 1 },
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Heavy Robes",
+            "description": [
+               "+1 defense."
+            ]
+         },
+         {
+            "name": "Forbidden Grimoire",
+            "description": [
+               "A user with the Dark Insight talent can add the Additional Target and Enervate effects to curse spells with no increase in difficulty."
+            ]
+         }
+      ],
+      "description": [
+         "Necromancy is forbidden as the darkest of all possible magical arts, one that corrupts the wielder and brings ruin to those who allow it to fester. Though they may try to hide their acts, necromancers are usually found out as they are spurred on to greater acts of desecration or as their bodies become more noticeably twisted by the demands necromancy places upon living flesh. Those who survive discovery invariably find themselves in the Mistlands, wandering from crypt to crypt in search of either a patron or enough untouched dead to raise into protective retinues.",
+         "Necromancers who wander long enough eventually arrive at Zorgas, their own magic drawing them to the foul power within it. Here, they can become servants to Waiqar and possibly go on to operate his Engines of Entropy. Those who refuse service are usually fed into the engines instead, unless they successfully flee to continue their unholy work elsewhere. Some make their way to villages across Terrinoth or even farther away, looking for corpses to awaken or simply creating new ones to ensure fresh supplies. From their new lairs, they can grow networks of minions (living as well as undead) to further their unholy goals."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 166"
+   },
+   {
+      "name": "Ogre",
+      "profile": "nemesis",
+      "type": "monster",
+      "characteristics": {
+         "brawn": 5,
+         "agility": 2,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 7,
+      "wt": 20,
+      "st": 12,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 9,
+         "social": 1,
+         "general": 2
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "athletics", "ranks": 2 },
+         { "name": "melee (heavy)", "ranks": 2 },
+         { "name": "perception", "ranks": 1 },
+         { "name": "ranged", "ranks": 2 }
+      ],
+      "talents": [],
+      "abilities": [
+         {
+            "name": "Regeneration",
+            "description": [
+               "At the beginning of its turn, this creature automatically heals 3 wounds."
+            ],
+            "activation": "passive"
+         },
+         {
+            "name": "Sweep Attack",
+            "description": [
+               "May spend [triumph] on a successful melee combat check to inflict one hit dealing the weapon's base damage on everyone (except the ogre!) engaged with the target"
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Cudgel",
+            "description": [
+               "Melee (Heavy); Damage 10; Critical 4; Range (Engaged); Disorient 2, Knockdown."
+            ],
+            "skill": "melee (heavy)",
+            "damage": 10,
+            "critical": 4,
+            "range": "engaged",
+            "special": [
+               { "name": "disorient", "rating": 2 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         },
+         {
+            "name": "Spiked Chain",
+            "description": [
+               "Ranged; Damage 7; Critical 5; Range (Short); Ensnare 2, Knockdown."
+            ],
+            "skill": "ranged",
+            "damage": 7,
+            "critical": 5,
+            "range": "short",
+            "special": [
+               { "name": "ensnare", "rating": 2 },
+               { "name": "knockdown", "rating": 0 }
+            ]
+         },
+         {
+            "name": "Scavenged Armor",
+            "description": [
+               "+2 soak."
+            ]
+         }
+      ],
+      "description": [
+         "Ogres are found frequently in caves throughout the Plains, but also pop up in abandoned fortresses and settlements (often being the cause such locations became emptied). Large, powerful, and unpleasant, they can be tremendous challenges to adventurers seeking to explore these regions. Their ability to recover from damage that would fell other creatures makes them especially tricky, for just when a group might think an ogre is defeated it can spring back to its feet and attack again."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 202"
+   },
+   {
+      "name": "Onoit Shaman",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 2,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 3,
+         "willpower": 3,
+         "presence": 3
+      },
+      "soak": 2,
+      "wt": 8,
+      "st": 0,
+      "mDef": 1,
+      "rDef": 1,
+      "powerLevel": {
+         "combat": 5,
+         "social": 3,
+         "general": 3
+      },
+      "silhouette": 0,
+      "skills": [
+         { "name": "leadership", "ranks": 2 },
+         { "name": "melee (light)", "ranks": 2 },
+         { "name": "knowledge (lore)", "ranks": 3 },
+         { "name": "primal", "ranks": 3 },
+         { "name": "survival", "ranks": 3 },
+         { "name": "vigilance", "ranks": 2 }
+      ],
+      "talents": [
+         {
+            "name": "Adversary 1",
+            "description": [
+               "Upgrade the difficulty of combat checks targeting this character once."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Silhouette 0",
+            "description": [],
+            "activation": ""
+         }
+      ],
+      "spellcasting": {
+         "description": [
+            "Onoit shamans can choose any magic action allowed for the Primal skill, and may select additional spell effects, as normal. The spells they use most often are the following:"
+         ],
+         "spells": [
+            {
+               "name": "Winter Gale",
+               "description": [
+                  "Choose one target at short or medium range and make a Hard ([difficulty][difficulty][difficulty]) Primal check. If successful, this magic attack inflicts 7 damage +1 damage per [success], with the Blast 3 and Ensnare 3 item qualities."
+               ]
+            },
+            {
+               "name": "Healing Gust",
+               "description": [
+                  "Choose two targets at up to short range and make an Average ([difficulty][difficulty]) Primal check. If successful, the targets heal 1 wound per [success] and 1 strain per [advantage]; the shaman may affect additional targets by spending [advantage] per target."
+               ]
+            }
+         ]
+      },
+      "equipment": [
+         {
+            "name": "Oaken Staff",
+            "description": [
+               "Add +4 damage to magic attacks; the first Range effect added does not increase difficulty.."
+            ]
+         },
+         {
+            "name": "Hatchet",
+            "description": [
+               "Melee (Light); Damage 5; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 5,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Bark Cloak",
+            "description": [
+               "+1 defense."
+            ]
+         }
+      ],
+      "description": [
+         "The diminutive Onoit shamans are one of Isheim’s many mysteries. Ostensibly, they are part of the nomadic Gnomish tribes. Clad in cloaks of bark and moss, they are frequently seen moving among their people, healing and dispensing wisdom. Yet, they often travel alone in their sled-tents, drawn across the tundra by packs of trusty Ulfen. A society unto themselves, the Onoit shamans serve as guardians of the lost Salishwyrd empire. When the Elves retreated to the Green Vale, they entrusted the keeping of their abandoned cities and tombs to the Onoit shamans, granting each one a spark of elemental magic to light their way. Since that time, those sparks have been passed from shaman to shaman.",
+         "Onoit shamans are enemies of the Rime Storm and the White Death it brings. Heroes traversing their lands might be recruited by these traveling Gnome mystics in their war against winter’s soldiers—ice wyrms, wendigo, and ice-blood warriors. Equally, those who seek to plunder the lost realm of the Salishwyrd will find the land and sky set against them, as the shamans bend the elements to their will to make an icy tomb for any would-be looters."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 239"
+   },
+   {
+      "name": "Orc Outrider",
+      "profile": "rival",
+      "type": "humanoid",
+      "characteristics": {
+         "brawn": 4,
+         "agility": 3,
+         "intellect": 2,
+         "cunning": 2,
+         "willpower": 2,
+         "presence": 1
+      },
+      "soak": 5,
+      "wt": 15,
+      "st": 0,
+      "mDef": 0,
+      "rDef": 0,
+      "powerLevel": {
+         "combat": 5,
+         "social": 1,
+         "general": 1
+      },
+      "silhouette": 1,
+      "skills": [
+         { "name": "melee (light)", "ranks": 2 },
+         { "name": "ranged", "ranks": 2 },
+         { "name": "riding", "ranks": 3 }
+      ],
+      "talents": [
+         {
+            "name": "Quick Draw",
+            "description": [
+               "Once per round on their turn, and Orc outrider may draw or stow an easily accessible weapon as an incidental instead of a maneuver."
+            ],
+            "activation": "incidental"
+         }
+      ],
+      "abilities": [
+         {
+            "name": "Brutal Training",
+            "description": [
+               "When an Orc outrider directs its mount, the mount may perform an action and a maneuver and is not limited to using its maneuvers to move."
+            ],
+            "activation": "passive"
+         }
+      ],
+      "equipment": [
+         {
+            "name": "Orc Throwing Spear",
+            "description": [
+               "Ranged; Damage 7; Critical 3; Accurate 1, Limited Ammo 1."
+            ],
+            "skill": "ranged",
+            "damage": 7,
+            "critical": 3,
+            "range": "short",
+            "special": [
+               { "name": "accurate", "rating": 1 },
+               { "name": "limited ammo", "rating": 1 }
+            ]
+         },
+         {
+            "name": "axe",
+            "description": [
+               "Melee (Light); Damage 7; Critical 3; Range (Engaged); Vicious 1."
+            ],
+            "skill": "melee (light)",
+            "damage": 7,
+            "critical": 3,
+            "range": "engaged",
+            "special": [
+               { "name": "vicious", "rating": 1 }
+            ]
+         },
+         {
+            "name": "Leather Armor",
+            "description": [
+               "+1 soak."
+            ]
+         },
+         {
+            "name": "Extra spears"
+         },
+         {
+            "name": "Armored Gurak Tol mount"
+         }
+      ],
+      "description": [
+         "Lizard riders from the Great Beast Clan, the Mag Ugluk Urak are mounted warriors who are as dangerous as any cavalry in Mennara. Nomadic Orcs who follow elk and other wild game across the Broken Plains, they tend to lead fairly simple lives as hunters and gatherers. Following their chieftain's noble example, the Mag Ugluk Urak are brutally honest and always good to their word. They will never cheat during a trade, stab an ally in the back, or abandon a pledge. If that pledge is to kill an adversary or slaughter an enemy, then one of the two are absolutely going to die.",
+         "Typically armed with axes and throwing spears, and trained to make hit and run attacks at high speeds, outriders are at their best when mounted on their Gurak Tol steeds. These Orcs make life-bonds with their mounts, something that forms as an outrider personally captures one of the huge lizards. Gurak Tols are never fully tamed though, and outriders take care to avoid getting too close to their always hungry mouths.",
+         "Outriders eventually discovered that their steeds could also provide ranged support, via their powerful tails. Thus the opening minutes of any large-scale battle finds outriders dismounted next to their Gurak Tol, nudging the beasts in the proper direction, placing a skullsized rock into brackets mounted onto those bony tails, and then having the beast hurl the stone overhead. Depending on the age and strength of the Gurak Tol, these improvised projectiles can be thrown at incredible speeds up to a hundred paces, and at a rate of fire that can wreak havoc on enemy formations and often causes undisciplined units to break and flee.",
+         "Then, as the battle shifts or the Orcs run out of ammunition, the Outriders mount their giant lizards and execute intricately choreographed strafing runs across the enemy's front lines; carefully maintaining an ideal distance that brings the deadly throwing spears into range but carefully keeps the duo beyond the reach of the enemy's own hurled projectiles."
+      ],
+      "settings": [
+         "fantasy"
+      ],
+      "source": "ROT p. 203"
+   },
+   {
       "name": "adversary",
       "profile": "",
       "type": "",
